@@ -1,0 +1,2533 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BitFlags	csrc/rmapats.h	/^} BitFlags;$/;"	t	typeref:struct:__anon14
+CC	csrc/Makefile	/^CC=$(TMPSPECENV) $(VCS_CC) $(TMPSPECARG)$/;"	m
+CC_CG	csrc/Makefile	/^CC_CG=gcc$/;"	m
+CFLAGS	csrc/Makefile	/^CFLAGS=$(STDLIB)-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/include   $/;"	m
+CFLAGS_CG	csrc/Makefile	/^CFLAGS_CG=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   $/;"	m
+CFLAGS_CG_CLIB	csrc/Makefile	/^CFLAGS_CG_CLIB=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   $/;"	m
+CFLAGS_O0	csrc/Makefile	/^CFLAGS_O0=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/include -O0  -fno-strict-aliasing -fno-optimize-sibling-calls   $/;"	m
+CFLAGS_RMAR	csrc/Makefile	/^CFLAGS_RMAR=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   $/;"	m
+CRT0	csrc/Makefile	/^CRT0=$/;"	m
+CRTN	csrc/Makefile	/^CRTN=$/;"	m
+ClkLevel	csrc/rmapats.h	/^} ClkLevel;$/;"	t	typeref:struct:__anon128
+DEPLIBS	csrc/Makefile	/^DEPLIBS=$/;"	m
+DEblkLaneT	csrc/rmapats.h	/^} DEblkLaneT;$/;"	t	typeref:struct:_DEblkLaneT
+DEblkPoolT	csrc/rmapats.h	/^} DEblkPoolT;$/;"	t	typeref:struct:_DEblkPoolT
+EBLK	csrc/rmapats.h	/^typedef struct eblk EBLK;$/;"	t	typeref:struct:eblk
+ETYPE	csrc/rmapats.h	/^typedef struct etype ETYPE;$/;"	t	typeref:struct:etype
+E_fn	csrc/rmapats.h	/^typedef int (* E_fn)(void);$/;"	t
+FP	csrc/rmapats.h	/^typedef void (* FP)(void *  , scalar   );$/;"	t
+FP1	csrc/rmapats.h	/^typedef void (* FP1)(void *  );$/;"	t
+FPDP	csrc/rmapats.h	/^typedef void (* FPDP)(void *  , void *  , scalar   );$/;"	t
+FPEVCDLSEL	csrc/rmapats.h	/^typedef void (* FPEVCDLSEL)(void *  , scalar   , U   , UB  *  );$/;"	t
+FPEVCDLSELV	csrc/rmapats.h	/^typedef void (* FPEVCDLSELV)(void *  , vec32  *  , U   , U   , UB  *  );$/;"	t
+FPFA	csrc/rmapats.h	/^typedef void (* FPFA)(UB  *  , UB  *  , U   , U   , U   , U   , U   , U   , UB  *  , U   );$/;"	t
+FPFPV	csrc/rmapats.h	/^typedef void (* FPFPV)(UB  *  , UB  *  , U   , U   , U   , U   , U   , UB  *  , U   );$/;"	t
+FPLSEL	csrc/rmapats.h	/^typedef void (* FPLSEL)(void *  , scalar   , U   );$/;"	t
+FPLSELV	csrc/rmapats.h	/^typedef void (* FPLSELV)(void *  , vec32  *  , U   , U   );$/;"	t
+FPNTYPE_H	csrc/rmapats.h	/^typedef void (* FPNTYPE_H)(void *  , void *  , U   , U   , UB  *  , UB  *  , UB  *  , UB  *  , U   );$/;"	t
+FPNTYPE_HPAP	csrc/rmapats.h	/^typedef void (* FPNTYPE_HPAP)(void *  , void *  , void *  , U   , U   , UB  *  , UB  *  , UB  *  , UB  *  , U   );$/;"	t
+FPNTYPE_L	csrc/rmapats.h	/^typedef void (* FPNTYPE_L)(void *  , void *  , U   , U   , UB  *  , UB  *  , UB  *  , UB  *  , UB  *  , UB  *  , UB  *  , U   );$/;"	t
+FPNTYPE_LPAP	csrc/rmapats.h	/^typedef void (* FPNTYPE_LPAP)(void *  , void *  , void *  , U   , U   , UB  *  , UB  *  , U   );$/;"	t
+FPRAP	csrc/rmapats.h	/^typedef void (* FPRAP)(void *  , vec32  *  , U   );$/;"	t
+FPRPV	csrc/rmapats.h	/^typedef void (* FPRPV)(UB  *  , U   , U   , U   );$/;"	t
+FPU1	csrc/rmapats.h	/^typedef U  (* FPU1)(void *  );$/;"	t
+FPV	csrc/rmapats.h	/^typedef void (* FPV)(void *  , UB  *  );$/;"	t
+FPVDP	csrc/rmapats.h	/^typedef void (* FPVDP)(void *  , void *  , void *  );$/;"	t
+FPVU	csrc/rmapats.h	/^typedef void (* FPVU)(void *  , UB  *  , U   );$/;"	t
+FSDB_PATH	Makefile	/^FSDB_PATH=\/home\/cad\/eda\/SYNOPSYS\/VERDI_2022\/verdi\/T-2022.06-SP1\/share\/PLI\/VCS\/LINUX64$/;"	m
+FileOffset	csrc/rmapats.h	/^typedef unsigned long long FileOffset;$/;"	t
+FlatNodeNum	csrc/rmapats.h	/^typedef NodeCount  FlatNodeNum;$/;"	t
+FuncPtr	csrc/rmapats.h	/^typedef void (*FuncPtr)();$/;"	t
+GateCount	csrc/rmapats.h	/^typedef U  GateCount;$/;"	t
+HdbsClockData	csrc/rmapats.h	/^} HdbsClockData;$/;"	t	typeref:struct:clock_data
+HsCgPeriod	csrc/rmapats.h	/^} HsCgPeriod;$/;"	t	typeref:struct:_HsCgPeriod
+HsimEdge	csrc/rmapats.h	/^typedef unsigned short HsimEdge;$/;"	t
+HsimExprChar	csrc/rmapats.h	/^typedef unsigned char HsimExprChar;$/;"	t
+HsimNodeRecord	csrc/rmapats.h	/^} HsimNodeRecord;$/;"	t	typeref:struct:__anon17
+HsimSignalMonitor	csrc/rmapats.h	/^} HsimSignalMonitor;$/;"	t	typeref:struct:__anon16
+I1	csrc/rmapats.h	/^    U  I1;$/;"	m	struct:futq
+I1	csrc/rmapats.h	/^    U  I1;$/;"	m	struct:vec32
+I10	csrc/rmapats.h	/^    U  I10 :1;$/;"	m	struct:etype
+I100	csrc/rmapats.h	/^    U  I100;$/;"	m	struct:qird
+I1004	csrc/rmapats.h	/^    U   I1004[4];$/;"	m	struct:__anon28
+I101	csrc/rmapats.h	/^    U  * I101;$/;"	m	struct:qird
+I102	csrc/rmapats.h	/^    U  * I102;$/;"	m	struct:qird
+I1027	csrc/rmapats.h	/^    U  I1027;$/;"	m	struct:_HsCgPeriod
+I1027	csrc/rmapats.h	/^    U  I1027;$/;"	m	struct:__anon16
+I1028	csrc/rmapats.h	/^    U  I1028;$/;"	m	struct:_HsCgPeriod
+I1028	csrc/rmapats.h	/^    unsigned long long I1028;$/;"	m	struct:__anon16
+I1029	csrc/rmapats.h	/^    U   I1029[2];$/;"	m	struct:__anon16
+I103	csrc/rmapats.h	/^    U  * I103;$/;"	m	struct:qird
+I1030	csrc/rmapats.h	/^    U  I1030 :1;$/;"	m	struct:__anon16
+I1031	csrc/rmapats.h	/^    U  I1031 :1;$/;"	m	struct:__anon16
+I1032	csrc/rmapats.h	/^    U  I1032 :8;$/;"	m	struct:__anon16
+I1033	csrc/rmapats.h	/^    U  I1033 :8;$/;"	m	struct:__anon16
+I1034	csrc/rmapats.h	/^    U  I1034 :8;$/;"	m	struct:__anon16
+I1035	csrc/rmapats.h	/^    U  I1035 :4;$/;"	m	struct:__anon16
+I1036	csrc/rmapats.h	/^    U  I1036 :1;$/;"	m	struct:__anon16
+I1037	csrc/rmapats.h	/^    U  I1037 :1;$/;"	m	struct:__anon16
+I1038	csrc/rmapats.h	/^    unsigned long long I1038;$/;"	m	struct:__anon16
+I1039	csrc/rmapats.h	/^    unsigned long long I1039;$/;"	m	struct:__anon16
+I104	csrc/rmapats.h	/^    U  I104;$/;"	m	struct:qird
+I1040	csrc/rmapats.h	/^    unsigned long long I1040;$/;"	m	struct:__anon16
+I1041	csrc/rmapats.h	/^    unsigned long long I1041;$/;"	m	struct:__anon16
+I1042	csrc/rmapats.h	/^    U  I1042;$/;"	m	struct:__anon16
+I1043	csrc/rmapats.h	/^    U  I1043;$/;"	m	struct:__anon16
+I1044	csrc/rmapats.h	/^    U  I1044;$/;"	m	struct:__anon16
+I1045	csrc/rmapats.h	/^    U  I1045;$/;"	m	struct:__anon16
+I1046	csrc/rmapats.h	/^    U  I1046;$/;"	m	struct:__anon16
+I1047	csrc/rmapats.h	/^    HsCgPeriod  * I1047[10];$/;"	m	struct:__anon16
+I1048	csrc/rmapats.h	/^    InstNum  I1048;$/;"	m	struct:__anon17
+I1049	csrc/rmapats.h	/^    FlatNodeNum  I1049;$/;"	m	struct:__anon17
+I105	csrc/rmapats.h	/^    U  I105;$/;"	m	struct:qird
+I1050	csrc/rmapats.h	/^    UB  I1050;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I1050	csrc/rmapats.h	/^    UB  I1050;$/;"	m	struct:RmaNonEdgeLoadHdr1_
+I1050	csrc/rmapats.h	/^    UB  I1050;$/;"	m	struct:__anon87
+I1050	csrc/rmapats.h	/^    UB  I1050;$/;"	m	struct:__anon88
+I1050	csrc/rmapats.h	/^    scalar  I1050;$/;"	m	struct:__anon17
+I1051	csrc/rmapats.h	/^    UB  I1051;$/;"	m	struct:__anon17
+I1052	csrc/rmapats.h	/^    UB  I1052;$/;"	m	struct:__anon17
+I1053	csrc/rmapats.h	/^    UB  I1053;$/;"	m	struct:__anon17
+I1054	csrc/rmapats.h	/^    UB  I1054;$/;"	m	struct:__anon17
+I1055	csrc/rmapats.h	/^    UB  I1055;$/;"	m	struct:__anon17
+I1056	csrc/rmapats.h	/^    UB  I1056;$/;"	m	struct:__anon17
+I1057	csrc/rmapats.h	/^    ULL  I1057;$/;"	m	struct:__anon17
+I1058	csrc/rmapats.h	/^    U  I1058;$/;"	m	struct:__anon17
+I1059	csrc/rmapats.h	/^    U  I1059;$/;"	m	struct:__anon17
+I106	csrc/rmapats.h	/^    U  * I106;$/;"	m	struct:qird
+I1060	csrc/rmapats.h	/^    U  I1060;$/;"	m	struct:__anon17
+I1061	csrc/rmapats.h	/^    U  I1061;$/;"	m	struct:__anon17
+I1062	csrc/rmapats.h	/^    U  I1062;$/;"	m	struct:__anon17
+I1063	csrc/rmapats.h	/^    U  I1063;$/;"	m	struct:__anon17
+I1064	csrc/rmapats.h	/^    U  I1064;$/;"	m	struct:__anon17
+I1065	csrc/rmapats.h	/^    U  I1065;$/;"	m	struct:__anon17
+I1066	csrc/rmapats.h	/^    HsimSignalMonitor  * I1066;$/;"	m	struct:__anon17
+I1067	csrc/rmapats.h	/^    RP  I1067;$/;"	m	struct:__anon17
+I1068	csrc/rmapats.h	/^    RmaTimeStamp64  I1068;$/;"	m	struct:__anon17
+I1069	csrc/rmapats.h	/^    U  I1069;$/;"	m	struct:__anon17
+I107	csrc/rmapats.h	/^    U  I107;$/;"	m	struct:qird
+I1070	csrc/rmapats.h	/^    RmaTimeStamp64  I1070;$/;"	m	struct:__anon17
+I1071	csrc/rmapats.h	/^    U  I1071;$/;"	m	struct:__anon17
+I1072	csrc/rmapats.h	/^    UB  I1072 :1;$/;"	m	struct:__anon17
+I1073	csrc/rmapats.h	/^    UB  I1073 :1;$/;"	m	struct:__anon17
+I1074	csrc/rmapats.h	/^    U  I1074 :1;$/;"	m	struct:__anon122
+I1074	csrc/rmapats.h	/^    UB  I1074 :1;$/;"	m	struct:__anon17
+I1075	csrc/rmapats.h	/^    RP  I1075;$/;"	m	struct:__anon17
+I108	csrc/rmapats.h	/^    U  I108;$/;"	m	struct:qird
+I1082	csrc/rmapats.h	/^    FlatNodeNum  I1082;$/;"	m	struct:__anon117
+I1082	csrc/rmapats.h	/^    FlatNodeNum  I1082;$/;"	m	struct:__anon119
+I1082	csrc/rmapats.h	/^    RP  I1082;$/;"	m	struct:RmaChildClockProp_
+I1082	csrc/rmapats.h	/^    RP  I1082;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1083	csrc/rmapats.h	/^    RP  I1083;$/;"	m	struct:__anon18
+I1083	csrc/rmapats.h	/^    RP  I1083;$/;"	m	struct:__anon19
+I1084	csrc/rmapats.h	/^    U  I1084 :1;$/;"	m	struct:__anon24
+I1085	csrc/rmapats.h	/^    U  I1085 :1;$/;"	m	struct:__anon24
+I1086	csrc/rmapats.h	/^    U  I1086 :1;$/;"	m	struct:__anon24
+I1087	csrc/rmapats.h	/^    U  I1087 :1;$/;"	m	struct:__anon24
+I1088	csrc/rmapats.h	/^    U  I1088;$/;"	m	struct:__anon24
+I1089	csrc/rmapats.h	/^    RP  I1089;$/;"	m	struct:__anon24
+I109	csrc/rmapats.h	/^    U  I109;$/;"	m	struct:qird
+I1090	csrc/rmapats.h	/^    RP  I1090;$/;"	m	struct:__anon24
+I1091	csrc/rmapats.h	/^    U   I1091[1];$/;"	m	struct:__anon24
+I1092	csrc/rmapats.h	/^    RP  I1092;$/;"	m	struct:__anon25
+I1093	csrc/rmapats.h	/^    RP  I1093;$/;"	m	struct:__anon32
+I1093	csrc/rmapats.h	/^    RP  I1093;$/;"	m	struct:__anon33
+I1093	csrc/rmapats.h	/^    RP  I1093;$/;"	m	struct:__anon34
+I1093	csrc/rmapats.h	/^    UB  * I1093;$/;"	m	struct:__anon30
+I1094	csrc/rmapats.h	/^    RP  I1094;$/;"	m	struct:__anon31
+I1094	csrc/rmapats.h	/^    RP  I1094;$/;"	m	struct:__anon32
+I1094	csrc/rmapats.h	/^    RP  I1094;$/;"	m	struct:__anon33
+I1094	csrc/rmapats.h	/^    RP  I1094;$/;"	m	struct:__anon34
+I1095	csrc/rmapats.h	/^    vec32  I1095;$/;"	m	struct:__anon32
+I1096	csrc/rmapats.h	/^    scalar   I1096[1];$/;"	m	struct:__anon34
+I1097	csrc/rmapats.h	/^    U  I1097;$/;"	m	struct:__anon35
+I1098	csrc/rmapats.h	/^    U  I1098;$/;"	m	struct:__anon35
+I1099	csrc/rmapats.h	/^    RmaIbfIp  * I1099;$/;"	m	struct:__anon35
+I11	csrc/rmapats.h	/^    U  I11 :1;$/;"	m	struct:etype
+I110	csrc/rmapats.h	/^    U  I110;$/;"	m	struct:qird
+I1100	csrc/rmapats.h	/^    RmaThreadSchedCompiledLoads  * I1100;$/;"	m	struct:__anon36
+I1101	csrc/rmapats.h	/^    RP  I1101;$/;"	m	struct:__anon37
+I1102	csrc/rmapats.h	/^    RP  I1102;$/;"	m	struct:__anon38
+I1103	csrc/rmapats.h	/^    RP  I1103;$/;"	m	struct:__anon39
+I1104	csrc/rmapats.h	/^    U  I1104 :1;$/;"	m	struct:__anon40
+I1105	csrc/rmapats.h	/^    U  I1105;$/;"	m	struct:__anon40
+I1106	csrc/rmapats.h	/^    RP  I1106;$/;"	m	struct:__anon40
+I1107	csrc/rmapats.h	/^    RP  I1107;$/;"	m	struct:__anon40
+I111	csrc/rmapats.h	/^    U  * I111;$/;"	m	struct:qird
+I1114	csrc/rmapats.h	/^    RmaIbfPcode   I1114[1];$/;"	m	struct:__anon42
+I1114	csrc/rmapats.h	/^    RmaIbfPcode  I1114;$/;"	m	struct:__anon41
+I1114	csrc/rmapats.h	/^    RmaIbfPcode  I1114;$/;"	m	struct:__anon43
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:_RmaBehavioralTransportDelay
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon117
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon119
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon123
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon44
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon45
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon59
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon60
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon61
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon63
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon64
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon65
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon66
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon67
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon68
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon69
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon70
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon71
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon72
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon73
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon74
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon75
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon76
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon77
+I1115	csrc/rmapats.h	/^    RmaIbfPcode  I1115;$/;"	m	struct:__anon79
+I1116	csrc/rmapats.h	/^    U  I1116 :3;$/;"	m	struct:__anon44
+I1117	csrc/rmapats.h	/^    U  I1117 :1;$/;"	m	struct:__anon44
+I1118	csrc/rmapats.h	/^    U  I1118 :1;$/;"	m	struct:__anon44
+I1119	csrc/rmapats.h	/^    NBS  I1119;$/;"	m	struct:__anon45
+I112	csrc/rmapats.h	/^    U  I112;$/;"	m	struct:qird
+I1122	csrc/rmapats.h	/^    U  I1122;$/;"	m	struct:RmaSeqPrimOutputS_
+I1123	csrc/rmapats.h	/^    RP  I1123;$/;"	m	struct:RmaSeqPrimOutputS_
+I1123	csrc/rmapats.h	/^    RP  I1123;$/;"	m	struct:__anon87
+I1123	csrc/rmapats.h	/^    RP  I1123;$/;"	m	struct:__anon88
+I1124	csrc/rmapats.h	/^    RP   I1124[1];$/;"	m	struct:RmaSeqPrimOutputS_
+I1124	csrc/rmapats.h	/^    RP  I1124;$/;"	m	struct:__anon104
+I1124	csrc/rmapats.h	/^    RP  I1124;$/;"	m	struct:__anon105
+I1124	csrc/rmapats.h	/^    RP  I1124;$/;"	m	struct:__anon115
+I1126	csrc/rmapats.h	/^    UB  I1126;$/;"	m	struct:__anon48
+I1126	csrc/rmapats.h	/^    UB  I1126;$/;"	m	struct:__anon49
+I1126	csrc/rmapats.h	/^    UB  I1126;$/;"	m	struct:__anon50
+I1127	csrc/rmapats.h	/^    RP  I1127;$/;"	m	struct:__anon48
+I1127	csrc/rmapats.h	/^    RP  I1127;$/;"	m	struct:__anon49
+I1128	csrc/rmapats.h	/^    U  I1128;$/;"	m	struct:__anon50
+I1129	csrc/rmapats.h	/^    U  * I1129;$/;"	m	struct:__anon50
+I113	csrc/rmapats.h	/^    U  * I113;$/;"	m	struct:qird
+I1130	csrc/rmapats.h	/^    RP  I1130;$/;"	m	struct:TableAssign_
+I1130	csrc/rmapats.h	/^    RP  I1130;$/;"	m	struct:__anon51
+I1130	csrc/rmapats.h	/^    RP  I1130;$/;"	m	struct:__anon52
+I1131	csrc/rmapats.h	/^    scalar  I1131;$/;"	m	struct:__anon55
+I1131	csrc/rmapats.h	/^    scalar  I1131;$/;"	m	struct:__anon56
+I1132	csrc/rmapats.h	/^    scalar  I1132;$/;"	m	struct:__anon56
+I1133	csrc/rmapats.h	/^    scalar  I1133;$/;"	m	struct:__anon56
+I1134	csrc/rmapats.h	/^    UB  I1134;$/;"	m	struct:__anon57
+I1135	csrc/rmapats.h	/^    RP  I1135;$/;"	m	struct:__anon57
+I1136	csrc/rmapats.h	/^    RP  I1136;$/;"	m	struct:__anon57
+I1137	csrc/rmapats.h	/^    U  I1137;$/;"	m	struct:__anon59
+I1138	csrc/rmapats.h	/^    RmaPulse  I1138;$/;"	m	struct:__anon63
+I1139	csrc/rmapats.h	/^    RmaMps  I1139;$/;"	m	struct:__anon64
+I114	csrc/rmapats.h	/^    U  I114;$/;"	m	struct:qird
+I1140	csrc/rmapats.h	/^    U  I1140;$/;"	m	struct:__anon65
+I1141	csrc/rmapats.h	/^    RmaMpsp  I1141;$/;"	m	struct:__anon67
+I1141	csrc/rmapats.h	/^    RmaMpspNewCsdf  I1141;$/;"	m	struct:__anon66
+I1142	csrc/rmapats.h	/^    RP  I1142;$/;"	m	struct:__anon71
+I1142	csrc/rmapats.h	/^    RP  I1142;$/;"	m	struct:__anon72
+I1143	csrc/rmapats.h	/^    RP  I1143;$/;"	m	struct:__anon71
+I1143	csrc/rmapats.h	/^    RP  I1143;$/;"	m	struct:__anon72
+I1144	csrc/rmapats.h	/^    RP  I1144;$/;"	m	struct:__anon73
+I1144	csrc/rmapats.h	/^    RP  I1144;$/;"	m	struct:__anon74
+I1145	csrc/rmapats.h	/^    RP  I1145;$/;"	m	struct:__anon80
+I1145	csrc/rmapats.h	/^    RmaChildClockProp  * I1145;$/;"	m	struct:RmaChildClockPropList1_
+I1145	csrc/rmapats.h	/^    RmaNonEdgeLoadData1  * I1145;$/;"	m	struct:RmaNonEdgeLoadHdr1_
+I1145	csrc/rmapats.h	/^    RmaRtlXEdgesLoad   I1145[(5)];$/;"	m	struct:__anon81
+I1146	csrc/rmapats.h	/^    void * I1146;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I1146	csrc/rmapats.h	/^    void * I1146;$/;"	m	struct:RmaNonEdgeLoadHdr1_
+I1146	csrc/rmapats.h	/^    void * I1146;$/;"	m	struct:__anon81
+I1147	csrc/rmapats.h	/^    US  I1147;$/;"	m	struct:__anon82
+I1148	csrc/rmapats.h	/^    US  I1148 :1;$/;"	m	struct:__anon82
+I1149	csrc/rmapats.h	/^    RP  I1149;$/;"	m	struct:__anon82
+I115	csrc/rmapats.h	/^    U  I115;$/;"	m	struct:qird
+I1150	csrc/rmapats.h	/^    RP  I1150;$/;"	m	struct:__anon82
+I1151	csrc/rmapats.h	/^    RP  I1151;$/;"	m	struct:__anon82
+I1152	csrc/rmapats.h	/^    RP  I1152;$/;"	m	struct:__anon83
+I1152	csrc/rmapats.h	/^    RP  I1152;$/;"	m	struct:__anon89
+I1152	csrc/rmapats.h	/^    RP  I1152;$/;"	m	struct:__anon90
+I1152	csrc/rmapats.h	/^    RP  I1152;$/;"	m	struct:__anon91
+I1152	csrc/rmapats.h	/^    RP  I1152;$/;"	m	struct:__anon92
+I1153	csrc/rmapats.h	/^    RP  I1153;$/;"	m	struct:__anon83
+I1154	csrc/rmapats.h	/^    RP  I1154;$/;"	m	struct:__anon84
+I1155	csrc/rmapats.h	/^    RP  I1155;$/;"	m	struct:__anon84
+I1156	csrc/rmapats.h	/^    US  I1156;$/;"	m	struct:__anon84
+I1157	csrc/rmapats.h	/^    UB  I1157;$/;"	m	struct:__anon84
+I1158	csrc/rmapats.h	/^    UB  I1158 :2;$/;"	m	struct:__anon84
+I1159	csrc/rmapats.h	/^    UB  I1159 :2;$/;"	m	struct:__anon84
+I116	csrc/rmapats.h	/^    U  I116;$/;"	m	struct:qird
+I1160	csrc/rmapats.h	/^    UB  I1160 :1;$/;"	m	struct:__anon84
+I1161	csrc/rmapats.h	/^    RP  I1161;$/;"	m	struct:__anon84
+I1162	csrc/rmapats.h	/^    US  I1162;$/;"	m	struct:__anon84
+I1163	csrc/rmapats.h	/^    US  I1163;$/;"	m	struct:__anon84
+I1164	csrc/rmapats.h	/^    RP  I1164;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I1164	csrc/rmapats.h	/^    RP  I1164;$/;"	m	struct:RmaNonEdgeLoadHdr1_
+I1164	csrc/rmapats.h	/^    RP  I1164;$/;"	m	struct:__anon84
+I1165	csrc/rmapats.h	/^    RemoteDbsedLoad   I1165[1];$/;"	m	struct:__anon84
+I1167	csrc/rmapats.h	/^    U  I1167 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1167	csrc/rmapats.h	/^    U  I1167 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1167	csrc/rmapats.h	/^    U  I1167 :1;$/;"	m	struct:TableAssign_
+I1168	csrc/rmapats.h	/^    U  I1168 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1168	csrc/rmapats.h	/^    U  I1168 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1168	csrc/rmapats.h	/^    U  I1168 :1;$/;"	m	struct:TableAssign_
+I1169	csrc/rmapats.h	/^    U  I1169 :2;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1169	csrc/rmapats.h	/^    U  I1169 :2;$/;"	m	struct:TableAssignLayoutOnClk_
+I1169	csrc/rmapats.h	/^    U  I1169 :2;$/;"	m	struct:TableAssign_
+I117	csrc/rmapats.h	/^    U  I117;$/;"	m	struct:qird
+I1170	csrc/rmapats.h	/^    U  I1170 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1170	csrc/rmapats.h	/^    U  I1170 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1170	csrc/rmapats.h	/^    U  I1170 :1;$/;"	m	struct:TableAssign_
+I1171	csrc/rmapats.h	/^    U  I1171 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1171	csrc/rmapats.h	/^    U  I1171 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1171	csrc/rmapats.h	/^    U  I1171 :1;$/;"	m	struct:TableAssign_
+I1172	csrc/rmapats.h	/^    U  I1172 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1172	csrc/rmapats.h	/^    U  I1172 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1172	csrc/rmapats.h	/^    U  I1172 :1;$/;"	m	struct:TableAssign_
+I1173	csrc/rmapats.h	/^    U  I1173 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1173	csrc/rmapats.h	/^    U  I1173 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1173	csrc/rmapats.h	/^    U  I1173 :1;$/;"	m	struct:TableAssign_
+I1174	csrc/rmapats.h	/^    U  I1174 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1174	csrc/rmapats.h	/^    U  I1174 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1174	csrc/rmapats.h	/^    U  I1174 :1;$/;"	m	struct:TableAssign_
+I1175	csrc/rmapats.h	/^    U  I1175 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1175	csrc/rmapats.h	/^    U  I1175 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1175	csrc/rmapats.h	/^    U  I1175 :1;$/;"	m	struct:TableAssign_
+I1176	csrc/rmapats.h	/^    U  I1176 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1176	csrc/rmapats.h	/^    U  I1176 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1176	csrc/rmapats.h	/^    U  I1176 :1;$/;"	m	struct:TableAssign_
+I1177	csrc/rmapats.h	/^    U  I1177 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1177	csrc/rmapats.h	/^    U  I1177 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1177	csrc/rmapats.h	/^    U  I1177 :1;$/;"	m	struct:TableAssign_
+I1178	csrc/rmapats.h	/^    U  I1178 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1178	csrc/rmapats.h	/^    U  I1178 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1178	csrc/rmapats.h	/^    U  I1178 :1;$/;"	m	struct:TableAssign_
+I1179	csrc/rmapats.h	/^    U  I1179 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1179	csrc/rmapats.h	/^    U  I1179 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1179	csrc/rmapats.h	/^    U  I1179 :1;$/;"	m	struct:TableAssign_
+I118	csrc/rmapats.h	/^    U  I118;$/;"	m	struct:qird
+I1180	csrc/rmapats.h	/^    U  I1180 :1;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1180	csrc/rmapats.h	/^    U  I1180 :1;$/;"	m	struct:TableAssignLayoutOnClk_
+I1180	csrc/rmapats.h	/^    U  I1180 :1;$/;"	m	struct:TableAssign_
+I1182	csrc/rmapats.h	/^    RmaSeqPrimOutputOnClkOpt  I1182;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1182	csrc/rmapats.h	/^    RmaSeqPrimOutputOnClkS  I1182;$/;"	m	struct:TableAssignLayoutOnClk_
+I1183	csrc/rmapats.h	/^    U  I1183;$/;"	m	struct:__anon85
+I1185	csrc/rmapats.h	/^    U  I1185;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1186	csrc/rmapats.h	/^    RmaSeqPrimOutputEblkData  I1186;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I1187	csrc/rmapats.h	/^    RP  I1187;$/;"	m	struct:__anon86
+I1187	csrc/rmapats.h	/^    RP  I1187;$/;"	m	struct:__anon87
+I1188	csrc/rmapats.h	/^    RP  I1188;$/;"	m	struct:__anon87
+I1188	csrc/rmapats.h	/^    RP  I1188;$/;"	m	struct:__anon88
+I1189	csrc/rmapats.h	/^    RP  I1189;$/;"	m	struct:__anon87
+I1189	csrc/rmapats.h	/^    RP  I1189;$/;"	m	struct:__anon88
+I119	csrc/rmapats.h	/^    U  I119;$/;"	m	struct:qird
+I1190	csrc/rmapats.h	/^    UB  I1190;$/;"	m	struct:__anon87
+I1190	csrc/rmapats.h	/^    UB  I1190;$/;"	m	struct:__anon88
+I1191	csrc/rmapats.h	/^    UB  I1191;$/;"	m	struct:__anon87
+I1191	csrc/rmapats.h	/^    UB  I1191;$/;"	m	struct:__anon88
+I1192	csrc/rmapats.h	/^    RP   I1192[0];$/;"	m	struct:__anon87
+I1193	csrc/rmapats.h	/^    RP  I1193;$/;"	m	struct:__anon91
+I1193	csrc/rmapats.h	/^    RP  I1193;$/;"	m	struct:__anon92
+I1194	csrc/rmapats.h	/^    U  I1194;$/;"	m	struct:__anon93
+I1195	csrc/rmapats.h	/^    RmaTimeStamp   I1195[1];$/;"	m	struct:__anon93
+I1196	csrc/rmapats.h	/^    RP  I1196;$/;"	m	struct:__anon110
+I1196	csrc/rmapats.h	/^    RP  I1196;$/;"	m	struct:__anon111
+I1196	csrc/rmapats.h	/^    RP  I1196;$/;"	m	struct:__anon94
+I1197	csrc/rmapats.h	/^    RP  I1197;$/;"	m	struct:__anon95
+I1198	csrc/rmapats.h	/^    RP  I1198;$/;"	m	struct:__anon95
+I1199	csrc/rmapats.h	/^    U  I1199;$/;"	m	struct:__anon95
+I12	csrc/rmapats.h	/^    U  I12 :1;$/;"	m	struct:etype
+I120	csrc/rmapats.h	/^    U  * I120;$/;"	m	struct:qird
+I1200	csrc/rmapats.h	/^    RP  I1200;$/;"	m	struct:__anon96
+I1200	csrc/rmapats.h	/^    RP  I1200;$/;"	m	struct:__anon97
+I1200	csrc/rmapats.h	/^    RP  I1200;$/;"	m	struct:__anon98
+I1200	csrc/rmapats.h	/^    RP  I1200;$/;"	m	struct:__anon99
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon100
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon101
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon102
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon103
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon104
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon105
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon106
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon108
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon96
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon97
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon98
+I1201	csrc/rmapats.h	/^    RP  I1201;$/;"	m	struct:__anon99
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon100
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon101
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon102
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon103
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon104
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon105
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon106
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon108
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon96
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon97
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon98
+I1202	csrc/rmapats.h	/^    U  I1202;$/;"	m	struct:__anon99
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon100
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon101
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon102
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon103
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon104
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon105
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon106
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon108
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon96
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon97
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon98
+I1203	csrc/rmapats.h	/^    scalar  I1203;$/;"	m	struct:__anon99
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon100
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon101
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon102
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon103
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon104
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon105
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon106
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon108
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon96
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon97
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon98
+I1204	csrc/rmapats.h	/^    US  I1204 :1;$/;"	m	struct:__anon99
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon100
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon101
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon102
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon103
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon104
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon105
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon106
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon108
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon96
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon97
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon98
+I1205	csrc/rmapats.h	/^    US  I1205 :1;$/;"	m	struct:__anon99
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon100
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon101
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon102
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon103
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon104
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon105
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon106
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon108
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon96
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon97
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon98
+I1206	csrc/rmapats.h	/^    US  I1206 :1;$/;"	m	struct:__anon99
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon100
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon101
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon102
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon103
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon104
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon105
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon106
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon108
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon96
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon97
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon98
+I1207	csrc/rmapats.h	/^    US  I1207 :1;$/;"	m	struct:__anon99
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon100
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon101
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon102
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon103
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon104
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon105
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon106
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon108
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon96
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon97
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon98
+I1208	csrc/rmapats.h	/^    US  I1208 :1;$/;"	m	struct:__anon99
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon100
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon101
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon102
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon103
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon104
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon105
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon106
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon108
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon96
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon97
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon98
+I1209	csrc/rmapats.h	/^    US  I1209 :1;$/;"	m	struct:__anon99
+I121	csrc/rmapats.h	/^    char * I121;$/;"	m	struct:qird
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon100
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon101
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon102
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon103
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon104
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon105
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon106
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon108
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon96
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon97
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon98
+I1210	csrc/rmapats.h	/^    US  I1210 :1;$/;"	m	struct:__anon99
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon100
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon101
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon102
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon103
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon104
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon105
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon106
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon108
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon96
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon97
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon98
+I1211	csrc/rmapats.h	/^    US  I1211 :5;$/;"	m	struct:__anon99
+I1212	csrc/rmapats.h	/^    RP  I1212;$/;"	m	struct:__anon101
+I1212	csrc/rmapats.h	/^    RP  I1212;$/;"	m	struct:__anon102
+I1212	csrc/rmapats.h	/^    RP  I1212;$/;"	m	struct:__anon105
+I1212	csrc/rmapats.h	/^    RP  I1212;$/;"	m	struct:__anon106
+I1212	csrc/rmapats.h	/^    RP  I1212;$/;"	m	struct:__anon108
+I1212	csrc/rmapats.h	/^    RP  I1212;$/;"	m	struct:__anon97
+I1212	csrc/rmapats.h	/^    RP  I1212;$/;"	m	struct:__anon98
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon102
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon103
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon104
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon112
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon113
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon114
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon115
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon116
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon98
+I1213	csrc/rmapats.h	/^    RP  I1213;$/;"	m	struct:__anon99
+I1214	csrc/rmapats.h	/^    RP  I1214;$/;"	m	struct:__anon103
+I1214	csrc/rmapats.h	/^    RP  I1214;$/;"	m	struct:__anon104
+I1214	csrc/rmapats.h	/^    RP  I1214;$/;"	m	struct:__anon99
+I1215	csrc/rmapats.h	/^    U  I1215;$/;"	m	struct:__anon103
+I1215	csrc/rmapats.h	/^    U  I1215;$/;"	m	struct:__anon104
+I1215	csrc/rmapats.h	/^    U  I1215;$/;"	m	struct:__anon114
+I1215	csrc/rmapats.h	/^    U  I1215;$/;"	m	struct:__anon115
+I1215	csrc/rmapats.h	/^    U  I1215;$/;"	m	struct:__anon116
+I1215	csrc/rmapats.h	/^    U  I1215;$/;"	m	struct:__anon99
+I1217	csrc/rmapats.h	/^    U  I1217;$/;"	m	struct:__anon106
+I1218	csrc/rmapats.h	/^    RP  I1218;$/;"	m	struct:__anon106
+I1219	csrc/rmapats.h	/^    RP  I1219;$/;"	m	struct:__anon106
+I122	csrc/rmapats.h	/^    U  I122;$/;"	m	struct:qird
+I1220	csrc/rmapats.h	/^    RP  I1220;$/;"	m	struct:__anon106
+I1221	csrc/rmapats.h	/^    RP  I1221;$/;"	m	struct:__anon106
+I1222	csrc/rmapats.h	/^    RmaTimeStamp  I1222;$/;"	m	struct:__anon106
+I1223	csrc/rmapats.h	/^    RP  I1223;$/;"	m	struct:__anon107
+I1224	csrc/rmapats.h	/^        struct nbs_t * I1224;$/;"	m	union:nbs_t::__anon11	typeref:struct:nbs_t::__anon11::nbs_t
+I1224	csrc/rmapats.h	/^    U  I1224;$/;"	m	struct:__anon108
+I1225	csrc/rmapats.h	/^    RP  I1225;$/;"	m	struct:__anon109
+I1226	csrc/rmapats.h	/^    RmaTimeStamp  I1226;$/;"	m	struct:__anon110
+I1226	csrc/rmapats.h	/^    RmaTimeStamp  I1226;$/;"	m	struct:__anon111
+I1226	csrc/rmapats.h	/^    RmaTimeStamp  I1226;$/;"	m	struct:__anon112
+I1226	csrc/rmapats.h	/^    RmaTimeStamp  I1226;$/;"	m	struct:__anon113
+I1227	csrc/rmapats.h	/^    scalar  I1227;$/;"	m	struct:__anon110
+I1227	csrc/rmapats.h	/^    scalar  I1227;$/;"	m	struct:__anon111
+I1227	csrc/rmapats.h	/^    scalar  I1227;$/;"	m	struct:__anon112
+I1227	csrc/rmapats.h	/^    scalar  I1227;$/;"	m	struct:__anon113
+I1228	csrc/rmapats.h	/^    RP  I1228;$/;"	m	struct:__anon114
+I1228	csrc/rmapats.h	/^    RP  I1228;$/;"	m	struct:__anon115
+I1228	csrc/rmapats.h	/^    RP  I1228;$/;"	m	struct:__anon116
+I1229	csrc/rmapats.h	/^    U  I1229;$/;"	m	struct:__anon117
+I1229	csrc/rmapats.h	/^    U  I1229;$/;"	m	struct:__anon119
+I123	csrc/rmapats.h	/^    U  I123;$/;"	m	struct:qird
+I1230	csrc/rmapats.h	/^    U  I1230;$/;"	m	struct:__anon117
+I1230	csrc/rmapats.h	/^    U  I1230;$/;"	m	struct:__anon119
+I1231	csrc/rmapats.h	/^    U  I1231;$/;"	m	struct:__anon117
+I1232	csrc/rmapats.h	/^    U  I1232;$/;"	m	struct:__anon117
+I1233	csrc/rmapats.h	/^        scalar  I1233;$/;"	m	union:__anon117::__anon118
+I1233	csrc/rmapats.h	/^        scalar  I1233;$/;"	m	union:__anon119::__anon120
+I1234	csrc/rmapats.h	/^        vec32  I1234;$/;"	m	union:__anon117::__anon118
+I1234	csrc/rmapats.h	/^        vec32  I1234;$/;"	m	union:__anon119::__anon120
+I1235	csrc/rmapats.h	/^        scalar  * I1235;$/;"	m	union:__anon117::__anon118
+I1235	csrc/rmapats.h	/^        scalar  * I1235;$/;"	m	union:__anon119::__anon120
+I1236	csrc/rmapats.h	/^        vec32  * I1236;$/;"	m	union:__anon117::__anon118
+I1236	csrc/rmapats.h	/^        vec32  * I1236;$/;"	m	union:__anon119::__anon120
+I1237	csrc/rmapats.h	/^        double I1237;$/;"	m	union:__anon119::__anon120
+I1238	csrc/rmapats.h	/^    RP  I1238;$/;"	m	struct:__anon121
+I1239	csrc/rmapats.h	/^    RP  I1239;$/;"	m	struct:__anon122
+I124	csrc/rmapats.h	/^    U  I124;$/;"	m	struct:qird
+I1240	csrc/rmapats.h	/^    RP  I1240;$/;"	m	struct:__anon122
+I1241	csrc/rmapats.h	/^    U  I1241 :1;$/;"	m	struct:__anon122
+I1242	csrc/rmapats.h	/^    U  I1242 :1;$/;"	m	struct:__anon122
+I1243	csrc/rmapats.h	/^    U  I1243 :1;$/;"	m	struct:__anon122
+I1244	csrc/rmapats.h	/^    U  I1244 :4;$/;"	m	struct:__anon122
+I1245	csrc/rmapats.h	/^    U  I1245 :1;$/;"	m	struct:__anon122
+I1246	csrc/rmapats.h	/^    U  I1246 :1;$/;"	m	struct:__anon122
+I1247	csrc/rmapats.h	/^    U  I1247;$/;"	m	struct:__anon122
+I1248	csrc/rmapats.h	/^    US  I1248;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1249	csrc/rmapats.h	/^    UB  I1249 :1;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I1249	csrc/rmapats.h	/^    UB  I1249;$/;"	m	struct:RmaNonEdgeLoadHdr1_
+I1249	csrc/rmapats.h	/^    scalar  I1249 :1;$/;"	m	struct:RmaNonEdgeLoadData1_
+I125	csrc/rmapats.h	/^    U  I125;$/;"	m	struct:qird
+I1250	csrc/rmapats.h	/^    scalar  I1250 :1;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1251	csrc/rmapats.h	/^    scalar  I1251 :3;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1252	csrc/rmapats.h	/^    scalar  I1252 :1;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1253	csrc/rmapats.h	/^    scalar  I1253 :1;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1254	csrc/rmapats.h	/^    scalar  I1254 :1;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1255	csrc/rmapats.h	/^    U  I1255;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1256	csrc/rmapats.h	/^    U  I1256;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1257	csrc/rmapats.h	/^    RP  I1257;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1258	csrc/rmapats.h	/^    RP  I1258;$/;"	m	struct:RmaNonEdgeLoadData1_
+I1259	csrc/rmapats.h	/^    RP  I1259;$/;"	m	struct:RmaNonEdgeLoadData1_
+I126	csrc/rmapats.h	/^    U  * I126;$/;"	m	struct:qird
+I1260	csrc/rmapats.h	/^    UB  I1260 :1;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I1260	csrc/rmapats.h	/^    UB  I1260;$/;"	m	struct:RmaNonEdgeLoadHdr1_
+I1261	csrc/rmapats.h	/^    U  I1261;$/;"	m	struct:RmaNonEdgeLoadHdrPrl1_
+I1262	csrc/rmapats.h	/^    U  * I1262;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I1263	csrc/rmapats.h	/^    U  I1263;$/;"	m	struct:RmaNonEdgeLoadDataArray1_
+I1264	csrc/rmapats.h	/^    RP  I1264;$/;"	m	struct:RmaChildClockProp_
+I1265	csrc/rmapats.h	/^    UB  I1265;$/;"	m	struct:__anon125
+I1265	csrc/rmapats.h	/^    UB  I1265;$/;"	m	struct:__anon126
+I1266	csrc/rmapats.h	/^    UB  I1266 :1;$/;"	m	struct:__anon125
+I1267	csrc/rmapats.h	/^    U  I1267 :1;$/;"	m	struct:__anon127
+I1267	csrc/rmapats.h	/^    UB  I1267 :1;$/;"	m	struct:__anon125
+I1268	csrc/rmapats.h	/^    UB  I1268 :1;$/;"	m	struct:__anon125
+I1269	csrc/rmapats.h	/^    UB  I1269 :1;$/;"	m	struct:__anon125
+I127	csrc/rmapats.h	/^    U  I127;$/;"	m	struct:qird
+I1270	csrc/rmapats.h	/^    RP  I1270;$/;"	m	struct:__anon125
+I1271	csrc/rmapats.h	/^    UB  I1271;$/;"	m	struct:__anon126
+I1271	csrc/rmapats.h	/^    UB  I1271;$/;"	m	struct:__anon127
+I1272	csrc/rmapats.h	/^    UB  I1272;$/;"	m	struct:__anon126
+I1272	csrc/rmapats.h	/^    UB  I1272;$/;"	m	struct:__anon127
+I1273	csrc/rmapats.h	/^    UB  I1273 :1;$/;"	m	struct:__anon126
+I1274	csrc/rmapats.h	/^    UB  I1274 :1;$/;"	m	struct:__anon126
+I1275	csrc/rmapats.h	/^    UB  I1275;$/;"	m	struct:__anon127
+I1276	csrc/rmapats.h	/^    UB  I1276;$/;"	m	struct:__anon127
+I1277	csrc/rmapats.h	/^    EBLK  I1277;$/;"	m	struct:__anon129
+I1277	csrc/rmapats.h	/^    U  I1277 :1;$/;"	m	struct:__anon127
+I1278	csrc/rmapats.h	/^    U  I1278 :1;$/;"	m	struct:__anon127
+I1279	csrc/rmapats.h	/^    U  I1279;$/;"	m	struct:__anon127
+I128	csrc/rmapats.h	/^    U  I128;$/;"	m	struct:qird
+I1280	csrc/rmapats.h	/^    U  I1280;$/;"	m	struct:__anon127
+I1281	csrc/rmapats.h	/^    RP  I1281;$/;"	m	struct:__anon127
+I1282	csrc/rmapats.h	/^    RP  I1282;$/;"	m	struct:__anon127
+I1283	csrc/rmapats.h	/^    RmaRtlEdgeBlockHdr  * I1283;$/;"	m	struct:__anon127
+I1284	csrc/rmapats.h	/^    RP  I1284;$/;"	m	union:_RmaCbkMemOptUnion
+I1285	csrc/rmapats.h	/^    RP  I1285;$/;"	m	union:_RmaCbkMemOptUnion
+I1286	csrc/rmapats.h	/^    RP  I1286;$/;"	m	union:_RmaCbkMemOptUnion
+I1287	csrc/rmapats.h	/^    RmaCbkMemOptUnion  I1287;$/;"	m	struct:_RmaDaiOptCg
+I1288	csrc/rmapats.h	/^    clock_struct  I1288;$/;"	m	struct:dummyq_struct
+I1289	csrc/rmapats.h	/^    EBLK  * I1289;$/;"	m	struct:dummyq_struct
+I129	csrc/rmapats.h	/^    U  I129;$/;"	m	struct:qird
+I1290	csrc/rmapats.h	/^    EBLK  * I1290;$/;"	m	struct:dummyq_struct
+I1291	csrc/rmapats.h	/^    EBLK  * I1291;$/;"	m	struct:dummyq_struct
+I1292	csrc/rmapats.h	/^    struct futq * I1292;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::futq
+I1293	csrc/rmapats.h	/^    struct futq * I1293;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::futq
+I1294	csrc/rmapats.h	/^    struct futq * I1294;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::futq
+I1295	csrc/rmapats.h	/^    struct sched_table * I1295;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::sched_table
+I1297	csrc/rmapats.h	/^    struct futq_info * I1297;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::futq_info
+I1299	csrc/rmapats.h	/^    struct futq_info * I1299;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::futq_info
+I13	csrc/rmapats.h	/^    U  I13 :1;$/;"	m	struct:etype
+I130	csrc/rmapats.h	/^    U  I130;$/;"	m	struct:qird
+I1300	csrc/rmapats.h	/^    U  I1300;$/;"	m	struct:dummyq_struct
+I1301	csrc/rmapats.h	/^    U  I1301;$/;"	m	struct:dummyq_struct
+I1302	csrc/rmapats.h	/^    U  I1302;$/;"	m	struct:dummyq_struct
+I1303	csrc/rmapats.h	/^    U  I1303;$/;"	m	struct:dummyq_struct
+I1304	csrc/rmapats.h	/^    U  I1304;$/;"	m	struct:dummyq_struct
+I1305	csrc/rmapats.h	/^    U  I1305;$/;"	m	struct:dummyq_struct
+I1306	csrc/rmapats.h	/^    U  I1306;$/;"	m	struct:dummyq_struct
+I1307	csrc/rmapats.h	/^    struct millenium * I1307;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::millenium
+I1309	csrc/rmapats.h	/^    EBLK  * I1309;$/;"	m	struct:dummyq_struct
+I131	csrc/rmapats.h	/^    UP  * I131;$/;"	m	struct:qird
+I1310	csrc/rmapats.h	/^    EBLK  * I1310;$/;"	m	struct:dummyq_struct
+I1311	csrc/rmapats.h	/^    EBLK  * I1311;$/;"	m	struct:dummyq_struct
+I1312	csrc/rmapats.h	/^    EBLK  * I1312;$/;"	m	struct:dummyq_struct
+I1313	csrc/rmapats.h	/^    EBLK  * I1313;$/;"	m	struct:dummyq_struct
+I1314	csrc/rmapats.h	/^    EBLK  * I1314;$/;"	m	struct:dummyq_struct
+I1315	csrc/rmapats.h	/^    EBLK  * I1315;$/;"	m	struct:dummyq_struct
+I1316	csrc/rmapats.h	/^    EBLK  * I1316;$/;"	m	struct:dummyq_struct
+I1317	csrc/rmapats.h	/^    EBLK  * I1317;$/;"	m	struct:dummyq_struct
+I1318	csrc/rmapats.h	/^    EBLK  * I1318;$/;"	m	struct:dummyq_struct
+I1319	csrc/rmapats.h	/^    EBLK  * I1319;$/;"	m	struct:dummyq_struct
+I132	csrc/rmapats.h	/^    U  I132;$/;"	m	struct:qird
+I1320	csrc/rmapats.h	/^    EBLK  * I1320;$/;"	m	struct:dummyq_struct
+I1321	csrc/rmapats.h	/^    EBLK  * I1321;$/;"	m	struct:dummyq_struct
+I1322	csrc/rmapats.h	/^    EBLK  * I1322;$/;"	m	struct:dummyq_struct
+I1323	csrc/rmapats.h	/^    EBLK  * I1323;$/;"	m	struct:dummyq_struct
+I1324	csrc/rmapats.h	/^    EBLK  * I1324;$/;"	m	struct:dummyq_struct
+I1325	csrc/rmapats.h	/^    EBLK  * I1325;$/;"	m	struct:dummyq_struct
+I1326	csrc/rmapats.h	/^    MPS  * I1326;$/;"	m	struct:dummyq_struct
+I1327	csrc/rmapats.h	/^    struct retain_t * I1327;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::retain_t
+I1328	csrc/rmapats.h	/^    EBLK  * I1328;$/;"	m	struct:dummyq_struct
+I1329	csrc/rmapats.h	/^    EBLK  * I1329;$/;"	m	struct:dummyq_struct
+I133	csrc/rmapats.h	/^    U  I133;$/;"	m	struct:qird
+I1330	csrc/rmapats.h	/^    EBLK  * I1330;$/;"	m	struct:dummyq_struct
+I1331	csrc/rmapats.h	/^    EBLK  * I1331;$/;"	m	struct:dummyq_struct
+I1332	csrc/rmapats.h	/^    EBLK  * I1332;$/;"	m	struct:dummyq_struct
+I1333	csrc/rmapats.h	/^    EBLK  * I1333;$/;"	m	struct:dummyq_struct
+I1334	csrc/rmapats.h	/^    EBLK  * I1334;$/;"	m	struct:dummyq_struct
+I1335	csrc/rmapats.h	/^    EBLK  * I1335;$/;"	m	struct:dummyq_struct
+I1336	csrc/rmapats.h	/^    EBLK  * I1336;$/;"	m	struct:dummyq_struct
+I1337	csrc/rmapats.h	/^    EBLK  * I1337;$/;"	m	struct:dummyq_struct
+I1338	csrc/rmapats.h	/^    EBLK  * I1338;$/;"	m	struct:dummyq_struct
+I1339	csrc/rmapats.h	/^    EBLK  * I1339;$/;"	m	struct:dummyq_struct
+I134	csrc/rmapats.h	/^    U  I134;$/;"	m	struct:qird
+I1340	csrc/rmapats.h	/^    EBLK  * I1340;$/;"	m	struct:dummyq_struct
+I1341	csrc/rmapats.h	/^    EBLK  * I1341;$/;"	m	struct:dummyq_struct
+I1342	csrc/rmapats.h	/^    EBLK  * I1342;$/;"	m	struct:dummyq_struct
+I1343	csrc/rmapats.h	/^    EBLK  * I1343;$/;"	m	struct:dummyq_struct
+I1344	csrc/rmapats.h	/^    EBLK  * I1344;$/;"	m	struct:dummyq_struct
+I1345	csrc/rmapats.h	/^    EBLK  * I1345;$/;"	m	struct:dummyq_struct
+I1346	csrc/rmapats.h	/^    EBLK  * I1346;$/;"	m	struct:dummyq_struct
+I1347	csrc/rmapats.h	/^    EBLK  * I1347;$/;"	m	struct:dummyq_struct
+I1348	csrc/rmapats.h	/^    EBLK  * I1348;$/;"	m	struct:dummyq_struct
+I1349	csrc/rmapats.h	/^    EBLK  * I1349;$/;"	m	struct:dummyq_struct
+I135	csrc/rmapats.h	/^    U  I135;$/;"	m	struct:qird
+I1350	csrc/rmapats.h	/^    EBLK  * I1350;$/;"	m	struct:dummyq_struct
+I1351	csrc/rmapats.h	/^    EBLK  * I1351;$/;"	m	struct:dummyq_struct
+I1352	csrc/rmapats.h	/^    EBLK  * I1352;$/;"	m	struct:dummyq_struct
+I1353	csrc/rmapats.h	/^    EBLK  * I1353;$/;"	m	struct:dummyq_struct
+I1354	csrc/rmapats.h	/^    EBLK  I1354;$/;"	m	struct:dummyq_struct
+I1355	csrc/rmapats.h	/^    EBLK  * I1355;$/;"	m	struct:dummyq_struct
+I1356	csrc/rmapats.h	/^    EBLK  * I1356;$/;"	m	struct:dummyq_struct
+I1357	csrc/rmapats.h	/^    int I1357;$/;"	m	struct:dummyq_struct
+I1358	csrc/rmapats.h	/^    struct vcs_globals_t * I1358;$/;"	m	struct:dummyq_struct	typeref:struct:dummyq_struct::vcs_globals_t
+I136	csrc/rmapats.h	/^    U  I136;$/;"	m	struct:qird
+I1360	csrc/rmapats.h	/^    clock_struct  I1360;$/;"	m	struct:dummyq_struct
+I1361	csrc/rmapats.h	/^    unsigned long long I1361;$/;"	m	struct:dummyq_struct
+I1362	csrc/rmapats.h	/^    EBLK  * I1362;$/;"	m	struct:dummyq_struct
+I1363	csrc/rmapats.h	/^    EBLK  * I1363;$/;"	m	struct:dummyq_struct
+I1364	csrc/rmapats.h	/^    void * I1364;$/;"	m	struct:dummyq_struct
+I1366	csrc/rmapats.h	/^    U  I1366;$/;"	m	struct:dummyq_struct
+I1367	csrc/rmapats.h	/^    int I1367;$/;"	m	struct:_lqueue
+I1369	csrc/rmapats.h	/^    EBLK  * I1369;$/;"	m	struct:_lqueue
+I137	csrc/rmapats.h	/^    U  I137;$/;"	m	struct:qird
+I1370	csrc/rmapats.h	/^    void * I1370;$/;"	m	struct:__anon128
+I1371	csrc/rmapats.h	/^    void * I1371;$/;"	m	struct:__anon128
+I1372	csrc/rmapats.h	/^    void * I1372[2];$/;"	m	struct:__anon128
+I1373	csrc/rmapats.h	/^    void * I1373;$/;"	m	struct:__anon128
+I1374	csrc/rmapats.h	/^    unsigned long long I1374;$/;"	m	struct:__anon129
+I1375	csrc/rmapats.h	/^    U  I1375;$/;"	m	struct:__anon129
+I1376	csrc/rmapats.h	/^    U  I1376;$/;"	m	struct:__anon129
+I1377	csrc/rmapats.h	/^    unsigned long long I1377;$/;"	m	struct:__anon129
+I1378	csrc/rmapats.h	/^    ClkLevel  I1378;$/;"	m	struct:__anon129
+I1379	csrc/rmapats.h	/^    Queue   I1379[1];$/;"	m	struct:__anon129
+I138	csrc/rmapats.h	/^    U  * I138;$/;"	m	struct:qird
+I139	csrc/rmapats.h	/^    U  I139;$/;"	m	struct:qird
+I1393	csrc/rmapats.h	/^        RP  I1393;$/;"	m	union:__anon61::__anon62
+I14	csrc/rmapats.h	/^    U  I14 :1;$/;"	m	struct:etype
+I140	csrc/rmapats.h	/^    U  I140;$/;"	m	struct:qird
+I141	csrc/rmapats.h	/^    U  * I141;$/;"	m	struct:qird
+I142	csrc/rmapats.h	/^    U  * I142;$/;"	m	struct:qird
+I143	csrc/rmapats.h	/^    U  * I143;$/;"	m	struct:qird
+I144	csrc/rmapats.h	/^    U  * I144;$/;"	m	struct:qird
+I145	csrc/rmapats.h	/^    U  * I145;$/;"	m	struct:qird
+I146	csrc/rmapats.h	/^    U  I146;$/;"	m	struct:qird
+I147	csrc/rmapats.h	/^    U  I147;$/;"	m	struct:qird
+I148	csrc/rmapats.h	/^    struct taskInfo * I148;$/;"	m	struct:qird	typeref:struct:qird::taskInfo
+I15	csrc/rmapats.h	/^    U  I15 :1;$/;"	m	struct:etype
+I150	csrc/rmapats.h	/^    U  I150;$/;"	m	struct:qird
+I151	csrc/rmapats.h	/^    U  I151;$/;"	m	struct:qird
+I152	csrc/rmapats.h	/^    U  I152;$/;"	m	struct:qird
+I153	csrc/rmapats.h	/^    U  I153;$/;"	m	struct:qird
+I154	csrc/rmapats.h	/^    int * I154;$/;"	m	struct:qird
+I155	csrc/rmapats.h	/^    U  * I155;$/;"	m	struct:qird
+I156	csrc/rmapats.h	/^    UP  * I156;$/;"	m	struct:qird
+I157	csrc/rmapats.h	/^    U  * I157;$/;"	m	struct:qird
+I158	csrc/rmapats.h	/^    U  I158;$/;"	m	struct:qird
+I159	csrc/rmapats.h	/^    U  I159;$/;"	m	struct:qird
+I16	csrc/rmapats.h	/^    U  I16 :4;$/;"	m	struct:etype
+I160	csrc/rmapats.h	/^    int * I160;$/;"	m	struct:qird
+I161	csrc/rmapats.h	/^    U  I161;$/;"	m	struct:qird
+I162	csrc/rmapats.h	/^    U  I162;$/;"	m	struct:qird
+I163	csrc/rmapats.h	/^    U  I163;$/;"	m	struct:qird
+I164	csrc/rmapats.h	/^    U  I164;$/;"	m	struct:qird
+I165	csrc/rmapats.h	/^    U  I165;$/;"	m	struct:qird
+I166	csrc/rmapats.h	/^    U  I166;$/;"	m	struct:qird
+I167	csrc/rmapats.h	/^    struct qrefer * I167;$/;"	m	struct:qird	typeref:struct:qird::qrefer
+I1688	csrc/rmapats.h	/^        RP  I1688;$/;"	m	union:__anon61::__anon62
+I1688	csrc/rmapats.h	/^        RP  I1688;$/;"	m	union:__anon77::__anon78
+I169	csrc/rmapats.h	/^    U  * I169;$/;"	m	struct:qird
+I17	csrc/rmapats.h	/^    U  I17 :1;$/;"	m	struct:etype
+I170	csrc/rmapats.h	/^    unsigned * I170;$/;"	m	struct:qird
+I1704	csrc/rmapats.h	/^        RP  I1704;$/;"	m	union:__anon61::__anon62
+I1704	csrc/rmapats.h	/^        RP  I1704;$/;"	m	union:__anon77::__anon78
+I171	csrc/rmapats.h	/^    void * I171;$/;"	m	struct:qird
+I172	csrc/rmapats.h	/^    U  I172;$/;"	m	struct:qird
+I173	csrc/rmapats.h	/^    struct classStaticReferData * I173;$/;"	m	struct:qird	typeref:struct:qird::classStaticReferData
+I175	csrc/rmapats.h	/^    U  I175;$/;"	m	struct:qird
+I1753	csrc/rmapats.h	/^        RmaDoublyLinkedListElem  I1753;$/;"	m	union:__anon123::__anon124
+I176	csrc/rmapats.h	/^    U  * I176;$/;"	m	struct:qird
+I177	csrc/rmapats.h	/^    U  I177;$/;"	m	struct:qird
+I178	csrc/rmapats.h	/^    U  * I178;$/;"	m	struct:qird
+I179	csrc/rmapats.h	/^    U  I179;$/;"	m	struct:qird
+I18	csrc/rmapats.h	/^    U  I18 :1;$/;"	m	struct:etype
+I180	csrc/rmapats.h	/^    struct wakeupInfoStruct * I180;$/;"	m	struct:qird	typeref:struct:qird::wakeupInfoStruct
+I182	csrc/rmapats.h	/^    U  I182;$/;"	m	struct:qird
+I183	csrc/rmapats.h	/^    U  I183;$/;"	m	struct:qird
+I184	csrc/rmapats.h	/^    U  I184;$/;"	m	struct:qird
+I185	csrc/rmapats.h	/^    U  * I185;$/;"	m	struct:qird
+I186	csrc/rmapats.h	/^    U  I186;$/;"	m	struct:qird
+I187	csrc/rmapats.h	/^    U  * I187;$/;"	m	struct:qird
+I188	csrc/rmapats.h	/^    U  * I188;$/;"	m	struct:qird
+I189	csrc/rmapats.h	/^    U  I189;$/;"	m	struct:qird
+I19	csrc/rmapats.h	/^    U  I19 :1;$/;"	m	struct:etype
+I190	csrc/rmapats.h	/^    U  I190;$/;"	m	struct:qird
+I191	csrc/rmapats.h	/^    U  I191;$/;"	m	struct:qird
+I192	csrc/rmapats.h	/^    U  I192;$/;"	m	struct:qird
+I193	csrc/rmapats.h	/^    U  * I193;$/;"	m	struct:qird
+I194	csrc/rmapats.h	/^    U  I194;$/;"	m	struct:qird
+I195	csrc/rmapats.h	/^    U  I195;$/;"	m	struct:qird
+I196	csrc/rmapats.h	/^    U  * I196;$/;"	m	struct:qird
+I197	csrc/rmapats.h	/^    U  I197;$/;"	m	struct:qird
+I198	csrc/rmapats.h	/^    U  I198;$/;"	m	struct:qird
+I199	csrc/rmapats.h	/^    U  * I199;$/;"	m	struct:qird
+I2	csrc/rmapats.h	/^        RmaSwitchGateInCbkListInfo  I2;$/;"	m	union:__anon123::__anon124
+I2	csrc/rmapats.h	/^    U  I2;$/;"	m	struct:vec32
+I20	csrc/rmapats.h	/^    U  I20 :1;$/;"	m	struct:etype
+I200	csrc/rmapats.h	/^    U  * I200;$/;"	m	struct:qird
+I201	csrc/rmapats.h	/^    U  * I201;$/;"	m	struct:qird
+I202	csrc/rmapats.h	/^    U  I202;$/;"	m	struct:qird
+I203	csrc/rmapats.h	/^    U  I203;$/;"	m	struct:qird
+I204	csrc/rmapats.h	/^    U  I204;$/;"	m	struct:qird
+I205	csrc/rmapats.h	/^    U  I205;$/;"	m	struct:qird
+I206	csrc/rmapats.h	/^    U  I206;$/;"	m	struct:qird
+I207	csrc/rmapats.h	/^    U  I207;$/;"	m	struct:qird
+I208	csrc/rmapats.h	/^    struct qdefrefee * I208;$/;"	m	struct:qird	typeref:struct:qird::qdefrefee
+I21	csrc/rmapats.h	/^    U  I21 :1;$/;"	m	struct:etype
+I210	csrc/rmapats.h	/^    struct qrefee * I210;$/;"	m	struct:qird	typeref:struct:qird::qrefee
+I212	csrc/rmapats.h	/^    U  * I212;$/;"	m	struct:qird
+I213	csrc/rmapats.h	/^    U  * I213;$/;"	m	struct:qird
+I214	csrc/rmapats.h	/^    int (* I214)(void);$/;"	m	struct:qird
+I215	csrc/rmapats.h	/^    char * I215;$/;"	m	struct:qird
+I216	csrc/rmapats.h	/^    U  I216;$/;"	m	struct:qird
+I217	csrc/rmapats.h	/^    U  I217;$/;"	m	struct:qird
+I218	csrc/rmapats.h	/^    void * I218;$/;"	m	struct:qird
+I219	csrc/rmapats.h	/^    void * I219;$/;"	m	struct:qird
+I22	csrc/rmapats.h	/^    U  I22 :1;$/;"	m	struct:etype
+I220	csrc/rmapats.h	/^    NumLibs_t  I220;$/;"	m	struct:qird
+I221	csrc/rmapats.h	/^    char * I221;$/;"	m	struct:qird
+I222	csrc/rmapats.h	/^    U  * I222;$/;"	m	struct:qird
+I223	csrc/rmapats.h	/^    U  I223;$/;"	m	struct:qird
+I224	csrc/rmapats.h	/^    U  I224;$/;"	m	struct:qird
+I225	csrc/rmapats.h	/^    U  I225;$/;"	m	struct:qird
+I226	csrc/rmapats.h	/^    U  I226;$/;"	m	struct:qird
+I227	csrc/rmapats.h	/^    U  I227;$/;"	m	struct:qird
+I228	csrc/rmapats.h	/^    U  * I228;$/;"	m	struct:qird
+I229	csrc/rmapats.h	/^    U  * I229;$/;"	m	struct:qird
+I23	csrc/rmapats.h	/^    U  I23 :1;$/;"	m	struct:etype
+I230	csrc/rmapats.h	/^    int I230;$/;"	m	struct:qird
+I231	csrc/rmapats.h	/^    struct clock_load * I231;$/;"	m	struct:qird	typeref:struct:qird::clock_load
+I233	csrc/rmapats.h	/^    PD_e  I233;$/;"	m	struct:predd
+I233	csrc/rmapats.h	/^    U  I233 :5;$/;"	m	struct:clock_data
+I233	csrc/rmapats.h	/^    U  I233 :5;$/;"	m	struct:clock_load
+I233	csrc/rmapats.h	/^    US  I233 :2;$/;"	m	struct:RmaRetain_t
+I233	csrc/rmapats.h	/^    US  I233 :2;$/;"	m	struct:retain_t
+I233	csrc/rmapats.h	/^    scalar  I233 :6;$/;"	m	struct:MPSched
+I233	csrc/rmapats.h	/^    scalar  I233 :6;$/;"	m	struct:RmaMPSched
+I233	csrc/rmapats.h	/^    scalar  I233 :6;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I233	csrc/rmapats.h	/^    scalar  I233;$/;"	m	struct:RmaMPSchedPulse
+I234	csrc/rmapats.h	/^    U  I234 :12;$/;"	m	struct:clock_data
+I234	csrc/rmapats.h	/^    U  I234 :12;$/;"	m	struct:clock_load
+I235	csrc/rmapats.h	/^    U  I235 :1;$/;"	m	struct:clock_load
+I236	csrc/rmapats.h	/^    U  I236 :2;$/;"	m	struct:clock_data
+I236	csrc/rmapats.h	/^    U  I236 :2;$/;"	m	struct:clock_load
+I236	csrc/rmapats.h	/^    U  I236;$/;"	m	struct:clock_hiconn
+I237	csrc/rmapats.h	/^    U  I237 :1;$/;"	m	struct:clock_data
+I237	csrc/rmapats.h	/^    U  I237 :1;$/;"	m	struct:clock_load
+I238	csrc/rmapats.h	/^    U  I238 :1;$/;"	m	struct:clock_load
+I239	csrc/rmapats.h	/^    U  I239 :1;$/;"	m	struct:clock_load
+I24	csrc/rmapats.h	/^    U  I24 :1;$/;"	m	struct:etype
+I240	csrc/rmapats.h	/^    U  I240 :1;$/;"	m	struct:clock_data
+I240	csrc/rmapats.h	/^    U  I240 :9;$/;"	m	struct:clock_load
+I241	csrc/rmapats.h	/^    U  I241;$/;"	m	struct:clock_data
+I241	csrc/rmapats.h	/^    U  I241;$/;"	m	struct:clock_hiconn
+I241	csrc/rmapats.h	/^    U  I241;$/;"	m	struct:clock_load
+I242	csrc/rmapats.h	/^    U  I242;$/;"	m	struct:clock_load
+I246	csrc/rmapats.h	/^    int I246;$/;"	m	struct:qird
+I247	csrc/rmapats.h	/^    struct clock_data * I247;$/;"	m	struct:qird	typeref:struct:qird::clock_data
+I249	csrc/rmapats.h	/^    U  I249 :1;$/;"	m	struct:clock_data
+I25	csrc/rmapats.h	/^    U  I25 :2;$/;"	m	struct:etype
+I250	csrc/rmapats.h	/^    U  I250 :1;$/;"	m	struct:clock_data
+I251	csrc/rmapats.h	/^    U  I251 :1;$/;"	m	struct:clock_data
+I252	csrc/rmapats.h	/^    U  I252 :1;$/;"	m	struct:clock_data
+I253	csrc/rmapats.h	/^    U  I253 :6;$/;"	m	struct:clock_data
+I254	csrc/rmapats.h	/^    U  I254 :1;$/;"	m	struct:clock_data
+I255	csrc/rmapats.h	/^    U  I255;$/;"	m	struct:_RmaMultiInputTable
+I255	csrc/rmapats.h	/^    U  I255;$/;"	m	struct:clock_data
+I256	csrc/rmapats.h	/^    U  I256;$/;"	m	struct:clock_data
+I257	csrc/rmapats.h	/^    U  I257;$/;"	m	struct:clock_data
+I258	csrc/rmapats.h	/^    U  I258;$/;"	m	struct:clock_data
+I259	csrc/rmapats.h	/^    U  I259;$/;"	m	struct:clock_data
+I26	csrc/rmapats.h	/^    U  I26 :1;$/;"	m	struct:etype
+I260	csrc/rmapats.h	/^    U  I260;$/;"	m	struct:clock_data
+I261	csrc/rmapats.h	/^    U  I261;$/;"	m	struct:clock_data
+I262	csrc/rmapats.h	/^    U  I262;$/;"	m	struct:clock_data
+I263	csrc/rmapats.h	/^    int I263;$/;"	m	struct:qird
+I264	csrc/rmapats.h	/^    struct clock_hiconn * I264;$/;"	m	struct:qird	typeref:struct:qird::clock_hiconn
+I266	csrc/rmapats.h	/^    U  I266;$/;"	m	struct:clock_hiconn
+I267	csrc/rmapats.h	/^    U  I267;$/;"	m	struct:clock_hiconn
+I268	csrc/rmapats.h	/^    U  I268;$/;"	m	struct:qird
+I269	csrc/rmapats.h	/^    U  I269;$/;"	m	struct:qird
+I27	csrc/rmapats.h	/^    U  I27 :2;$/;"	m	struct:etype
+I270	csrc/rmapats.h	/^    U  I270;$/;"	m	struct:qird
+I271	csrc/rmapats.h	/^    U  I271;$/;"	m	struct:qird
+I272	csrc/rmapats.h	/^    U  * I272;$/;"	m	struct:qird
+I273	csrc/rmapats.h	/^    U  I273;$/;"	m	struct:qird
+I274	csrc/rmapats.h	/^    U  I274;$/;"	m	struct:qird
+I275	csrc/rmapats.h	/^    U  * I275;$/;"	m	struct:qird
+I276	csrc/rmapats.h	/^    U  I276;$/;"	m	struct:qird
+I277	csrc/rmapats.h	/^    void * I277;$/;"	m	struct:qird
+I278	csrc/rmapats.h	/^    U  I278;$/;"	m	struct:qird
+I279	csrc/rmapats.h	/^    U  I279;$/;"	m	struct:qird
+I28	csrc/rmapats.h	/^    U  I28 :1;$/;"	m	struct:etype
+I280	csrc/rmapats.h	/^    UP  * I280;$/;"	m	struct:qird
+I281	csrc/rmapats.h	/^    void * I281;$/;"	m	struct:qird
+I282	csrc/rmapats.h	/^    U  I282;$/;"	m	struct:qird
+I283	csrc/rmapats.h	/^    UP  * I283;$/;"	m	struct:qird
+I284	csrc/rmapats.h	/^    U  * I284;$/;"	m	struct:qird
+I285	csrc/rmapats.h	/^    int (* I285)(void);$/;"	m	struct:qird
+I286	csrc/rmapats.h	/^    U  * I286;$/;"	m	struct:qird
+I287	csrc/rmapats.h	/^    UP  * I287;$/;"	m	struct:qird
+I288	csrc/rmapats.h	/^    U  * I288;$/;"	m	struct:qird
+I289	csrc/rmapats.h	/^    U  I289 :1;$/;"	m	struct:qird
+I29	csrc/rmapats.h	/^    U  I29 :1;$/;"	m	struct:etype
+I290	csrc/rmapats.h	/^    U  I290 :31;$/;"	m	struct:qird
+I291	csrc/rmapats.h	/^    U  I291;$/;"	m	struct:qird
+I292	csrc/rmapats.h	/^    U  I292;$/;"	m	struct:qird
+I293	csrc/rmapats.h	/^    UP  * I293;$/;"	m	struct:qird
+I294	csrc/rmapats.h	/^    U  * I294;$/;"	m	struct:qird
+I295	csrc/rmapats.h	/^    U  I295 :1;$/;"	m	struct:qird
+I296	csrc/rmapats.h	/^    U  I296 :1;$/;"	m	struct:qird
+I297	csrc/rmapats.h	/^    U  I297 :1;$/;"	m	struct:qird
+I298	csrc/rmapats.h	/^    U  I298 :1;$/;"	m	struct:qird
+I299	csrc/rmapats.h	/^    U  I299 :28;$/;"	m	struct:qird
+I30	csrc/rmapats.h	/^    U  I30 :1;$/;"	m	struct:etype
+I300	csrc/rmapats.h	/^    U  I300;$/;"	m	struct:qird
+I301	csrc/rmapats.h	/^    U  I301;$/;"	m	struct:qird
+I302	csrc/rmapats.h	/^    U  I302;$/;"	m	struct:qird
+I303	csrc/rmapats.h	/^    U  I303 :31;$/;"	m	struct:qird
+I304	csrc/rmapats.h	/^    U  I304 :1;$/;"	m	struct:qird
+I305	csrc/rmapats.h	/^    UP  * I305;$/;"	m	struct:qird
+I306	csrc/rmapats.h	/^    UP  * I306;$/;"	m	struct:qird
+I307	csrc/rmapats.h	/^    fsimInfoT  * I307;$/;"	m	struct:qird
+I308	csrc/rmapats.h	/^    nlpInfoT  * I308;$/;"	m	struct:qird
+I309	csrc/rmapats.h	/^    U  I309;$/;"	m	struct:qird
+I31	csrc/rmapats.h	/^    U  I31 :1;$/;"	m	struct:etype
+I310	csrc/rmapats.h	/^    U  I310;$/;"	m	struct:qird
+I311	csrc/rmapats.h	/^    UP  * I311;$/;"	m	struct:qird
+I312	csrc/rmapats.h	/^    UP  * I312;$/;"	m	struct:qird
+I313	csrc/rmapats.h	/^    UP  * I313;$/;"	m	struct:qird
+I314	csrc/rmapats.h	/^    UP  * I314;$/;"	m	struct:qird
+I315	csrc/rmapats.h	/^    struct daidirInfo * I315;$/;"	m	struct:qird	typeref:struct:qird::daidirInfo
+I317	csrc/rmapats.h	/^    struct vcs_tftable * I317;$/;"	m	struct:qird	typeref:struct:qird::vcs_tftable
+I319	csrc/rmapats.h	/^    U  I319;$/;"	m	struct:qird
+I32	csrc/rmapats.h	/^    U  I32 :1;$/;"	m	struct:etype
+I320	csrc/rmapats.h	/^    UP  * I320;$/;"	m	struct:qird
+I321	csrc/rmapats.h	/^    UP  * I321;$/;"	m	struct:qird
+I322	csrc/rmapats.h	/^    U  I322;$/;"	m	struct:qird
+I323	csrc/rmapats.h	/^    U  I323;$/;"	m	struct:qird
+I324	csrc/rmapats.h	/^    U  I324;$/;"	m	struct:qird
+I325	csrc/rmapats.h	/^    UP  * I325;$/;"	m	struct:qird
+I326	csrc/rmapats.h	/^    U  * I326;$/;"	m	struct:qird
+I327	csrc/rmapats.h	/^    UP  * I327;$/;"	m	struct:qird
+I328	csrc/rmapats.h	/^    UP  * I328;$/;"	m	struct:qird
+I329	csrc/rmapats.h	/^    struct qird_hil_data * I329;$/;"	m	struct:qird	typeref:struct:qird::qird_hil_data
+I33	csrc/rmapats.h	/^    U  I33 :1;$/;"	m	struct:etype
+I331	csrc/rmapats.h	/^    U  I331;$/;"	m	struct:qird
+I332	csrc/rmapats.h	/^    U  * I332;$/;"	m	struct:qird
+I333	csrc/rmapats.h	/^    UP  (* I333)(void);$/;"	m	struct:qird
+I334	csrc/rmapats.h	/^    UP  (* I334)(void);$/;"	m	struct:qird
+I335	csrc/rmapats.h	/^    UP  (* I335)(void);$/;"	m	struct:qird
+I336	csrc/rmapats.h	/^    UP  (* I336)(void);$/;"	m	struct:qird
+I337	csrc/rmapats.h	/^    UP  (* I337)(void);$/;"	m	struct:qird
+I338	csrc/rmapats.h	/^    int * I338;$/;"	m	struct:qird
+I339	csrc/rmapats.h	/^    int (* I339)(void);$/;"	m	struct:qird
+I34	csrc/rmapats.h	/^    TypeData  * I34;$/;"	m	struct:etype
+I340	csrc/rmapats.h	/^    char * I340;$/;"	m	struct:qird
+I341	csrc/rmapats.h	/^    UP  * I341;$/;"	m	struct:qird
+I342	csrc/rmapats.h	/^    UP  * I342;$/;"	m	struct:qird
+I343	csrc/rmapats.h	/^    UP  (* I343)(void);$/;"	m	struct:qird
+I344	csrc/rmapats.h	/^    int (* I344)(void);$/;"	m	struct:qird
+I345	csrc/rmapats.h	/^    int * I345;$/;"	m	struct:qird
+I346	csrc/rmapats.h	/^    int (* I346)(void);$/;"	m	struct:qird
+I347	csrc/rmapats.h	/^    int * I347;$/;"	m	struct:qird
+I348	csrc/rmapats.h	/^    char * I348;$/;"	m	struct:qird
+I349	csrc/rmapats.h	/^    U  * I349;$/;"	m	struct:qird
+I35	csrc/rmapats.h	/^    U  I35;$/;"	m	struct:etype
+I350	csrc/rmapats.h	/^    U  * I350;$/;"	m	struct:qird
+I351	csrc/rmapats.h	/^    U  * I351;$/;"	m	struct:qird
+I352	csrc/rmapats.h	/^    U  * I352;$/;"	m	struct:qird
+I353	csrc/rmapats.h	/^    void * I353;$/;"	m	struct:qird
+I354	csrc/rmapats.h	/^    int (* I354)(void);$/;"	m	struct:qird
+I355	csrc/rmapats.h	/^    U  I355;$/;"	m	struct:qird
+I356	csrc/rmapats.h	/^    UP  * I356;$/;"	m	struct:qird
+I357	csrc/rmapats.h	/^    UP  * I357;$/;"	m	struct:qird
+I358	csrc/rmapats.h	/^    U  I358;$/;"	m	struct:qird
+I359	csrc/rmapats.h	/^    void * I359;$/;"	m	struct:qird
+I36	csrc/rmapats.h	/^    U  I36;$/;"	m	struct:etype
+I360	csrc/rmapats.h	/^    U  I360;$/;"	m	struct:qird
+I361	csrc/rmapats.h	/^    U  I361;$/;"	m	struct:qird
+I362	csrc/rmapats.h	/^    U  I362;$/;"	m	struct:qird
+I363	csrc/rmapats.h	/^    U  I363;$/;"	m	struct:qird
+I364	csrc/rmapats.h	/^    U  I364;$/;"	m	struct:qird
+I365	csrc/rmapats.h	/^    U  I365;$/;"	m	struct:qird
+I366	csrc/rmapats.h	/^    char * I366;$/;"	m	struct:qird
+I367	csrc/rmapats.h	/^    UP  * I367;$/;"	m	struct:qird
+I368	csrc/rmapats.h	/^    U  * I368;$/;"	m	struct:qird
+I369	csrc/rmapats.h	/^    U  * I369;$/;"	m	struct:qird
+I37	csrc/rmapats.h	/^    U  I37 :1;$/;"	m	struct:etype
+I370	csrc/rmapats.h	/^    U  * I370;$/;"	m	struct:qird
+I371	csrc/rmapats.h	/^    U  I371 :15;$/;"	m	struct:qird
+I372	csrc/rmapats.h	/^    U  I372 :14;$/;"	m	struct:qird
+I373	csrc/rmapats.h	/^    U  I373 :1;$/;"	m	struct:qird
+I374	csrc/rmapats.h	/^    U  I374 :1;$/;"	m	struct:qird
+I375	csrc/rmapats.h	/^    U  I375 :1;$/;"	m	struct:qird
+I376	csrc/rmapats.h	/^    U  I376 :3;$/;"	m	struct:qird
+I377	csrc/rmapats.h	/^    U  I377 :1;$/;"	m	struct:qird
+I378	csrc/rmapats.h	/^    U  I378 :1;$/;"	m	struct:qird
+I379	csrc/rmapats.h	/^    U  I379 :17;$/;"	m	struct:qird
+I38	csrc/rmapats.h	/^    U  I38 :1;$/;"	m	struct:etype
+I380	csrc/rmapats.h	/^    U  I380 :3;$/;"	m	struct:qird
+I381	csrc/rmapats.h	/^    U  I381 :5;$/;"	m	struct:qird
+I382	csrc/rmapats.h	/^    U  I382 :1;$/;"	m	struct:qird
+I383	csrc/rmapats.h	/^    U  I383 :1;$/;"	m	struct:qird
+I384	csrc/rmapats.h	/^    U  I384;$/;"	m	struct:qird
+I385	csrc/rmapats.h	/^    qird_dbg_flags_t  I385;$/;"	m	struct:qird
+I386	csrc/rmapats.h	/^    struct scope * I386;$/;"	m	struct:qird	typeref:struct:qird::scope
+I388	csrc/rmapats.h	/^    U  I388;$/;"	m	struct:qird
+I389	csrc/rmapats.h	/^    U  I389;$/;"	m	struct:qird
+I39	csrc/rmapats.h	/^    U  I39 :1;$/;"	m	struct:etype
+I390	csrc/rmapats.h	/^    U  I390;$/;"	m	struct:qird
+I391	csrc/rmapats.h	/^    U  * I391;$/;"	m	struct:qird
+I392	csrc/rmapats.h	/^    U  * I392;$/;"	m	struct:qird
+I393	csrc/rmapats.h	/^    U  * I393;$/;"	m	struct:qird
+I394	csrc/rmapats.h	/^    U  I394;$/;"	m	struct:qird
+I395	csrc/rmapats.h	/^    U  I395;$/;"	m	struct:qird
+I396	csrc/rmapats.h	/^    U  I396;$/;"	m	struct:qird
+I397	csrc/rmapats.h	/^    U  I397;$/;"	m	struct:qird
+I398	csrc/rmapats.h	/^    struct pcbt * I398;$/;"	m	struct:qird	typeref:struct:qird::pcbt
+I4	csrc/rmapats.h	/^    U  I4 :8;$/;"	m	struct:etype
+I40	csrc/rmapats.h	/^    U  I40 :1;$/;"	m	struct:etype
+I400	csrc/rmapats.h	/^    U  * I400;$/;"	m	struct:pcbt
+I401	csrc/rmapats.h	/^    U  I401;$/;"	m	struct:pcbt
+I402	csrc/rmapats.h	/^    U  I402;$/;"	m	struct:pcbt
+I403	csrc/rmapats.h	/^    U  I403;$/;"	m	struct:pcbt
+I404	csrc/rmapats.h	/^    U  I404;$/;"	m	struct:pcbt
+I405	csrc/rmapats.h	/^    U  I405;$/;"	m	struct:pcbt
+I406	csrc/rmapats.h	/^    U  I406;$/;"	m	struct:pcbt
+I407	csrc/rmapats.h	/^    U  I407;$/;"	m	struct:qird
+I408	csrc/rmapats.h	/^    U  I408;$/;"	m	struct:qird
+I409	csrc/rmapats.h	/^    U  I409;$/;"	m	struct:qird
+I41	csrc/rmapats.h	/^    U  I41 :2;$/;"	m	struct:etype
+I410	csrc/rmapats.h	/^    U  I410;$/;"	m	struct:qird
+I411	csrc/rmapats.h	/^    void * I411;$/;"	m	struct:qird
+I412	csrc/rmapats.h	/^    void * I412;$/;"	m	struct:qird
+I413	csrc/rmapats.h	/^    void * I413;$/;"	m	struct:qird
+I414	csrc/rmapats.h	/^    int I414;$/;"	m	struct:qird
+I415	csrc/rmapats.h	/^    U  * I415;$/;"	m	struct:qird
+I416	csrc/rmapats.h	/^    U  I416;$/;"	m	struct:qird
+I417	csrc/rmapats.h	/^    U  I417;$/;"	m	struct:qird
+I418	csrc/rmapats.h	/^    U  I418;$/;"	m	struct:qird
+I419	csrc/rmapats.h	/^    U  I419;$/;"	m	struct:qird
+I42	csrc/rmapats.h	/^    U  I42 :2;$/;"	m	struct:etype
+I420	csrc/rmapats.h	/^    U  I420;$/;"	m	struct:qird
+I421	csrc/rmapats.h	/^    U  I421;$/;"	m	struct:qird
+I422	csrc/rmapats.h	/^    U  I422;$/;"	m	struct:qird
+I423	csrc/rmapats.h	/^    void * I423;$/;"	m	struct:qird
+I424	csrc/rmapats.h	/^    UP  * I424;$/;"	m	struct:qird
+I425	csrc/rmapats.h	/^    U  I425;$/;"	m	struct:qird
+I426	csrc/rmapats.h	/^    U  I426;$/;"	m	struct:qird
+I427	csrc/rmapats.h	/^    void * I427;$/;"	m	struct:qird
+I428	csrc/rmapats.h	/^    U  I428;$/;"	m	struct:qird
+I429	csrc/rmapats.h	/^    txpInfoT  * I429;$/;"	m	struct:qird
+I43	csrc/rmapats.h	/^    U  I43 :1;$/;"	m	struct:etype
+I430	csrc/rmapats.h	/^    U  I430;$/;"	m	struct:qird
+I431	csrc/rmapats.h	/^    U  I431;$/;"	m	struct:qird
+I432	csrc/rmapats.h	/^    U  I432;$/;"	m	struct:qird
+I433	csrc/rmapats.h	/^    U  I433;$/;"	m	struct:qird
+I434	csrc/rmapats.h	/^    U  I434;$/;"	m	struct:qird
+I435	csrc/rmapats.h	/^    U  I435;$/;"	m	struct:qird
+I436	csrc/rmapats.h	/^    char * I436;$/;"	m	struct:qird
+I437	csrc/rmapats.h	/^    U  I437;$/;"	m	struct:qird
+I438	csrc/rmapats.h	/^    U  * I438;$/;"	m	struct:qird
+I439	csrc/rmapats.h	/^    U  I439;$/;"	m	struct:qird
+I44	csrc/rmapats.h	/^    U  I44 :1;$/;"	m	struct:etype
+I440	csrc/rmapats.h	/^    U  * I440;$/;"	m	struct:qird
+I441	csrc/rmapats.h	/^    U  I441;$/;"	m	struct:qird
+I442	csrc/rmapats.h	/^    U  I442;$/;"	m	struct:qird
+I443	csrc/rmapats.h	/^    U  I443;$/;"	m	struct:qird
+I444	csrc/rmapats.h	/^    U  I444;$/;"	m	struct:qird
+I445	csrc/rmapats.h	/^    U  I445;$/;"	m	struct:qird
+I446	csrc/rmapats.h	/^    U  I446;$/;"	m	struct:qird
+I447	csrc/rmapats.h	/^    U  * I447;$/;"	m	struct:qird
+I448	csrc/rmapats.h	/^    U  I448;$/;"	m	struct:qird
+I449	csrc/rmapats.h	/^    U  I449;$/;"	m	struct:qird
+I45	csrc/rmapats.h	/^    U  I45 :1;$/;"	m	struct:etype
+I450	csrc/rmapats.h	/^    U  * I450;$/;"	m	struct:qird
+I451	csrc/rmapats.h	/^    U  I451;$/;"	m	struct:qird
+I452	csrc/rmapats.h	/^    U  I452;$/;"	m	struct:qird
+I453	csrc/rmapats.h	/^    U  I453;$/;"	m	struct:qird
+I454	csrc/rmapats.h	/^    U  * I454;$/;"	m	struct:qird
+I455	csrc/rmapats.h	/^    char * I455;$/;"	m	struct:qird
+I456	csrc/rmapats.h	/^    U  I456;$/;"	m	struct:qird
+I457	csrc/rmapats.h	/^    U  I457;$/;"	m	struct:qird
+I458	csrc/rmapats.h	/^    U  I458;$/;"	m	struct:qird
+I459	csrc/rmapats.h	/^    simProfInfoT  * I459;$/;"	m	struct:qird
+I46	csrc/rmapats.h	/^    U  I46 :1;$/;"	m	struct:etype
+I460	csrc/rmapats.h	/^    U  I460;$/;"	m	struct:qird
+I461	csrc/rmapats.h	/^    U  I461;$/;"	m	struct:qird
+I462	csrc/rmapats.h	/^    UP  * I462;$/;"	m	struct:qird
+I463	csrc/rmapats.h	/^    U  I463;$/;"	m	struct:qird
+I464	csrc/rmapats.h	/^    U  I464;$/;"	m	struct:qird
+I465	csrc/rmapats.h	/^    U  I465;$/;"	m	struct:qird
+I466	csrc/rmapats.h	/^    struct cosim_info * I466;$/;"	m	struct:qird	typeref:struct:qird::cosim_info
+I468	csrc/rmapats.h	/^    U  I468;$/;"	m	struct:qird
+I469	csrc/rmapats.h	/^    U  * I469;$/;"	m	struct:qird
+I47	csrc/rmapats.h	/^    U  I47 :1;$/;"	m	struct:etype
+I470	csrc/rmapats.h	/^    hybridSimInfoT  * I470;$/;"	m	struct:qird
+I471	csrc/rmapats.h	/^    U  I471;$/;"	m	struct:qird
+I472	csrc/rmapats.h	/^    U  * I472;$/;"	m	struct:qird
+I473	csrc/rmapats.h	/^    U  I473;$/;"	m	struct:qird
+I474	csrc/rmapats.h	/^    U  I474;$/;"	m	struct:qird
+I475	csrc/rmapats.h	/^    U  * I475;$/;"	m	struct:qird
+I476	csrc/rmapats.h	/^    U  I476;$/;"	m	struct:qird
+I477	csrc/rmapats.h	/^    U  * I477;$/;"	m	struct:qird
+I478	csrc/rmapats.h	/^    U  I478;$/;"	m	struct:qird
+I479	csrc/rmapats.h	/^    U  * I479;$/;"	m	struct:qird
+I48	csrc/rmapats.h	/^    U  I48 :1;$/;"	m	struct:etype
+I480	csrc/rmapats.h	/^    U  I480;$/;"	m	struct:qird
+I481	csrc/rmapats.h	/^    U  I481;$/;"	m	struct:qird
+I482	csrc/rmapats.h	/^    U  * I482;$/;"	m	struct:qird
+I483	csrc/rmapats.h	/^    U  I483;$/;"	m	struct:qird
+I484	csrc/rmapats.h	/^    U  * I484;$/;"	m	struct:qird
+I485	csrc/rmapats.h	/^    U  I485;$/;"	m	struct:qird
+I486	csrc/rmapats.h	/^    U  I486;$/;"	m	struct:qird
+I487	csrc/rmapats.h	/^    U  * I487;$/;"	m	struct:qird
+I488	csrc/rmapats.h	/^    struct mhdl_outInfo * I488;$/;"	m	struct:qird	typeref:struct:qird::mhdl_outInfo
+I49	csrc/rmapats.h	/^    U  I49 :1;$/;"	m	struct:etype
+I490	csrc/rmapats.h	/^    UP  * I490;$/;"	m	struct:qird
+I491	csrc/rmapats.h	/^    U  I491;$/;"	m	struct:qird
+I492	csrc/rmapats.h	/^    UP  * I492;$/;"	m	struct:qird
+I493	csrc/rmapats.h	/^    U  I493;$/;"	m	struct:qird
+I494	csrc/rmapats.h	/^    void * I494;$/;"	m	struct:qird
+I495	csrc/rmapats.h	/^    U  * I495;$/;"	m	struct:qird
+I496	csrc/rmapats.h	/^    void * I496;$/;"	m	struct:qird
+I497	csrc/rmapats.h	/^    char * I497;$/;"	m	struct:qird
+I498	csrc/rmapats.h	/^    U  I498;$/;"	m	struct:qird
+I499	csrc/rmapats.h	/^    U  * I499;$/;"	m	struct:qird
+I5	csrc/rmapats.h	/^    U  I5;$/;"	m	struct:etype
+I50	csrc/rmapats.h	/^    U  I50 :1;$/;"	m	struct:etype
+I500	csrc/rmapats.h	/^    char * I500;$/;"	m	struct:qird
+I501	csrc/rmapats.h	/^    U  I501;$/;"	m	struct:qird
+I502	csrc/rmapats.h	/^    struct regInitInfo * I502;$/;"	m	struct:qird	typeref:struct:qird::regInitInfo
+I504	csrc/rmapats.h	/^    UP  * I504;$/;"	m	struct:qird
+I505	csrc/rmapats.h	/^    U  * I505;$/;"	m	struct:qird
+I506	csrc/rmapats.h	/^    char * I506;$/;"	m	struct:qird
+I507	csrc/rmapats.h	/^    U  I507;$/;"	m	struct:qird
+I508	csrc/rmapats.h	/^    U  I508;$/;"	m	struct:qird
+I509	csrc/rmapats.h	/^    U  I509;$/;"	m	struct:qird
+I51	csrc/rmapats.h	/^    U  I51 :1;$/;"	m	struct:etype
+I510	csrc/rmapats.h	/^    U  I510;$/;"	m	struct:qird
+I511	csrc/rmapats.h	/^    U  I511;$/;"	m	struct:qird
+I512	csrc/rmapats.h	/^    U  I512;$/;"	m	struct:qird
+I513	csrc/rmapats.h	/^    U  I513;$/;"	m	struct:qird
+I514	csrc/rmapats.h	/^    U  I514;$/;"	m	struct:qird
+I515	csrc/rmapats.h	/^    UP  * I515;$/;"	m	struct:qird
+I516	csrc/rmapats.h	/^    U  I516;$/;"	m	struct:qird
+I517	csrc/rmapats.h	/^    U  I517;$/;"	m	struct:qird
+I518	csrc/rmapats.h	/^    U  I518;$/;"	m	struct:qird
+I519	csrc/rmapats.h	/^    U  I519;$/;"	m	struct:qird
+I52	csrc/rmapats.h	/^    U  I52 :1;$/;"	m	struct:etype
+I520	csrc/rmapats.h	/^    UP  * I520;$/;"	m	struct:qird
+I521	csrc/rmapats.h	/^    U  I521;$/;"	m	struct:qird
+I522	csrc/rmapats.h	/^    UP  * I522;$/;"	m	struct:qird
+I523	csrc/rmapats.h	/^    U  I523;$/;"	m	struct:qird
+I524	csrc/rmapats.h	/^    U  I524;$/;"	m	struct:qird
+I525	csrc/rmapats.h	/^    U  I525;$/;"	m	struct:qird
+I526	csrc/rmapats.h	/^    U  * I526;$/;"	m	struct:qird
+I527	csrc/rmapats.h	/^    U  I527;$/;"	m	struct:qird
+I528	csrc/rmapats.h	/^    U  I528;$/;"	m	struct:qird
+I529	csrc/rmapats.h	/^    U  I529;$/;"	m	struct:qird
+I53	csrc/rmapats.h	/^    U  I53 :1;$/;"	m	struct:etype
+I530	csrc/rmapats.h	/^    U  * I530;$/;"	m	struct:qird
+I531	csrc/rmapats.h	/^    U  * I531;$/;"	m	struct:qird
+I532	csrc/rmapats.h	/^    UP  * I532;$/;"	m	struct:qird
+I533	csrc/rmapats.h	/^    UP  * I533;$/;"	m	struct:qird
+I534	csrc/rmapats.h	/^    void * I534;$/;"	m	struct:qird
+I535	csrc/rmapats.h	/^    UP  I535;$/;"	m	struct:qird
+I536	csrc/rmapats.h	/^    void * I536;$/;"	m	struct:qird
+I537	csrc/rmapats.h	/^    void * I537;$/;"	m	struct:qird
+I538	csrc/rmapats.h	/^    void * I538;$/;"	m	struct:qird
+I539	csrc/rmapats.h	/^    void * I539;$/;"	m	struct:qird
+I54	csrc/rmapats.h	/^    U  I54 :1;$/;"	m	struct:etype
+I540	csrc/rmapats.h	/^    void * I540;$/;"	m	struct:qird
+I541	csrc/rmapats.h	/^    UP  I541;$/;"	m	struct:qird
+I542	csrc/rmapats.h	/^    U  * I542;$/;"	m	struct:qird
+I543	csrc/rmapats.h	/^    U  * I543;$/;"	m	struct:qird
+I544	csrc/rmapats.h	/^    void * I544;$/;"	m	struct:qird
+I545	csrc/rmapats.h	/^    U  I545 :1;$/;"	m	struct:qird
+I546	csrc/rmapats.h	/^    U  I546 :31;$/;"	m	struct:qird
+I547	csrc/rmapats.h	/^    U  I547;$/;"	m	struct:qird
+I548	csrc/rmapats.h	/^    U  I548;$/;"	m	struct:qird
+I549	csrc/rmapats.h	/^    U  I549;$/;"	m	struct:qird
+I55	csrc/rmapats.h	/^    U  I55 :1;$/;"	m	struct:etype
+I550	csrc/rmapats.h	/^    int I550;$/;"	m	struct:qird
+I551	csrc/rmapats.h	/^    U  I551 :1;$/;"	m	struct:qird
+I552	csrc/rmapats.h	/^    U  I552 :1;$/;"	m	struct:qird
+I553	csrc/rmapats.h	/^    U  I553 :1;$/;"	m	struct:qird
+I554	csrc/rmapats.h	/^    U  I554 :1;$/;"	m	struct:qird
+I555	csrc/rmapats.h	/^    U  I555 :28;$/;"	m	struct:qird
+I555	csrc/rmapats.h	/^    US  I555 :1;$/;"	m	struct:RmaRetain_t
+I555	csrc/rmapats.h	/^    scalar  I555;$/;"	m	struct:__anon56
+I556	csrc/rmapats.h	/^    void * I556;$/;"	m	struct:qird
+I557	csrc/rmapats.h	/^    void * I557;$/;"	m	struct:qird
+I558	csrc/rmapats.h	/^    void * I558;$/;"	m	struct:qird
+I559	csrc/rmapats.h	/^    void * I559;$/;"	m	struct:qird
+I56	csrc/rmapats.h	/^    U  I56 :11;$/;"	m	struct:etype
+I560	csrc/rmapats.h	/^    void * I560;$/;"	m	struct:qird
+I561	csrc/rmapats.h	/^    void * I561;$/;"	m	struct:qird
+I562	csrc/rmapats.h	/^    void * I562;$/;"	m	struct:qird
+I563	csrc/rmapats.h	/^    UP  * I563;$/;"	m	struct:qird
+I564	csrc/rmapats.h	/^    U  * I564;$/;"	m	struct:qird
+I565	csrc/rmapats.h	/^    U  I565;$/;"	m	struct:qird
+I566	csrc/rmapats.h	/^    char * I566;$/;"	m	struct:qird
+I567	csrc/rmapats.h	/^    U  * I567;$/;"	m	struct:qird
+I568	csrc/rmapats.h	/^    U  * I568;$/;"	m	struct:qird
+I569	csrc/rmapats.h	/^    U  * I569;$/;"	m	struct:qird
+I570	csrc/rmapats.h	/^    char * I570;$/;"	m	struct:qird
+I571	csrc/rmapats.h	/^    int * I571;$/;"	m	struct:qird
+I572	csrc/rmapats.h	/^    int * I572;$/;"	m	struct:qird
+I573	csrc/rmapats.h	/^    UP  * I573;$/;"	m	struct:qird
+I574	csrc/rmapats.h	/^    struct etype * I574;$/;"	m	struct:qird	typeref:struct:qird::etype
+I575	csrc/rmapats.h	/^    U  I575;$/;"	m	struct:qird
+I576	csrc/rmapats.h	/^    U  I576;$/;"	m	struct:qird
+I577	csrc/rmapats.h	/^    U  * I577;$/;"	m	struct:qird
+I578	csrc/rmapats.h	/^    struct etype * I578;$/;"	m	struct:qird	typeref:struct:qird::etype
+I579	csrc/rmapats.h	/^    U  I579;$/;"	m	struct:qird
+I58	csrc/rmapats.h	/^    US  I58;$/;"	m	struct:qird
+I580	csrc/rmapats.h	/^    U  I580;$/;"	m	struct:qird
+I581	csrc/rmapats.h	/^    U  I581;$/;"	m	struct:qird
+I582	csrc/rmapats.h	/^    U  * I582;$/;"	m	struct:qird
+I583	csrc/rmapats.h	/^    void * I583;$/;"	m	struct:qird
+I584	csrc/rmapats.h	/^    U  I584;$/;"	m	struct:qird
+I585	csrc/rmapats.h	/^    U  I585;$/;"	m	struct:qird
+I586	csrc/rmapats.h	/^    void * I586;$/;"	m	struct:qird
+I587	csrc/rmapats.h	/^    fgpInfoT  * I587;$/;"	m	struct:qird
+I588	csrc/rmapats.h	/^    U  I588;$/;"	m	struct:qird
+I589	csrc/rmapats.h	/^    struct covreg_rt * I589;$/;"	m	struct:qird	typeref:struct:qird::covreg_rt
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:TableAssignLayoutOnClk_
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:TableAssign_
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:_RmaBehavioralTransportDelay
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon40
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon41
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon42
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon43
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon45
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon48
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon49
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon50
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon59
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon60
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon61
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon63
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon64
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon65
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon66
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon67
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon68
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon69
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon70
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon71
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon72
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon73
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon74
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon75
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon76
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon77
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon79
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon81
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon82
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon86
+I59	csrc/rmapats.h	/^    U  I59;$/;"	m	struct:__anon87
+I59	csrc/rmapats.h	/^    US  I59;$/;"	m	struct:qird
+I591	csrc/rmapats.h	/^    U  I591;$/;"	m	struct:qird
+I592	csrc/rmapats.h	/^    U  I592;$/;"	m	struct:qird
+I593	csrc/rmapats.h	/^    U  * I593;$/;"	m	struct:qird
+I594	csrc/rmapats.h	/^    U  I594;$/;"	m	struct:qird
+I595	csrc/rmapats.h	/^    U  * I595;$/;"	m	struct:qird
+I596	csrc/rmapats.h	/^    U  I596;$/;"	m	struct:qird
+I597	csrc/rmapats.h	/^    U  I597;$/;"	m	struct:qird
+I598	csrc/rmapats.h	/^    U  * I598;$/;"	m	struct:qird
+I6	csrc/rmapats.h	/^    U  I6;$/;"	m	struct:etype
+I60	csrc/rmapats.h	/^    U  I60;$/;"	m	struct:qird
+I602	csrc/rmapats.h	/^    U  I602;$/;"	m	struct:__anon42
+I606	csrc/rmapats.h	/^    U  I606 :2;$/;"	m	struct:_RmaMultiInputTable
+I607	csrc/rmapats.h	/^    U  I607 :4;$/;"	m	struct:_RmaMultiInputTable
+I608	csrc/rmapats.h	/^    U  I608 :5;$/;"	m	struct:_RmaMultiInputTable
+I61	csrc/rmapats.h	/^    U  I61;$/;"	m	struct:qird
+I619	csrc/rmapats.h	/^    RP  I619;$/;"	m	struct:_RmaBehavioralTransportDelay
+I619	csrc/rmapats.h	/^    RP  I619;$/;"	m	struct:__anon68
+I619	csrc/rmapats.h	/^    RP  I619;$/;"	m	struct:__anon69
+I619	csrc/rmapats.h	/^    U  I619;$/;"	m	struct:red_t
+I62	csrc/rmapats.h	/^    char * I62;$/;"	m	struct:qird
+I622	csrc/rmapats.h	/^    U  I622;$/;"	m	struct:__anon84
+I622	csrc/rmapats.h	/^    U  I622;$/;"	m	struct:hybridSimInfoT
+I622	csrc/rmapats.h	/^    int I622;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I623	csrc/rmapats.h	/^        U  I623;$/;"	m	union:RmaSeqPrimOutputS_::__anon47
+I625	csrc/rmapats.h	/^    InstNum32  I625;$/;"	m	struct:__anon20
+I626	csrc/rmapats.h	/^    RmaNonEdgeLoadData1  * I626;$/;"	m	struct:RmaNonEdgeLoadArrayHdr1_
+I63	csrc/rmapats.h	/^    char * I63;$/;"	m	struct:qird
+I634	csrc/rmapats.h	/^    } I634;$/;"	m	struct:RmaSeqPrimOutputS_	typeref:union:RmaSeqPrimOutputS_::__anon47
+I634	csrc/rmapats.h	/^    } I634;$/;"	m	struct:_RmaMultiInputTable	typeref:union:_RmaMultiInputTable::__anon15
+I634	csrc/rmapats.h	/^    } I634;$/;"	m	struct:__anon123	typeref:union:__anon123::__anon124
+I634	csrc/rmapats.h	/^    } I634;$/;"	m	struct:__anon129	typeref:union:__anon129::__anon130
+I64	csrc/rmapats.h	/^    U  * I64;$/;"	m	struct:qird
+I641	csrc/rmapats.h	/^        U  I641;$/;"	m	union:RmaSeqPrimOutputS_::__anon47
+I641	csrc/rmapats.h	/^    U  I641 :8;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I641	csrc/rmapats.h	/^    U  I641 :8;$/;"	m	struct:TableAssignLayoutOnClk_
+I641	csrc/rmapats.h	/^    U  I641 :8;$/;"	m	struct:TableAssign_
+I641	csrc/rmapats.h	/^    U  I641;$/;"	m	struct:__anon2
+I641	csrc/rmapats.h	/^    U  I641;$/;"	m	struct:__anon93
+I641	csrc/rmapats.h	/^    US  I641;$/;"	m	struct:__anon87
+I641	csrc/rmapats.h	/^    US  I641;$/;"	m	struct:__anon88
+I642	csrc/rmapats.h	/^    RP  I642;$/;"	m	struct:__anon2
+I643	csrc/rmapats.h	/^    int * I643;$/;"	m	struct:__anon4
+I644	csrc/rmapats.h	/^    int * I644;$/;"	m	struct:__anon4
+I645	csrc/rmapats.h	/^    int I645;$/;"	m	struct:__anon4
+I646	csrc/rmapats.h	/^    } I646;$/;"	m	struct:__anon4	typeref:union:__anon4::__anon5
+I649	csrc/rmapats.h	/^    U  I649 :28;$/;"	m	struct:__anon24
+I649	csrc/rmapats.h	/^    U  I649;$/;"	m	struct:__anon35
+I649	csrc/rmapats.h	/^    U  I649;$/;"	m	struct:__anon36
+I65	csrc/rmapats.h	/^    char * I65;$/;"	m	struct:qird
+I650	csrc/rmapats.h	/^    U   I650[1];$/;"	m	struct:__anon58
+I653	csrc/rmapats.h	/^    double I653;$/;"	m	union:__anon6
+I653	csrc/rmapats.h	/^    double I653;$/;"	m	union:__anon9
+I653	csrc/rmapats.h	/^    vec32  I653;$/;"	m	struct:nbs_t
+I654	csrc/rmapats.h	/^    unsigned long long I654;$/;"	m	union:__anon6
+I654	csrc/rmapats.h	/^    unsigned long long I654;$/;"	m	union:__anon9
+I655	csrc/rmapats.h	/^    unsigned  I655[2];$/;"	m	union:__anon6
+I655	csrc/rmapats.h	/^    unsigned  I655[2];$/;"	m	union:__anon9
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:RmaNonEdgeLoadHdrPrl1_
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon100
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon101
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon102
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon103
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon104
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon105
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon106
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon108
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon96
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon97
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon98
+I656	csrc/rmapats.h	/^    RP  I656;$/;"	m	struct:__anon99
+I657	csrc/rmapats.h	/^    U  I657 :31;$/;"	m	struct:__anon40
+I657	csrc/rmapats.h	/^    U  I657;$/;"	m	struct:__anon36
+I66	csrc/rmapats.h	/^    char * I66;$/;"	m	struct:qird
+I661	csrc/rmapats.h	/^    EBLK  I661;$/;"	m	struct:__anon35
+I661	csrc/rmapats.h	/^    EBLK  I661;$/;"	m	struct:retain_t
+I661	csrc/rmapats.h	/^    RmaDynamicEblk  I661;$/;"	m	struct:__anon56
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:RmaRetain_t
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:TableAssignLayoutOnClk_
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon10
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon108
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon12
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon26
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon31
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon32
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon33
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon34
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon39
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon53
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon54
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon55
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon58
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon59
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon60
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon69
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon70
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon72
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon74
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon75
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon76
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon79
+I661	csrc/rmapats.h	/^    RmaEblk  I661;$/;"	m	struct:__anon84
+I661	csrc/rmapats.h	/^    RmaEblklq  I661;$/;"	m	struct:__anon29
+I661	csrc/rmapats.h	/^    RmaEblklq  I661;$/;"	m	struct:__anon30
+I662	csrc/rmapats.h	/^    E_fn  I662;$/;"	m	struct:eblk
+I662	csrc/rmapats.h	/^    RP  I662;$/;"	m	struct:__anon7
+I662	csrc/rmapats.h	/^    RP  I662;$/;"	m	struct:__anon8
+I663	csrc/rmapats.h	/^    RP  I663;$/;"	m	struct:RmaMPSchedPulse
+I663	csrc/rmapats.h	/^    RP  I663;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I663	csrc/rmapats.h	/^    RP  I663;$/;"	m	struct:__anon12
+I663	csrc/rmapats.h	/^    RP  I663;$/;"	m	struct:__anon19
+I663	csrc/rmapats.h	/^    RP  I663;$/;"	m	struct:__anon7
+I663	csrc/rmapats.h	/^    RP  I663;$/;"	m	struct:__anon8
+I663	csrc/rmapats.h	/^    struct iptmpl * I663;$/;"	m	struct:eblk	typeref:struct:eblk::iptmpl
+I665	csrc/rmapats.h	/^    EBLK  * I665;$/;"	m	struct:_lqueue
+I665	csrc/rmapats.h	/^    RP  I665;$/;"	m	struct:__anon7
+I665	csrc/rmapats.h	/^    RP  I665;$/;"	m	struct:__anon8
+I665	csrc/rmapats.h	/^    struct eblk * I665;$/;"	m	struct:eblk	typeref:struct:eblk::eblk
+I666	csrc/rmapats.h	/^    U  I666;$/;"	m	struct:__anon21
+I666	csrc/rmapats.h	/^    U  I666;$/;"	m	struct:__anon22
+I666	csrc/rmapats.h	/^    U  I666;$/;"	m	struct:futq
+I666	csrc/rmapats.h	/^    unsigned I666;$/;"	m	struct:__anon7
+I666	csrc/rmapats.h	/^    unsigned I666;$/;"	m	struct:__anon8
+I666	csrc/rmapats.h	/^    unsigned I666;$/;"	m	struct:eblk
+I667	csrc/rmapats.h	/^    U  I667;$/;"	m	struct:__anon22
+I667	csrc/rmapats.h	/^    unsigned I667;$/;"	m	struct:__anon7
+I667	csrc/rmapats.h	/^    unsigned I667;$/;"	m	struct:__anon8
+I667	csrc/rmapats.h	/^    unsigned I667;$/;"	m	struct:eblk
+I668	csrc/rmapats.h	/^    RP  I668;$/;"	m	struct:__anon7
+I668	csrc/rmapats.h	/^    RP  I668;$/;"	m	struct:__anon8
+I668	csrc/rmapats.h	/^    struct eblk * I668;$/;"	m	struct:eblk	typeref:struct:eblk::eblk
+I669	csrc/rmapats.h	/^    QIRD  * I669;$/;"	m	struct:iptmpl
+I67	csrc/rmapats.h	/^    U  I67;$/;"	m	struct:qird
+I670	csrc/rmapats.h	/^    void * I670;$/;"	m	struct:iptmpl
+I671	csrc/rmapats.h	/^    void * I671;$/;"	m	struct:iptmpl
+I672	csrc/rmapats.h	/^    UP  I672;$/;"	m	struct:iptmpl
+I673	csrc/rmapats.h	/^    UP  I673;$/;"	m	struct:iptmpl
+I674	csrc/rmapats.h	/^    struct iptmpl * I674[2];$/;"	m	struct:iptmpl	typeref:struct:iptmpl::iptmpl
+I675	csrc/rmapats.h	/^    struct _DEblkLaneT * I675;$/;"	m	struct:_DEblkLaneT	typeref:struct:_DEblkLaneT::_DEblkLaneT
+I677	csrc/rmapats.h	/^    struct eblk * I677;$/;"	m	struct:_DEblkLaneT	typeref:struct:_DEblkLaneT::eblk
+I678	csrc/rmapats.h	/^    struct _DEblkLaneT * I678;$/;"	m	struct:_DEblkPoolT	typeref:struct:_DEblkPoolT::_DEblkLaneT
+I679	csrc/rmapats.h	/^    struct _DEblkLaneT * I679;$/;"	m	struct:_DEblkPoolT	typeref:struct:_DEblkPoolT::_DEblkLaneT
+I68	csrc/rmapats.h	/^    U  I68;$/;"	m	struct:qird
+I680	csrc/rmapats.h	/^    unsigned I680;$/;"	m	struct:_DEblkPoolT
+I681	csrc/rmapats.h	/^    unsigned I681;$/;"	m	struct:_DEblkPoolT
+I682	csrc/rmapats.h	/^    struct futq * I682;$/;"	m	struct:futq	typeref:struct:futq::futq
+I684	csrc/rmapats.h	/^    struct futq * I684;$/;"	m	struct:futq	typeref:struct:futq::futq
+I685	csrc/rmapats.h	/^    RmaEblk  * I685;$/;"	m	struct:futq
+I686	csrc/rmapats.h	/^    RmaEblk  * I686;$/;"	m	struct:futq
+I687	csrc/rmapats.h	/^    DEblkPoolT  * I687;$/;"	m	struct:_lqueue
+I687	csrc/rmapats.h	/^    DEblkPoolT  * I687;$/;"	m	struct:futq
+I688	csrc/rmapats.h	/^    struct futq * I688;$/;"	m	struct:sched_table	typeref:struct:sched_table::futq
+I689	csrc/rmapats.h	/^    struct futq I689;$/;"	m	struct:sched_table	typeref:struct:sched_table::futq
+I69	csrc/rmapats.h	/^    struct vcd_rt * I69;$/;"	m	struct:qird	typeref:struct:qird::vcd_rt
+I690	csrc/rmapats.h	/^    struct hash_bucket * I690;$/;"	m	struct:sched_table	typeref:struct:sched_table::hash_bucket
+I692	csrc/rmapats.h	/^    struct hash_bucket * I692;$/;"	m	struct:sched_table	typeref:struct:sched_table::hash_bucket
+I693	csrc/rmapats.h	/^    scalar  * I693;$/;"	m	struct:futq_info
+I694	csrc/rmapats.h	/^    U  I694;$/;"	m	struct:futq_info
+I695	csrc/rmapats.h	/^    U  I695;$/;"	m	struct:futq_info
+I696	csrc/rmapats.h	/^    struct futq_slot1  I696[32];$/;"	m	struct:futq_info	typeref:struct:futq_info::futq_slot1
+I698	csrc/rmapats.h	/^    U  I698;$/;"	m	struct:futq_slot1
+I699	csrc/rmapats.h	/^    struct futq_slot2  I699[32];$/;"	m	struct:futq_slot1	typeref:struct:futq_slot1::futq_slot2
+I7	csrc/rmapats.h	/^    U  I7 :1;$/;"	m	struct:etype
+I701	csrc/rmapats.h	/^    U  I701;$/;"	m	struct:futq_slot2
+I702	csrc/rmapats.h	/^    U   I702[32];$/;"	m	struct:futq_slot2
+I703	csrc/rmapats.h	/^    MPS  * I703;$/;"	m	struct:MPSched
+I703	csrc/rmapats.h	/^    RP  I703;$/;"	m	struct:RmaMPSched
+I703	csrc/rmapats.h	/^    RP  I703;$/;"	m	struct:RmaMPSchedPulse
+I703	csrc/rmapats.h	/^    RP  I703;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I704	csrc/rmapats.h	/^    scalar  I704;$/;"	m	struct:MPSched
+I704	csrc/rmapats.h	/^    scalar  I704;$/;"	m	struct:RmaMPSched
+I704	csrc/rmapats.h	/^    scalar  I704;$/;"	m	struct:RmaMPSchedPulse
+I704	csrc/rmapats.h	/^    scalar  I704;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I705	csrc/rmapats.h	/^    scalar  I705;$/;"	m	struct:MPSched
+I705	csrc/rmapats.h	/^    scalar  I705;$/;"	m	struct:RmaMPSched
+I705	csrc/rmapats.h	/^    scalar  I705;$/;"	m	struct:RmaMPSchedPulse
+I705	csrc/rmapats.h	/^    scalar  I705;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I706	csrc/rmapats.h	/^    scalar  I706;$/;"	m	struct:MPSched
+I706	csrc/rmapats.h	/^    scalar  I706;$/;"	m	struct:RmaMPSched
+I706	csrc/rmapats.h	/^    scalar  I706;$/;"	m	struct:RmaMPSchedPulse
+I706	csrc/rmapats.h	/^    scalar  I706;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I708	csrc/rmapats.h	/^    U  I708;$/;"	m	struct:MPSched
+I708	csrc/rmapats.h	/^    U  I708;$/;"	m	struct:RmaMPSched
+I708	csrc/rmapats.h	/^    U  I708;$/;"	m	struct:RmaMPSchedPulse
+I708	csrc/rmapats.h	/^    U  I708;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I709	csrc/rmapats.h	/^    EBLK  I709;$/;"	m	struct:MPSched
+I709	csrc/rmapats.h	/^    RmaEblk  I709;$/;"	m	struct:RmaMPSched
+I709	csrc/rmapats.h	/^    RmaEblk  I709;$/;"	m	struct:RmaMPSchedPulse
+I709	csrc/rmapats.h	/^    RmaEblk  I709;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I709	csrc/rmapats.h	/^    RmaEblk  I709;$/;"	m	struct:__anon65
+I71	csrc/rmapats.h	/^    U  I71;$/;"	m	struct:qird
+I710	csrc/rmapats.h	/^    RP  I710;$/;"	m	struct:RmaMPSched
+I710	csrc/rmapats.h	/^    RP  I710;$/;"	m	struct:__anon12
+I710	csrc/rmapats.h	/^    void * I710;$/;"	m	struct:MPSched
+I711	csrc/rmapats.h	/^    RP   I711[1];$/;"	m	struct:RmaMPSched
+I711	csrc/rmapats.h	/^    RP   I711[1];$/;"	m	struct:RmaMPSchedPulse
+I711	csrc/rmapats.h	/^    RP   I711[1];$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I711	csrc/rmapats.h	/^    UP   I711[1];$/;"	m	struct:MPSched
+I712	csrc/rmapats.h	/^    RP  I712;$/;"	m	struct:RmaRetain_t
+I712	csrc/rmapats.h	/^    struct _lqueue * I712;$/;"	m	struct:_lqueue	typeref:struct:_lqueue::_lqueue
+I712	csrc/rmapats.h	/^    struct retain_t * I712;$/;"	m	struct:retain_t	typeref:struct:retain_t::retain_t
+I714	csrc/rmapats.h	/^    U  I714;$/;"	m	struct:RmaRetain_t
+I714	csrc/rmapats.h	/^    U  I714;$/;"	m	struct:retain_t
+I715	csrc/rmapats.h	/^    UB  I715;$/;"	m	struct:__anon87
+I715	csrc/rmapats.h	/^    UB  I715;$/;"	m	struct:__anon88
+I715	csrc/rmapats.h	/^    US  I715 :1;$/;"	m	struct:RmaRetain_t
+I715	csrc/rmapats.h	/^    US  I715 :1;$/;"	m	struct:retain_t
+I716	csrc/rmapats.h	/^    US  I716 :4;$/;"	m	struct:RmaRetain_t
+I716	csrc/rmapats.h	/^    US  I716 :4;$/;"	m	struct:retain_t
+I718	csrc/rmapats.h	/^    US  I718 :1;$/;"	m	struct:RmaRetain_t
+I718	csrc/rmapats.h	/^    US  I718 :1;$/;"	m	struct:retain_t
+I719	csrc/rmapats.h	/^    US  I719 :2;$/;"	m	struct:RmaRetain_t
+I719	csrc/rmapats.h	/^    US  I719 :2;$/;"	m	struct:retain_t
+I719	csrc/rmapats.h	/^    vec32   I719[1];$/;"	m	struct:__anon33
+I72	csrc/rmapats.h	/^    struct _vcdOffset_rt * I72;$/;"	m	struct:qird	typeref:struct:qird::_vcdOffset_rt
+I720	csrc/rmapats.h	/^    US  I720 :2;$/;"	m	struct:RmaRetain_t
+I720	csrc/rmapats.h	/^    US  I720 :2;$/;"	m	struct:retain_t
+I720	csrc/rmapats.h	/^    scalar  I720;$/;"	m	struct:RmaMPSchedPulse
+I720	csrc/rmapats.h	/^    scalar  I720;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I720	csrc/rmapats.h	/^    scalar  I720;$/;"	m	struct:__anon10
+I720	csrc/rmapats.h	/^    scalar  I720;$/;"	m	struct:__anon12
+I720	csrc/rmapats.h	/^    vec32  * I720;$/;"	m	union:rhs_value
+I721	csrc/rmapats.h	/^    US  I721 :1;$/;"	m	struct:retain_t
+I723	csrc/rmapats.h	/^    scalar  I723;$/;"	m	struct:RmaRetain_t
+I723	csrc/rmapats.h	/^    scalar  I723;$/;"	m	struct:retain_t
+I724	csrc/rmapats.h	/^    RP  I724;$/;"	m	struct:RmaRetain_t
+I724	csrc/rmapats.h	/^    void * I724;$/;"	m	struct:retain_t
+I724	csrc/rmapats.h	/^    } I724;$/;"	m	struct:__anon61	typeref:union:__anon61::__anon62
+I724	csrc/rmapats.h	/^    } I724;$/;"	m	struct:__anon77	typeref:union:__anon77::__anon78
+I729	csrc/rmapats.h	/^    scalar  I729;$/;"	m	struct:RmaMPSchedPulse
+I729	csrc/rmapats.h	/^    scalar  I729;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I729	csrc/rmapats.h	/^    scalar  I729;$/;"	m	struct:__anon12
+I730	csrc/rmapats.h	/^    scalar  I730;$/;"	m	struct:RmaMPSchedPulse
+I730	csrc/rmapats.h	/^    scalar  I730;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I730	csrc/rmapats.h	/^    scalar  I730;$/;"	m	struct:__anon12
+I731	csrc/rmapats.h	/^    scalar  I731;$/;"	m	struct:RmaMPSchedPulse
+I731	csrc/rmapats.h	/^    scalar  I731;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I731	csrc/rmapats.h	/^    scalar  I731;$/;"	m	struct:__anon12
+I732	csrc/rmapats.h	/^    U  I732;$/;"	m	struct:RmaMPSchedPulse
+I733	csrc/rmapats.h	/^    U  I733;$/;"	m	struct:RmaMPSchedPulse
+I733	csrc/rmapats.h	/^    U  I733;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I733	csrc/rmapats.h	/^    U  I733;$/;"	m	struct:__anon12
+I734	csrc/rmapats.h	/^    U  I734;$/;"	m	struct:RmaMPSchedPulse
+I734	csrc/rmapats.h	/^    U  I734;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I734	csrc/rmapats.h	/^    U  I734;$/;"	m	struct:__anon12
+I735	csrc/rmapats.h	/^    U  I735;$/;"	m	struct:RmaMPSchedPulse
+I736	csrc/rmapats.h	/^    RP  I736;$/;"	m	struct:RmaMPSchedPulse
+I736	csrc/rmapats.h	/^    RP  I736;$/;"	m	struct:__anon12
+I737	csrc/rmapats.h	/^    RP  I737;$/;"	m	struct:RmaMPSchedPulse
+I737	csrc/rmapats.h	/^    RP  I737;$/;"	m	struct:__anon12
+I739	csrc/rmapats.h	/^    U  * I739;$/;"	m	struct:MPItem
+I74	csrc/rmapats.h	/^    U  I74;$/;"	m	struct:qird
+I740	csrc/rmapats.h	/^    void * I740;$/;"	m	struct:MPItem
+I741	csrc/rmapats.h	/^    RP  I741;$/;"	m	struct:__anon10
+I741	csrc/rmapats.h	/^    RP  I741;$/;"	m	struct:__anon121
+I741	csrc/rmapats.h	/^    RP  I741;$/;"	m	struct:__anon86
+I741	csrc/rmapats.h	/^    RP  I741;$/;"	m	struct:__anon87
+I741	csrc/rmapats.h	/^    RmaChildClockProp  * I741;$/;"	m	struct:RmaChildClockPropList1_
+I741	csrc/rmapats.h	/^    RmaNonEdgeLoadData1  * I741;$/;"	m	struct:RmaNonEdgeLoadHdr1_
+I741	csrc/rmapats.h	/^    struct TableAssignLayoutOnClkOpt_ * I741;$/;"	m	struct:TableAssignLayoutOnClkOpt_	typeref:struct:TableAssignLayoutOnClkOpt_::TableAssignLayoutOnClkOpt_
+I741	csrc/rmapats.h	/^    struct TableAssignLayoutOnClk_ * I741;$/;"	m	struct:TableAssignLayoutOnClk_	typeref:struct:TableAssignLayoutOnClk_::TableAssignLayoutOnClk_
+I741	csrc/rmapats.h	/^    struct TableAssign_ * I741;$/;"	m	struct:TableAssign_	typeref:struct:TableAssign_::TableAssign_
+I742	csrc/rmapats.h	/^    scalar  I742;$/;"	m	struct:__anon10
+I742	csrc/rmapats.h	/^    scalar  I742;$/;"	m	struct:__anon12
+I742	csrc/rmapats.h	/^    scalar  I742;$/;"	m	union:rhs_value
+I743	csrc/rmapats.h	/^    scalar  I743;$/;"	m	struct:__anon10
+I745	csrc/rmapats.h	/^    U  I745 :28;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I746	csrc/rmapats.h	/^    RP  I746;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I747	csrc/rmapats.h	/^    RP  I747;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+I747	csrc/rmapats.h	/^    RP  I747;$/;"	m	struct:_RmaBehavioralTransportDelay
+I747	csrc/rmapats.h	/^    RP  I747;$/;"	m	struct:__anon68
+I747	csrc/rmapats.h	/^    RP  I747;$/;"	m	struct:__anon71
+I747	csrc/rmapats.h	/^    RP  I747;$/;"	m	struct:__anon73
+I748	csrc/rmapats.h	/^    U  I748;$/;"	m	struct:red_t
+I749	csrc/rmapats.h	/^    U  I749;$/;"	m	struct:red_t
+I75	csrc/rmapats.h	/^    U  I75;$/;"	m	struct:qird
+I750	csrc/rmapats.h	/^    RED   I750[0];$/;"	m	struct:predd
+I750	csrc/rmapats.h	/^    RP  I750;$/;"	m	struct:__anon59
+I750	csrc/rmapats.h	/^    RP  I750;$/;"	m	struct:__anon60
+I750	csrc/rmapats.h	/^    RP  I750;$/;"	m	struct:__anon76
+I750	csrc/rmapats.h	/^    RP  I750;$/;"	m	struct:__anon79
+I751	csrc/rmapats.h	/^    vec32  I751;$/;"	m	struct:__anon40
+I751	csrc/rmapats.h	/^    vec32  I751;$/;"	m	union:rhs_value
+I752	csrc/rmapats.h	/^    double I752;$/;"	m	union:rhs_value
+I753	csrc/rmapats.h	/^    U  I753;$/;"	m	union:rhs_value
+I754	csrc/rmapats.h	/^    RP   I754[(5)];$/;"	m	struct:__anon84
+I754	csrc/rmapats.h	/^    RP  I754;$/;"	m	struct:RmaChildClockProp_
+I754	csrc/rmapats.h	/^    RP  I754;$/;"	m	struct:RmaNonEdgeLoadData1_
+I754	csrc/rmapats.h	/^    struct nbs_t * I754;$/;"	m	struct:nbs_t	typeref:struct:nbs_t::nbs_t
+I756	csrc/rmapats.h	/^    RP   I756[(5)];$/;"	m	struct:__anon84
+I756	csrc/rmapats.h	/^    struct nbs_t * I756;$/;"	m	struct:nbs_t	typeref:struct:nbs_t::nbs_t
+I757	csrc/rmapats.h	/^    U  I757;$/;"	m	struct:__anon20
+I757	csrc/rmapats.h	/^    void (* I757)(struct nbs_t * I724);$/;"	m	struct:nbs_t
+I758	csrc/rmapats.h	/^    U  I758 :1;$/;"	m	struct:nbs_t
+I759	csrc/rmapats.h	/^    U  I759 :1;$/;"	m	struct:nbs_t
+I76	csrc/rmapats.h	/^    ETYPE  * I76;$/;"	m	struct:qird
+I760	csrc/rmapats.h	/^    U  I760 :1;$/;"	m	struct:nbs_t
+I761	csrc/rmapats.h	/^    U  I761 :1;$/;"	m	struct:nbs_t
+I762	csrc/rmapats.h	/^    U  I762 :1;$/;"	m	struct:nbs_t
+I763	csrc/rmapats.h	/^    U  I763 :1;$/;"	m	struct:nbs_t
+I764	csrc/rmapats.h	/^    U  I764 :26;$/;"	m	struct:nbs_t
+I765	csrc/rmapats.h	/^    U  I765;$/;"	m	struct:nbs_t
+I766	csrc/rmapats.h	/^    void * I766;$/;"	m	struct:nbs_t
+I767	csrc/rmapats.h	/^    union rhs_value I767;$/;"	m	struct:nbs_t	typeref:union:nbs_t::rhs_value
+I769	csrc/rmapats.h	/^    } I769;$/;"	m	struct:nbs_t	typeref:union:nbs_t::__anon11
+I77	csrc/rmapats.h	/^    U  * I77;$/;"	m	struct:qird
+I770	csrc/rmapats.h	/^    RP  I770;$/;"	m	struct:__anon12
+I771	csrc/rmapats.h	/^    RmaEblk  I771;$/;"	m	struct:__anon12
+I772	csrc/rmapats.h	/^    RP  I772;$/;"	m	struct:__anon12
+I773	csrc/rmapats.h	/^    uscope_t  I773;$/;"	m	struct:__anon12
+I774	csrc/rmapats.h	/^    U  I774;$/;"	m	struct:__anon12
+I775	csrc/rmapats.h	/^    RP  I775;$/;"	m	struct:__anon12
+I779	csrc/rmapats.h	/^    U  I779 :1;$/;"	m	struct:__anon14
+I78	csrc/rmapats.h	/^    UP  I78;$/;"	m	struct:pcbt
+I78	csrc/rmapats.h	/^    classInfoT  * I78;$/;"	m	struct:qird
+I780	csrc/rmapats.h	/^    U  I780 :1;$/;"	m	struct:__anon14
+I781	csrc/rmapats.h	/^    U  I781 :1;$/;"	m	struct:__anon14
+I782	csrc/rmapats.h	/^    U  I782 :1;$/;"	m	struct:__anon14
+I783	csrc/rmapats.h	/^    U  I783 :1;$/;"	m	struct:__anon14
+I784	csrc/rmapats.h	/^    U  I784 :1;$/;"	m	struct:__anon14
+I785	csrc/rmapats.h	/^    U  I785 :1;$/;"	m	struct:__anon14
+I786	csrc/rmapats.h	/^    U  I786 :1;$/;"	m	struct:__anon14
+I787	csrc/rmapats.h	/^    U  I787 :1;$/;"	m	struct:__anon14
+I788	csrc/rmapats.h	/^    U  I788 :1;$/;"	m	struct:__anon14
+I789	csrc/rmapats.h	/^    U  I789 :1;$/;"	m	struct:__anon14
+I79	csrc/rmapats.h	/^    int I79;$/;"	m	struct:qird
+I790	csrc/rmapats.h	/^    U  I790 :1;$/;"	m	struct:__anon14
+I791	csrc/rmapats.h	/^    U  I791 :1;$/;"	m	struct:__anon14
+I792	csrc/rmapats.h	/^    U  I792 :1;$/;"	m	struct:__anon14
+I793	csrc/rmapats.h	/^    U  I793 :1;$/;"	m	struct:__anon14
+I794	csrc/rmapats.h	/^    U  I794 :1;$/;"	m	struct:__anon14
+I795	csrc/rmapats.h	/^    U  I795 :1;$/;"	m	struct:__anon14
+I796	csrc/rmapats.h	/^    U  I796 :1;$/;"	m	struct:__anon14
+I797	csrc/rmapats.h	/^    U  I797 :1;$/;"	m	struct:__anon14
+I798	csrc/rmapats.h	/^    QIRDModuleType  I798 :2;$/;"	m	struct:__anon14
+I799	csrc/rmapats.h	/^    U  I799 :1;$/;"	m	struct:__anon14
+I8	csrc/rmapats.h	/^    U  I8 :1;$/;"	m	struct:etype
+I80	csrc/rmapats.h	/^    U  I80;$/;"	m	struct:qird
+I800	csrc/rmapats.h	/^    U  I800 :1;$/;"	m	struct:__anon14
+I801	csrc/rmapats.h	/^    U  I801 :1;$/;"	m	struct:__anon14
+I802	csrc/rmapats.h	/^    U  I802 :1;$/;"	m	struct:__anon14
+I803	csrc/rmapats.h	/^    U  I803 :1;$/;"	m	struct:__anon14
+I804	csrc/rmapats.h	/^    U  I804 :1;$/;"	m	struct:__anon14
+I805	csrc/rmapats.h	/^    U  I805 :1;$/;"	m	struct:__anon14
+I806	csrc/rmapats.h	/^    U  I806 :1;$/;"	m	struct:__anon14
+I807	csrc/rmapats.h	/^    U  I807 :1;$/;"	m	struct:__anon14
+I808	csrc/rmapats.h	/^    U  I808 :1;$/;"	m	struct:__anon14
+I809	csrc/rmapats.h	/^    U  I809 :1;$/;"	m	struct:__anon14
+I81	csrc/rmapats.h	/^    U  * I81;$/;"	m	struct:qird
+I810	csrc/rmapats.h	/^    U  I810 :1;$/;"	m	struct:__anon14
+I811	csrc/rmapats.h	/^    U  I811 :1;$/;"	m	struct:__anon14
+I812	csrc/rmapats.h	/^    U  I812 :1;$/;"	m	struct:__anon14
+I813	csrc/rmapats.h	/^    U  I813 :1;$/;"	m	struct:__anon14
+I814	csrc/rmapats.h	/^    U  I814 :1;$/;"	m	struct:__anon14
+I815	csrc/rmapats.h	/^    U  I815 :1;$/;"	m	struct:__anon14
+I816	csrc/rmapats.h	/^    U  I816 :1;$/;"	m	struct:__anon14
+I817	csrc/rmapats.h	/^    U  I817 :1;$/;"	m	struct:__anon14
+I818	csrc/rmapats.h	/^    U  I818 :1;$/;"	m	struct:__anon14
+I819	csrc/rmapats.h	/^    U  I819 :1;$/;"	m	struct:__anon14
+I82	csrc/rmapats.h	/^    U  * I82;$/;"	m	struct:qird
+I820	csrc/rmapats.h	/^    U  I820 :1;$/;"	m	struct:__anon14
+I821	csrc/rmapats.h	/^    U  I821 :1;$/;"	m	struct:__anon14
+I822	csrc/rmapats.h	/^    U  I822 :1;$/;"	m	struct:__anon14
+I823	csrc/rmapats.h	/^    U  I823 :1;$/;"	m	struct:__anon14
+I824	csrc/rmapats.h	/^    U  I824 :1;$/;"	m	struct:__anon14
+I825	csrc/rmapats.h	/^    U  I825 :1;$/;"	m	struct:__anon14
+I826	csrc/rmapats.h	/^    U  I826 :1;$/;"	m	struct:__anon14
+I827	csrc/rmapats.h	/^    U  I827 :1;$/;"	m	struct:__anon14
+I828	csrc/rmapats.h	/^    U  I828 :1;$/;"	m	struct:__anon14
+I829	csrc/rmapats.h	/^    U  I829 :1;$/;"	m	struct:__anon14
+I83	csrc/rmapats.h	/^    UP  I83;$/;"	m	struct:qird
+I830	csrc/rmapats.h	/^    U  I830 :29;$/;"	m	struct:qird_dbg_flags_s
+I831	csrc/rmapats.h	/^    U  I831 :1;$/;"	m	struct:qird_dbg_flags_s
+I832	csrc/rmapats.h	/^    U  I832 :1;$/;"	m	struct:qird_dbg_flags_s
+I833	csrc/rmapats.h	/^    U  I833 :1;$/;"	m	struct:qird_dbg_flags_s
+I834	csrc/rmapats.h	/^    U  * I834;$/;"	m	struct:nlpInfoT
+I835	csrc/rmapats.h	/^    U  * I835;$/;"	m	struct:nlpInfoT
+I836	csrc/rmapats.h	/^    U  * I836;$/;"	m	struct:nlpInfoT
+I837	csrc/rmapats.h	/^    UP  * I837;$/;"	m	struct:nlpInfoT
+I838	csrc/rmapats.h	/^    UP  * I838;$/;"	m	struct:nlpInfoT
+I839	csrc/rmapats.h	/^    UP  * I839;$/;"	m	struct:nlpInfoT
+I84	csrc/rmapats.h	/^    BitFlags  I84;$/;"	m	struct:qird
+I840	csrc/rmapats.h	/^    UP  * I840;$/;"	m	struct:nlpInfoT
+I841	csrc/rmapats.h	/^    char * I841;$/;"	m	struct:nlpInfoT
+I842	csrc/rmapats.h	/^    UP  * I842;$/;"	m	struct:nlpInfoT
+I843	csrc/rmapats.h	/^    UP  * I843;$/;"	m	struct:nlpInfoT
+I844	csrc/rmapats.h	/^    U  * I844;$/;"	m	struct:nlpInfoT
+I845	csrc/rmapats.h	/^    UP  * I845;$/;"	m	struct:nlpInfoT
+I846	csrc/rmapats.h	/^    UP  * I846;$/;"	m	struct:nlpInfoT
+I847	csrc/rmapats.h	/^    UP  * I847;$/;"	m	struct:nlpInfoT
+I848	csrc/rmapats.h	/^    UP  * I848;$/;"	m	struct:nlpInfoT
+I849	csrc/rmapats.h	/^    UP  * I849;$/;"	m	struct:nlpInfoT
+I85	csrc/rmapats.h	/^    U  I85;$/;"	m	struct:qird
+I850	csrc/rmapats.h	/^    UP  * I850;$/;"	m	struct:nlpInfoT
+I851	csrc/rmapats.h	/^    UP  * I851;$/;"	m	struct:nlpInfoT
+I852	csrc/rmapats.h	/^    UP  * I852;$/;"	m	struct:nlpInfoT
+I853	csrc/rmapats.h	/^    UP  * I853;$/;"	m	struct:nlpInfoT
+I854	csrc/rmapats.h	/^    UP  * I854;$/;"	m	struct:nlpInfoT
+I855	csrc/rmapats.h	/^    UP  * I855;$/;"	m	struct:nlpInfoT
+I856	csrc/rmapats.h	/^    UP  * I856;$/;"	m	struct:nlpInfoT
+I857	csrc/rmapats.h	/^    UP  * I857;$/;"	m	struct:nlpInfoT
+I858	csrc/rmapats.h	/^    char * I858;$/;"	m	struct:nlpInfoT
+I859	csrc/rmapats.h	/^    char * I859;$/;"	m	struct:nlpInfoT
+I86	csrc/rmapats.h	/^    U  I86;$/;"	m	struct:qird
+I860	csrc/rmapats.h	/^    U  * I860;$/;"	m	struct:nlpInfoT
+I861	csrc/rmapats.h	/^    U  * I861;$/;"	m	struct:nlpInfoT
+I862	csrc/rmapats.h	/^    U  * I862;$/;"	m	struct:nlpInfoT
+I863	csrc/rmapats.h	/^    UP  * I863;$/;"	m	struct:nlpInfoT
+I864	csrc/rmapats.h	/^    UP  * I864;$/;"	m	struct:nlpInfoT
+I865	csrc/rmapats.h	/^    UP  * I865;$/;"	m	struct:nlpInfoT
+I866	csrc/rmapats.h	/^    UP  * I866;$/;"	m	struct:nlpInfoT
+I867	csrc/rmapats.h	/^    UP  * I867;$/;"	m	struct:nlpInfoT
+I868	csrc/rmapats.h	/^    UP  * I868;$/;"	m	struct:nlpInfoT
+I869	csrc/rmapats.h	/^    UP  * I869;$/;"	m	struct:nlpInfoT
+I87	csrc/rmapats.h	/^    U  I87;$/;"	m	struct:qird
+I870	csrc/rmapats.h	/^    UP  * I870;$/;"	m	struct:nlpInfoT
+I871	csrc/rmapats.h	/^    UP  * I871;$/;"	m	struct:nlpInfoT
+I872	csrc/rmapats.h	/^    UP  * I872;$/;"	m	struct:nlpInfoT
+I873	csrc/rmapats.h	/^    UP  * I873;$/;"	m	struct:nlpInfoT
+I874	csrc/rmapats.h	/^    UP  * I874;$/;"	m	struct:nlpInfoT
+I875	csrc/rmapats.h	/^    U  I875;$/;"	m	struct:nlpInfoT
+I876	csrc/rmapats.h	/^    U  I876;$/;"	m	struct:nlpInfoT
+I877	csrc/rmapats.h	/^    U  I877;$/;"	m	struct:nlpInfoT
+I878	csrc/rmapats.h	/^    U  I878;$/;"	m	struct:nlpInfoT
+I879	csrc/rmapats.h	/^    U  I879;$/;"	m	struct:nlpInfoT
+I88	csrc/rmapats.h	/^    U  I88;$/;"	m	struct:qird
+I880	csrc/rmapats.h	/^    U  I880;$/;"	m	struct:nlpInfoT
+I881	csrc/rmapats.h	/^    U  I881;$/;"	m	struct:nlpInfoT
+I882	csrc/rmapats.h	/^    U  I882;$/;"	m	struct:nlpInfoT
+I883	csrc/rmapats.h	/^    U  I883;$/;"	m	struct:nlpInfoT
+I884	csrc/rmapats.h	/^    U  I884;$/;"	m	struct:nlpInfoT
+I885	csrc/rmapats.h	/^    U  I885;$/;"	m	struct:nlpInfoT
+I886	csrc/rmapats.h	/^    U  I886;$/;"	m	struct:nlpInfoT
+I887	csrc/rmapats.h	/^    U  I887;$/;"	m	struct:nlpInfoT
+I888	csrc/rmapats.h	/^    U  I888;$/;"	m	struct:nlpInfoT
+I889	csrc/rmapats.h	/^    U  I889;$/;"	m	struct:nlpInfoT
+I89	csrc/rmapats.h	/^    U  * I89;$/;"	m	struct:qird
+I890	csrc/rmapats.h	/^    U  I890;$/;"	m	struct:nlpInfoT
+I891	csrc/rmapats.h	/^    U  I891;$/;"	m	struct:nlpInfoT
+I892	csrc/rmapats.h	/^    U  I892;$/;"	m	struct:nlpInfoT
+I893	csrc/rmapats.h	/^    U  I893;$/;"	m	struct:txpInfoT
+I894	csrc/rmapats.h	/^    U  I894;$/;"	m	struct:txpInfoT
+I895	csrc/rmapats.h	/^    void * I895;$/;"	m	struct:txpInfoT
+I896	csrc/rmapats.h	/^    void * I896;$/;"	m	struct:txpInfoT
+I897	csrc/rmapats.h	/^    int (* I897)(void);$/;"	m	struct:txpInfoT
+I898	csrc/rmapats.h	/^    int (* I898)(void);$/;"	m	struct:txpInfoT
+I899	csrc/rmapats.h	/^    void * I899;$/;"	m	struct:txpInfoT
+I9	csrc/rmapats.h	/^    U  I9 :1;$/;"	m	struct:etype
+I90	csrc/rmapats.h	/^    U  I90;$/;"	m	struct:qird
+I900	csrc/rmapats.h	/^    void * I900;$/;"	m	struct:txpInfoT
+I901	csrc/rmapats.h	/^    void * I901;$/;"	m	struct:txpInfoT
+I902	csrc/rmapats.h	/^    U  I902;$/;"	m	struct:fsimInfoT
+I903	csrc/rmapats.h	/^    U  I903;$/;"	m	struct:fsimInfoT
+I904	csrc/rmapats.h	/^    U  * I904;$/;"	m	struct:fsimInfoT
+I905	csrc/rmapats.h	/^    U  * I905;$/;"	m	struct:fsimInfoT
+I906	csrc/rmapats.h	/^    UP  * I906;$/;"	m	struct:fsimInfoT
+I907	csrc/rmapats.h	/^    UP  * I907;$/;"	m	struct:fsimInfoT
+I908	csrc/rmapats.h	/^    U  * I908;$/;"	m	struct:fsimInfoT
+I909	csrc/rmapats.h	/^    U  * I909;$/;"	m	struct:fsimInfoT
+I91	csrc/rmapats.h	/^    U  I91;$/;"	m	struct:qird
+I910	csrc/rmapats.h	/^    U  * I910;$/;"	m	struct:fsimInfoT
+I911	csrc/rmapats.h	/^    U  I911;$/;"	m	struct:fgpInfoT
+I912	csrc/rmapats.h	/^    U  I912;$/;"	m	struct:fgpInfoT
+I913	csrc/rmapats.h	/^    U  * I913;$/;"	m	struct:fgpInfoT
+I914	csrc/rmapats.h	/^    U  * I914;$/;"	m	struct:fgpInfoT
+I915	csrc/rmapats.h	/^    char * I915;$/;"	m	struct:fgpInfoT
+I916	csrc/rmapats.h	/^    U  I916;$/;"	m	struct:simProfInfoT
+I917	csrc/rmapats.h	/^    U  I917;$/;"	m	struct:simProfInfoT
+I918	csrc/rmapats.h	/^    U  I918;$/;"	m	struct:simProfInfoT
+I919	csrc/rmapats.h	/^    U  * I919;$/;"	m	struct:simProfInfoT
+I92	csrc/rmapats.h	/^    U  * I92;$/;"	m	struct:qird
+I920	csrc/rmapats.h	/^    U  * I920;$/;"	m	struct:simProfInfoT
+I921	csrc/rmapats.h	/^    U  * I921;$/;"	m	struct:simProfInfoT
+I922	csrc/rmapats.h	/^    U  * I922;$/;"	m	struct:simProfInfoT
+I923	csrc/rmapats.h	/^    U  I923;$/;"	m	struct:hybridSimInfoT
+I924	csrc/rmapats.h	/^    U  I924;$/;"	m	struct:hybridSimInfoT
+I925	csrc/rmapats.h	/^    U  I925;$/;"	m	struct:hybridSimInfoT
+I926	csrc/rmapats.h	/^    U  I926;$/;"	m	struct:hybridSimInfoT
+I927	csrc/rmapats.h	/^    void * I927;$/;"	m	struct:hybridSimInfoT
+I928	csrc/rmapats.h	/^    U  * I928;$/;"	m	struct:hybridSimInfoT
+I929	csrc/rmapats.h	/^    struct hybridSimReferrerData * I929;$/;"	m	struct:hybridSimInfoT	typeref:struct:hybridSimInfoT::hybridSimReferrerData
+I93	csrc/rmapats.h	/^    U  I93;$/;"	m	struct:qird
+I931	csrc/rmapats.h	/^    struct hybridSimReferrerData * I931;$/;"	m	struct:hybridSimInfoT	typeref:struct:hybridSimInfoT::hybridSimReferrerData
+I932	csrc/rmapats.h	/^    void * I932;$/;"	m	struct:classInfoT
+I933	csrc/rmapats.h	/^    void * I933;$/;"	m	struct:classInfoT
+I934	csrc/rmapats.h	/^    U  I934;$/;"	m	struct:classInfoT
+I935	csrc/rmapats.h	/^    U  I935;$/;"	m	struct:classInfoT
+I936	csrc/rmapats.h	/^    U  I936;$/;"	m	struct:classInfoT
+I937	csrc/rmapats.h	/^    U  I937;$/;"	m	struct:classInfoT
+I938	csrc/rmapats.h	/^    UP  I938;$/;"	m	struct:classInfoT
+I939	csrc/rmapats.h	/^    UP  I939;$/;"	m	struct:classInfoT
+I94	csrc/rmapats.h	/^    U  I94;$/;"	m	struct:qird
+I943	csrc/rmapats.h	/^    RO  I943;$/;"	m	struct:__anon27
+I943	csrc/rmapats.h	/^    RO  I943;$/;"	m	struct:__anon28
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon107
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon109
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon111
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon113
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon116
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon121
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon96
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon97
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon98
+I946	csrc/rmapats.h	/^    RP  I946;$/;"	m	struct:__anon99
+I946	csrc/rmapats.h	/^    struct TableAssignLayoutOnClkOpt_ * I946;$/;"	m	struct:TableAssignLayoutOnClkOpt_	typeref:struct:TableAssignLayoutOnClkOpt_::TableAssignLayoutOnClkOpt_
+I946	csrc/rmapats.h	/^    struct TableAssignLayoutOnClk_ * I946;$/;"	m	struct:TableAssignLayoutOnClk_	typeref:struct:TableAssignLayoutOnClk_::TableAssignLayoutOnClk_
+I946	csrc/rmapats.h	/^    struct TableAssign_ * I946;$/;"	m	struct:TableAssign_	typeref:struct:TableAssign_::TableAssign_
+I946	csrc/rmapats.h	/^    struct _RmaMultiInputTable * I946;$/;"	m	struct:_RmaMultiInputTable	typeref:struct:_RmaMultiInputTable::_RmaMultiInputTable
+I947	csrc/rmapats.h	/^    U  I947 :1;$/;"	m	struct:_RmaMultiInputTable
+I948	csrc/rmapats.h	/^    U  I948 :1;$/;"	m	struct:_RmaMultiInputTable
+I949	csrc/rmapats.h	/^    U  I949 :1;$/;"	m	struct:_RmaMultiInputTable
+I95	csrc/rmapats.h	/^    U  I95;$/;"	m	struct:qird
+I950	csrc/rmapats.h	/^    U  I950 :1;$/;"	m	struct:_RmaMultiInputTable
+I951	csrc/rmapats.h	/^    U  I951 :1;$/;"	m	struct:_RmaMultiInputTable
+I952	csrc/rmapats.h	/^    U  I952 :1;$/;"	m	struct:_RmaMultiInputTable
+I953	csrc/rmapats.h	/^    U  I953 :1;$/;"	m	struct:_RmaMultiInputTable
+I954	csrc/rmapats.h	/^    U  I954 :1;$/;"	m	struct:_RmaMultiInputTable
+I955	csrc/rmapats.h	/^    U  I955;$/;"	m	struct:_RmaMultiInputTable
+I956	csrc/rmapats.h	/^    U  I956 :16;$/;"	m	struct:__anon44
+I956	csrc/rmapats.h	/^    U  I956;$/;"	m	struct:_RmaMultiInputTable
+I956	csrc/rmapats.h	/^    U  I956;$/;"	m	struct:__anon80
+I956	csrc/rmapats.h	/^    US  I956;$/;"	m	struct:__anon112
+I956	csrc/rmapats.h	/^    US  I956;$/;"	m	struct:__anon113
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon100
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon101
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon102
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon103
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon104
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon105
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon106
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon108
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon96
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon97
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon98
+I956	csrc/rmapats.h	/^    scalar  I956;$/;"	m	struct:__anon99
+I957	csrc/rmapats.h	/^    U  I957;$/;"	m	struct:_RmaMultiInputTable
+I958	csrc/rmapats.h	/^    U  I958 :1;$/;"	m	struct:_RmaMultiInputTable
+I959	csrc/rmapats.h	/^    U  I959 :31;$/;"	m	struct:_RmaMultiInputTable
+I96	csrc/rmapats.h	/^    U  I96;$/;"	m	struct:qird
+I960	csrc/rmapats.h	/^    U  I960 :4;$/;"	m	struct:_RmaMultiInputTable
+I961	csrc/rmapats.h	/^    U  I961 :4;$/;"	m	struct:_RmaMultiInputTable
+I962	csrc/rmapats.h	/^    U  I962 :4;$/;"	m	struct:_RmaMultiInputTable
+I963	csrc/rmapats.h	/^    U  I963 :4;$/;"	m	struct:_RmaMultiInputTable
+I964	csrc/rmapats.h	/^    U  I964 :4;$/;"	m	struct:_RmaMultiInputTable
+I965	csrc/rmapats.h	/^    U  I965 :4;$/;"	m	struct:_RmaMultiInputTable
+I966	csrc/rmapats.h	/^    U  I966 :1;$/;"	m	struct:_RmaMultiInputTable
+I967	csrc/rmapats.h	/^    U  I967 :1;$/;"	m	struct:_RmaMultiInputTable
+I968	csrc/rmapats.h	/^    U  I968 :1;$/;"	m	struct:_RmaMultiInputTable
+I969	csrc/rmapats.h	/^    U  I969 :1;$/;"	m	struct:_RmaMultiInputTable
+I97	csrc/rmapats.h	/^    U  I97;$/;"	m	struct:qird
+I970	csrc/rmapats.h	/^    U  I970 :5;$/;"	m	struct:_RmaMultiInputTable
+I970	csrc/rmapats.h	/^    U  I970 :9;$/;"	m	struct:TableAssignLayoutOnClkOpt_
+I970	csrc/rmapats.h	/^    U  I970 :9;$/;"	m	struct:TableAssignLayoutOnClk_
+I970	csrc/rmapats.h	/^    U  I970 :9;$/;"	m	struct:TableAssign_
+I970	csrc/rmapats.h	/^    UB  I970 :3;$/;"	m	struct:__anon84
+I970	csrc/rmapats.h	/^    UB  I970 :4;$/;"	m	struct:__anon125
+I970	csrc/rmapats.h	/^    UB  I970 :6;$/;"	m	struct:__anon126
+I970	csrc/rmapats.h	/^    US  I970 :15;$/;"	m	struct:__anon82
+I971	csrc/rmapats.h	/^    HsimExprChar  * I971;$/;"	m	struct:_RmaMultiInputTable
+I972	csrc/rmapats.h	/^    UB  * I972;$/;"	m	struct:_RmaMultiInputTable
+I973	csrc/rmapats.h	/^    UB  * I973;$/;"	m	struct:_RmaMultiInputTable
+I975	csrc/rmapats.h	/^    struct _RmaMultiInputTable * I975;$/;"	m	struct:_RmaMultiInputTable	typeref:struct:_RmaMultiInputTable::_RmaMultiInputTable
+I98	csrc/rmapats.h	/^    U  I98;$/;"	m	struct:qird
+I981	csrc/rmapats.h	/^    U  I981;$/;"	m	struct:__anon117
+I981	csrc/rmapats.h	/^    U  I981;$/;"	m	struct:__anon119
+I981	csrc/rmapats.h	/^    U  I981;$/;"	m	struct:__anon17
+I981	csrc/rmapats.h	/^    U  I981;$/;"	m	struct:__anon35
+I981	csrc/rmapats.h	/^    U  I981;$/;"	m	struct:__anon58
+I987	csrc/rmapats.h	/^    RmaTransEventHdr  I987;$/;"	m	struct:_RmaBehavioralTransportDelay
+I987	csrc/rmapats.h	/^    RmaTransEventHdr  I987;$/;"	m	struct:__anon68
+I987	csrc/rmapats.h	/^    RmaTransEventHdr  I987;$/;"	m	struct:__anon71
+I987	csrc/rmapats.h	/^    RmaTransEventHdr  I987;$/;"	m	struct:__anon73
+I99	csrc/rmapats.h	/^    U  I99;$/;"	m	struct:qird
+INC	Makefile	/^INC = +incdir+..\/tb +incdir+..\/test +incdir+..\/destination +incdir+..\/source$/;"	m
+InstNum	csrc/rmapats.h	/^typedef InstNumType  InstNum;$/;"	t
+InstNum32	csrc/rmapats.h	/^typedef U  InstNum32;$/;"	t
+InstNumSigned	csrc/rmapats.h	/^typedef long long InstNumSigned;$/;"	t
+InstNumType	csrc/rmapats.h	/^typedef unsigned long long InstNumType;$/;"	t
+LD	csrc/Makefile	/^LD=g++$/;"	m
+LDFLAGS	csrc/Makefile	/^LDFLAGS= -rdynamic  -Wl,-rpath='$$ORIGIN'\/simv.daidir -Wl,-rpath=.\/simv.daidir -Wl,-rpath=\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/linux64\/lib -L\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/linux64\/lib $/;"	m
+LD_PARTIAL	csrc/Makefile	/^LD_PARTIAL=$(LD_PARTIAL_LOADER) -r -o$/;"	m
+LD_PARTIAL_LOADER	csrc/Makefile	/^LD_PARTIAL_LOADER=ld$/;"	m
+LIBS	csrc/Makefile	/^LIBS=-lvirsim -lerrorinf -lsnpsmalloc -lvfs \/home\/cad\/eda\/SYNOPSYS\/VERDI_2022\/verdi\/T-2022.06-SP1\/share\/PLI\/VCS\/LINUX64\/pli.a $/;"	m
+LLVM_FLAGS	csrc/Makefile	/^LLVM_FLAGS=$/;"	m
+MPI	csrc/rmapats.h	/^typedef struct MPItem MPI;$/;"	t	typeref:struct:MPItem
+MPItem	csrc/rmapats.h	/^struct MPItem {$/;"	s
+MPS	csrc/rmapats.h	/^typedef struct MPSched MPS;$/;"	t	typeref:struct:MPSched
+MPSched	csrc/rmapats.h	/^struct MPSched {$/;"	s
+NBS	csrc/rmapats.h	/^} NBS;$/;"	t	typeref:struct:nbs_t
+NodeCount	csrc/rmapats.h	/^typedef U  NodeCount;$/;"	t
+NumLibs_t	csrc/rmapats.h	/^typedef U  NumLibs_t;$/;"	t
+OBJS	csrc/Makefile	/^OBJS=$(VLOG_OBJS)  $(SYSC_OBJS)   $(VHDL_OBJS) $/;"	m
+PCBT	csrc/rmapats.h	/^} PCBT;$/;"	t	typeref:struct:pcbt
+PD_NULL	csrc/rmapats.h	/^    PD_NULL = 4$/;"	e	enum:__anon3
+PD_PLSE	csrc/rmapats.h	/^    PD_PLSE = 2,$/;"	e	enum:__anon3
+PD_PLSE_RF	csrc/rmapats.h	/^    PD_PLSE_RF = 3,$/;"	e	enum:__anon3
+PD_RF	csrc/rmapats.h	/^    PD_RF = 1,$/;"	e	enum:__anon3
+PD_SING	csrc/rmapats.h	/^    PD_SING = 0,$/;"	e	enum:__anon3
+PD_e	csrc/rmapats.h	/^} PD_e;$/;"	t	typeref:enum:__anon3
+PICLDFLAGS	csrc/Makefile	/^PICLDFLAGS= -Wl,-rpath-link=.\/ $/;"	m
+PIC_LD	csrc/Makefile	/^PIC_LD=ld$/;"	m
+PREDD	csrc/rmapats.h	/^} PREDD;$/;"	t	typeref:struct:predd
+PRE_LDFLAGS	csrc/Makefile	/^PRE_LDFLAGS= # Loader Flags$/;"	m
+PRODUCT	csrc/Makefile	/^PRODUCT=$(PRODUCTBASE)$/;"	m
+PRODUCTBASE	csrc/Makefile	/^PRODUCTBASE=$(VSRC)\/simv$/;"	m
+PRODUCT_TIMESTAMP	csrc/Makefile	/^PRODUCT_TIMESTAMP=product_timestamp$/;"	m
+ProcessNum	csrc/rmapats.h	/^typedef unsigned ProcessNum;$/;"	t
+QIRD	csrc/rmapats.h	/^typedef struct qird QIRD;$/;"	t	typeref:struct:qird
+QIRDModuleC	csrc/rmapats.h	/^    QIRDModuleC = 1,$/;"	e	enum:__anon13
+QIRDModuleType	csrc/rmapats.h	/^} QIRDModuleType;$/;"	t	typeref:enum:__anon13
+QIRDSVPackageC	csrc/rmapats.h	/^    QIRDSVPackageC = 2,$/;"	e	enum:__anon13
+QIRDSpiceModuleC	csrc/rmapats.h	/^    QIRDSpiceModuleC = 3$/;"	e	enum:__anon13
+Qhdr	csrc/rmapats.h	/^} Qhdr;$/;"	t	typeref:struct:__anon129
+Queue	csrc/rmapats.h	/^} Queue;$/;"	t	typeref:struct:_lqueue
+RCICODE	csrc/rmapats.h	/^typedef RP  RCICODE;$/;"	t
+RED	csrc/rmapats.h	/^} RED;$/;"	t	typeref:struct:red_t
+RO	csrc/rmapats.h	/^typedef unsigned long RO;$/;"	t
+RP	csrc/rmapats.h	/^typedef unsigned long RP;$/;"	t
+RTL	Makefile	/^RTL= ..\/rtl\/*$/;"	m
+RUNTIME	csrc/Makefile	/^RUNTIME=-lvcsnew -lsimprofile -luclinative \/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/linux64\/lib\/vcs_tls.o $(DEPLIBS) $/;"	m
+RemoteDbsedLoad	csrc/rmapats.h	/^} RemoteDbsedLoad;$/;"	t	typeref:struct:__anon83
+Rma1InputGateFaninCgS	csrc/rmapats.h	/^} Rma1InputGateFaninCgS;$/;"	t	typeref:struct:__anon46
+RmaAnySchedECg	csrc/rmapats.h	/^} RmaAnySchedECg;$/;"	t	typeref:struct:__anon34
+RmaAnySchedSampleSCg	csrc/rmapats.h	/^} RmaAnySchedSampleSCg;$/;"	t	typeref:struct:__anon31
+RmaAnySchedVCg	csrc/rmapats.h	/^} RmaAnySchedVCg;$/;"	t	typeref:struct:__anon32
+RmaAnySchedWCg	csrc/rmapats.h	/^} RmaAnySchedWCg;$/;"	t	typeref:struct:__anon33
+RmaBehavioralTransportDelayS	csrc/rmapats.h	/^} RmaBehavioralTransportDelayS;$/;"	t	typeref:struct:_RmaBehavioralTransportDelay
+RmaBitEdgeEblk	csrc/rmapats.h	/^} RmaBitEdgeEblk;$/;"	t	typeref:struct:__anon58
+RmaCbkMemOptUnion	csrc/rmapats.h	/^} RmaCbkMemOptUnion;$/;"	t	typeref:union:_RmaCbkMemOptUnion
+RmaCgFunctionType	csrc/rmapats.h	/^typedef U RmaCgFunctionType;$/;"	t
+RmaChildClockProp	csrc/rmapats.h	/^} RmaChildClockProp;$/;"	t	typeref:struct:RmaChildClockProp_
+RmaChildClockPropList1	csrc/rmapats.h	/^} RmaChildClockPropList1;$/;"	t	typeref:struct:RmaChildClockPropList1_
+RmaChildClockPropList1_	csrc/rmapats.h	/^typedef struct RmaChildClockPropList1_ {$/;"	s
+RmaChildClockProp_	csrc/rmapats.h	/^typedef struct RmaChildClockProp_ {$/;"	s
+RmaChildXpropLoadHdr	csrc/rmapats.h	/^} RmaChildXpropLoadHdr;$/;"	t	typeref:struct:__anon127
+RmaCondOptLoad	csrc/rmapats.h	/^} RmaCondOptLoad;$/;"	t	typeref:struct:__anon48
+RmaConditionalTSLoad	csrc/rmapats.h	/^} RmaConditionalTSLoad;$/;"	t	typeref:struct:__anon111
+RmaConditionalTSLoadMtc	csrc/rmapats.h	/^} RmaConditionalTSLoadMtc;$/;"	t	typeref:struct:__anon116
+RmaConditionalTSLoadMtcNoList	csrc/rmapats.h	/^} RmaConditionalTSLoadMtcNoList;$/;"	t	typeref:struct:__anon114
+RmaConditionalTSLoadMtcNoListMdb	csrc/rmapats.h	/^} RmaConditionalTSLoadMtcNoListMdb;$/;"	t	typeref:struct:__anon115
+RmaConditionalTSLoadNoList	csrc/rmapats.h	/^} RmaConditionalTSLoadNoList;$/;"	t	typeref:struct:__anon110
+RmaConditionalTSLoadOpt	csrc/rmapats.h	/^} RmaConditionalTSLoadOpt;$/;"	t	typeref:struct:__anon113
+RmaConditionalTSLoadOptNoList	csrc/rmapats.h	/^} RmaConditionalTSLoadOptNoList;$/;"	t	typeref:struct:__anon112
+RmaConditionsMdb	csrc/rmapats.h	/^} RmaConditionsMdb;$/;"	t	typeref:struct:__anon94
+RmaDaiOptCg	csrc/rmapats.h	/^} RmaDaiOptCg;$/;"	t	typeref:struct:_RmaDaiOptCg
+RmaDbsedRtlLoads	csrc/rmapats.h	/^} RmaDbsedRtlLoads;$/;"	t	typeref:struct:__anon24
+RmaDoublyLinkedListElem	csrc/rmapats.h	/^} RmaDoublyLinkedListElem;$/;"	t	typeref:struct:__anon121
+RmaDynamicEblk	csrc/rmapats.h	/^} RmaDynamicEblk;$/;"	t	typeref:struct:__anon23
+RmaDynamicEblklq	csrc/rmapats.h	/^} RmaDynamicEblklq;$/;"	t	typeref:struct:__anon21
+RmaDynamicSchedDeltaGateCg	csrc/rmapats.h	/^} RmaDynamicSchedDeltaGateCg;$/;"	t	typeref:struct:__anon56
+RmaEblk	csrc/rmapats.h	/^} RmaEblk;$/;"	t	typeref:struct:__anon7
+RmaEblklq	csrc/rmapats.h	/^} RmaEblklq;$/;"	t	typeref:struct:__anon8
+RmaEvTriggeredOrSyncLoadCg	csrc/rmapats.h	/^} RmaEvTriggeredOrSyncLoadCg;$/;"	t	typeref:struct:__anon26
+RmaFgpDynamicEblklq	csrc/rmapats.h	/^} RmaFgpDynamicEblklq;$/;"	t	typeref:struct:__anon22
+RmaForceCbkJmpCg	csrc/rmapats.h	/^} RmaForceCbkJmpCg;$/;"	t	typeref:struct:__anon39
+RmaForceSelectorV	csrc/rmapats.h	/^} RmaForceSelectorV;$/;"	t	typeref:struct:__anon40
+RmaGateBehavioralDelay	csrc/rmapats.h	/^} RmaGateBehavioralDelay;$/;"	t	typeref:struct:__anon60
+RmaGateDelay	csrc/rmapats.h	/^} RmaGateDelay;$/;"	t	typeref:struct:__anon59
+RmaICDelay	csrc/rmapats.h	/^} RmaICDelay;$/;"	t	typeref:struct:__anon77
+RmaICSimpleDelay	csrc/rmapats.h	/^} RmaICSimpleDelay;$/;"	t	typeref:struct:__anon76
+RmaICTransDelay	csrc/rmapats.h	/^} RmaICTransDelay;$/;"	t	typeref:struct:__anon73
+RmaICTransMpwOptDelay	csrc/rmapats.h	/^} RmaICTransMpwOptDelay;$/;"	t	typeref:struct:__anon74
+RmaICTransZeroDelay	csrc/rmapats.h	/^} RmaICTransZeroDelay;$/;"	t	typeref:struct:__anon75
+RmaIbfIp	csrc/rmapats.h	/^} RmaIbfIp;$/;"	t	typeref:struct:__anon19
+RmaIbfIpById	csrc/rmapats.h	/^} RmaIbfIpById;$/;"	t	typeref:struct:__anon20
+RmaIbfPcode	csrc/rmapats.h	/^} RmaIbfPcode;$/;"	t	typeref:struct:__anon18
+RmaMPDelay	csrc/rmapats.h	/^} RmaMPDelay;$/;"	t	typeref:struct:__anon61
+RmaMPHybridDelay	csrc/rmapats.h	/^} RmaMPHybridDelay;$/;"	t	typeref:struct:__anon64
+RmaMPHybridDelayPacked	csrc/rmapats.h	/^} RmaMPHybridDelayPacked;$/;"	t	typeref:struct:__anon65
+RmaMPPulseDelay	csrc/rmapats.h	/^} RmaMPPulseDelay;$/;"	t	typeref:struct:__anon66
+RmaMPPulseHybridDelay	csrc/rmapats.h	/^} RmaMPPulseHybridDelay;$/;"	t	typeref:struct:__anon63
+RmaMPPulseOptHybridDelay	csrc/rmapats.h	/^} RmaMPPulseOptHybridDelay;$/;"	t	typeref:struct:__anon67
+RmaMPSched	csrc/rmapats.h	/^struct RmaMPSched {$/;"	s
+RmaMPSchedPulse	csrc/rmapats.h	/^struct RmaMPSchedPulse {$/;"	s
+RmaMPSchedPulseNewCsdf	csrc/rmapats.h	/^struct RmaMPSchedPulseNewCsdf {$/;"	s
+RmaMacroState	csrc/rmapats.h	/^} RmaMacroState;$/;"	t	typeref:struct:__anon50
+RmaMacroStateUpdate	csrc/rmapats.h	/^} RmaMacroStateUpdate;$/;"	t	typeref:struct:__anon49
+RmaMasterXpropLoadHdr	csrc/rmapats.h	/^} RmaMasterXpropLoadHdr;$/;"	t	typeref:struct:__anon125
+RmaMps	csrc/rmapats.h	/^typedef struct RmaMPSched RmaMps;$/;"	t	typeref:struct:RmaMPSched
+RmaMpsp	csrc/rmapats.h	/^typedef struct RmaMPSchedPulse RmaMpsp;$/;"	t	typeref:struct:RmaMPSchedPulse
+RmaMpspNewCsdf	csrc/rmapats.h	/^typedef struct RmaMPSchedPulseNewCsdf RmaMpspNewCsdf;$/;"	t	typeref:struct:RmaMPSchedPulseNewCsdf
+RmaMultiInputLogicGateCg	csrc/rmapats.h	/^} RmaMultiInputLogicGateCg;$/;"	t	typeref:struct:__anon51
+RmaMultiInputTable	csrc/rmapats.h	/^} RmaMultiInputTable;$/;"	t	typeref:struct:_RmaMultiInputTable
+RmaNbaGate1	csrc/rmapats.h	/^} RmaNbaGate1;$/;"	t	typeref:struct:__anon45
+RmaNbaGateOfn	csrc/rmapats.h	/^} RmaNbaGateOfn;$/;"	t	typeref:struct:__anon44
+RmaNetTypeDriverGate	csrc/rmapats.h	/^} RmaNetTypeDriverGate;$/;"	t	typeref:struct:__anon41
+RmaNetTypeGatherGate	csrc/rmapats.h	/^} RmaNetTypeGatherGate;$/;"	t	typeref:struct:__anon43
+RmaNetTypeScatterGate	csrc/rmapats.h	/^} RmaNetTypeScatterGate;$/;"	t	typeref:struct:__anon42
+RmaNonEdgeLoadArrayHdr1	csrc/rmapats.h	/^} RmaNonEdgeLoadArrayHdr1;$/;"	t	typeref:struct:RmaNonEdgeLoadArrayHdr1_
+RmaNonEdgeLoadArrayHdr1_	csrc/rmapats.h	/^typedef struct RmaNonEdgeLoadArrayHdr1_ {$/;"	s
+RmaNonEdgeLoadData1	csrc/rmapats.h	/^} RmaNonEdgeLoadData1;$/;"	t	typeref:struct:RmaNonEdgeLoadData1_
+RmaNonEdgeLoadData1_	csrc/rmapats.h	/^typedef struct RmaNonEdgeLoadData1_ {$/;"	s
+RmaNonEdgeLoadDataArray1	csrc/rmapats.h	/^} RmaNonEdgeLoadDataArray1;$/;"	t	typeref:struct:RmaNonEdgeLoadDataArray1_
+RmaNonEdgeLoadDataArray1_	csrc/rmapats.h	/^typedef struct RmaNonEdgeLoadDataArray1_ {$/;"	s
+RmaNonEdgeLoadHdr1	csrc/rmapats.h	/^} RmaNonEdgeLoadHdr1;$/;"	t	typeref:struct:RmaNonEdgeLoadHdr1_
+RmaNonEdgeLoadHdr1_	csrc/rmapats.h	/^typedef struct RmaNonEdgeLoadHdr1_ {$/;"	s
+RmaNonEdgeLoadHdrPrl1	csrc/rmapats.h	/^} RmaNonEdgeLoadHdrPrl1;$/;"	t	typeref:struct:RmaNonEdgeLoadHdrPrl1_
+RmaNonEdgeLoadHdrPrl1_	csrc/rmapats.h	/^typedef struct RmaNonEdgeLoadHdrPrl1_ {$/;"	s
+RmaNtcTransDelay	csrc/rmapats.h	/^} RmaNtcTransDelay;$/;"	t	typeref:struct:__anon68
+RmaNtcTransDelayRF	csrc/rmapats.h	/^} RmaNtcTransDelayRF;$/;"	t	typeref:struct:__anon71
+RmaNtcTransMpwOptDelay	csrc/rmapats.h	/^} RmaNtcTransMpwOptDelay;$/;"	t	typeref:struct:__anon69
+RmaNtcTransMpwOptDelayRF	csrc/rmapats.h	/^} RmaNtcTransMpwOptDelayRF;$/;"	t	typeref:struct:__anon72
+RmaNtcTransZeroDelay	csrc/rmapats.h	/^} RmaNtcTransZeroDelay;$/;"	t	typeref:struct:__anon70
+RmaPortDelay	csrc/rmapats.h	/^} RmaPortDelay;$/;"	t	typeref:struct:__anon79
+RmaPreCheckWakeupArrayCg	csrc/rmapats.h	/^} RmaPreCheckWakeupArrayCg;$/;"	t	typeref:struct:__anon92
+RmaPreCheckWakeupListCg	csrc/rmapats.h	/^} RmaPreCheckWakeupListCg;$/;"	t	typeref:struct:__anon91
+RmaPropNodeSeqLhsSCg	csrc/rmapats.h	/^} RmaPropNodeSeqLhsSCg;$/;"	t	typeref:struct:__anon57
+RmaPulse	csrc/rmapats.h	/^} RmaPulse;$/;"	t	typeref:struct:__anon12
+RmaReceiveClock1	csrc/rmapats.h	/^} RmaReceiveClock1;$/;"	t	typeref:struct:__anon2
+RmaRetain	csrc/rmapats.h	/^typedef struct RmaRetain_t RmaRetain;$/;"	t	typeref:struct:RmaRetain_t
+RmaRetain_t	csrc/rmapats.h	/^struct RmaRetain_t {$/;"	s
+RmaRootCbkCg	csrc/rmapats.h	/^} RmaRootCbkCg;$/;"	t	typeref:struct:__anon37
+RmaRootForceCbkCg	csrc/rmapats.h	/^} RmaRootForceCbkCg;$/;"	t	typeref:struct:__anon38
+RmaRtlEdgeBlock	csrc/rmapats.h	/^} RmaRtlEdgeBlock;$/;"	t	typeref:struct:__anon84
+RmaRtlEdgeBlockHdr	csrc/rmapats.h	/^} RmaRtlEdgeBlockHdr;$/;"	t	typeref:struct:__anon82
+RmaRtlXEdgesHdr	csrc/rmapats.h	/^} RmaRtlXEdgesHdr;$/;"	t	typeref:struct:__anon81
+RmaRtlXEdgesLoad	csrc/rmapats.h	/^} RmaRtlXEdgesLoad;$/;"	t	typeref:struct:__anon80
+RmaRtvsGateData	csrc/rmapats.h	/^} RmaRtvsGateData;$/;"	t	typeref:struct:__anon119
+RmaScanSwitchData	csrc/rmapats.h	/^} RmaScanSwitchData;$/;"	t	typeref:struct:__anon117
+RmaSched0GateCg	csrc/rmapats.h	/^} RmaSched0GateCg;$/;"	t	typeref:struct:__anon53
+RmaSchedCompileLoadsCg	csrc/rmapats.h	/^} RmaSchedCompileLoadsCg;$/;"	t	typeref:struct:__anon36
+RmaSchedDeltaGateCg	csrc/rmapats.h	/^} RmaSchedDeltaGateCg;$/;"	t	typeref:struct:__anon55
+RmaSeqPrimEdgeInputCg	csrc/rmapats.h	/^} RmaSeqPrimEdgeInputCg;$/;"	t	typeref:struct:__anon52
+RmaSeqPrimOutputEblkData	csrc/rmapats.h	/^} RmaSeqPrimOutputEblkData;$/;"	t	typeref:struct:__anon25
+RmaSeqPrimOutputOnClkOpt	csrc/rmapats.h	/^} RmaSeqPrimOutputOnClkOpt;$/;"	t	typeref:struct:__anon85
+RmaSeqPrimOutputOnClkS	csrc/rmapats.h	/^typedef struct RmaSeqPrimOutputS_ RmaSeqPrimOutputOnClkS;$/;"	t	typeref:struct:RmaSeqPrimOutputS_
+RmaSeqPrimOutputS_	csrc/rmapats.h	/^struct RmaSeqPrimOutputS_ {$/;"	s
+RmaSwitchGate	csrc/rmapats.h	/^} RmaSwitchGate;$/;"	t	typeref:struct:__anon123
+RmaSwitchGateInCbkListInfo	csrc/rmapats.h	/^} RmaSwitchGateInCbkListInfo;$/;"	t	typeref:struct:__anon122
+RmaTableAssignList	csrc/rmapats.h	/^} RmaTableAssignList;$/;"	t	typeref:struct:__anon86
+RmaTcCoreConditional	csrc/rmapats.h	/^} RmaTcCoreConditional;$/;"	t	typeref:struct:__anon97
+RmaTcCoreConditionalMtc	csrc/rmapats.h	/^} RmaTcCoreConditionalMtc;$/;"	t	typeref:struct:__anon99
+RmaTcCoreConditionalMtcNoList	csrc/rmapats.h	/^} RmaTcCoreConditionalMtcNoList;$/;"	t	typeref:struct:__anon103
+RmaTcCoreConditionalMtcNoListMdb	csrc/rmapats.h	/^} RmaTcCoreConditionalMtcNoListMdb;$/;"	t	typeref:struct:__anon104
+RmaTcCoreConditionalNoList	csrc/rmapats.h	/^} RmaTcCoreConditionalNoList;$/;"	t	typeref:struct:__anon101
+RmaTcCoreConditionalNoListMdb	csrc/rmapats.h	/^} RmaTcCoreConditionalNoListMdb;$/;"	t	typeref:struct:__anon105
+RmaTcCoreConditionalOpt	csrc/rmapats.h	/^} RmaTcCoreConditionalOpt;$/;"	t	typeref:struct:__anon98
+RmaTcCoreConditionalOptNoList	csrc/rmapats.h	/^} RmaTcCoreConditionalOptNoList;$/;"	t	typeref:struct:__anon102
+RmaTcCoreFullskew	csrc/rmapats.h	/^} RmaTcCoreFullskew;$/;"	t	typeref:struct:__anon108
+RmaTcCoreFullskewList	csrc/rmapats.h	/^} RmaTcCoreFullskewList;$/;"	t	typeref:struct:__anon109
+RmaTcCoreNochange	csrc/rmapats.h	/^} RmaTcCoreNochange;$/;"	t	typeref:struct:__anon106
+RmaTcCoreNochangeList	csrc/rmapats.h	/^} RmaTcCoreNochangeList;$/;"	t	typeref:struct:__anon107
+RmaTcCoreSimple	csrc/rmapats.h	/^} RmaTcCoreSimple;$/;"	t	typeref:struct:__anon96
+RmaTcCoreSimpleNoList	csrc/rmapats.h	/^} RmaTcCoreSimpleNoList;$/;"	t	typeref:struct:__anon100
+RmaTcListHeader	csrc/rmapats.h	/^} RmaTcListHeader;$/;"	t	typeref:struct:__anon95
+RmaThreadSchedCompiledLoads	csrc/rmapats.h	/^} RmaThreadSchedCompiledLoads;$/;"	t	typeref:struct:__anon35
+RmaThreadTableAssignList	csrc/rmapats.h	/^} RmaThreadTableAssignList;$/;"	t	typeref:struct:__anon87
+RmaThreadTableHeader	csrc/rmapats.h	/^} RmaThreadTableHeader;$/;"	t	typeref:struct:__anon88
+RmaTimeStamp	csrc/rmapats.h	/^typedef TimeStamp  RmaTimeStamp;$/;"	t
+RmaTimeStamp64	csrc/rmapats.h	/^typedef TimeStamp64  RmaTimeStamp64;$/;"	t
+RmaTransEventHdr	csrc/rmapats.h	/^} RmaTransEventHdr;$/;"	t	typeref:struct:__anon10
+RmaTsArray	csrc/rmapats.h	/^} RmaTsArray;$/;"	t	typeref:struct:__anon93
+RmaUdpDeltaGateCg	csrc/rmapats.h	/^} RmaUdpDeltaGateCg;$/;"	t	typeref:struct:__anon54
+RmaWakeupArrayCg	csrc/rmapats.h	/^} RmaWakeupArrayCg;$/;"	t	typeref:struct:__anon90
+RmaWakeupListCg	csrc/rmapats.h	/^} RmaWakeupListCg;$/;"	t	typeref:struct:__anon89
+RmaXpropLoadHdr	csrc/rmapats.h	/^} RmaXpropLoadHdr;$/;"	t	typeref:struct:__anon126
+SHELL	csrc/Makefile	/^SHELL=\/bin\/sh$/;"	m
+SIMULATOR	Makefile	/^SIMULATOR = VCS $/;"	m
+STDLIB	csrc/Makefile	/^STDLIB = $/;"	m
+STRIPFLAGS	csrc/Makefile	/^STRIPFLAGS= $/;"	m
+SVAL	csrc/rmapats.h	/^typedef unsigned char SVAL;$/;"	t
+SVTB1	Makefile	/^SVTB1= ..\/top\/top.sv$/;"	m
+SVTB2	Makefile	/^SVTB2 = ..\/test\/router_pkg.sv$/;"	m
+SV_STRING	simv.daidir/vc_hdrs.c	36;"	d	file:
+SV_STRING	simv.daidir/vc_hdrs.c	38;"	d	file:
+SV_STRING	vc_hdrs.h	36;"	d
+SV_STRING	vc_hdrs.h	38;"	d
+SYSLIBS	csrc/Makefile	/^SYSLIBS=\/home\/cad\/eda\/SYNOPSYS\/VERDI_2022\/verdi\/T-2022.06-SP1\/share\/PLI\/VCS\/LINUX64\/pli.a -ldl -lm  -lc -lpthread -ldl$/;"	m
+SchedGateEblk	csrc/rmapats.h	/^} SchedGateEblk;$/;"	t	typeref:struct:__anon29
+SchedGateFanout	csrc/rmapats.h	/^} SchedGateFanout;$/;"	t	typeref:struct:__anon27
+SchedSelectGateEblk	csrc/rmapats.h	/^} SchedSelectGateEblk;$/;"	t	typeref:struct:__anon30
+SchedSelectGateFanout	csrc/rmapats.h	/^} SchedSelectGateFanout;$/;"	t	typeref:struct:__anon28
+TARGET_ARCH	csrc/Makefile	/^TARGET_ARCH=$/;"	m
+TMPSPECARG	csrc/Makefile	/^TMPSPECARG=$(VCSTMPSPECARG)$/;"	m
+TMPSPECENV	csrc/Makefile	/^TMPSPECENV=$(VCSTMPSPECENV)$/;"	m
+TYPEB	csrc/rmapats.h	/^typedef unsigned char TYPEB;$/;"	t
+TableAssign	csrc/rmapats.h	/^} TableAssign;$/;"	t	typeref:struct:TableAssign_
+TableAssignLayoutOnClk	csrc/rmapats.h	/^} TableAssignLayoutOnClk;$/;"	t	typeref:struct:TableAssignLayoutOnClk_
+TableAssignLayoutOnClkOpt	csrc/rmapats.h	/^} TableAssignLayoutOnClkOpt;$/;"	t	typeref:struct:TableAssignLayoutOnClkOpt_
+TableAssignLayoutOnClkOpt_	csrc/rmapats.h	/^typedef struct TableAssignLayoutOnClkOpt_ {$/;"	s
+TableAssignLayoutOnClk_	csrc/rmapats.h	/^typedef struct TableAssignLayoutOnClk_ {$/;"	s
+TableAssign_	csrc/rmapats.h	/^typedef struct TableAssign_ {$/;"	s
+TimeStamp	csrc/rmapats.h	/^typedef unsigned long long TimeStamp;$/;"	t
+TimeStamp64	csrc/rmapats.h	/^typedef unsigned long long TimeStamp64;$/;"	t
+TypeData	csrc/rmapats.h	/^} TypeData;$/;"	t	typeref:struct:__anon4
+U	csrc/rmapats.h	/^typedef unsigned U;$/;"	t
+U	simv.daidir/vc_hdrs.c	/^typedef unsigned int U;$/;"	t	file:
+U	vc_hdrs.h	/^typedef unsigned int U;$/;"	t
+UB	csrc/rmapats.h	/^typedef unsigned char UB;$/;"	t
+UB	simv.daidir/vc_hdrs.c	/^typedef unsigned char UB;$/;"	t	file:
+UB	vc_hdrs.h	/^typedef unsigned char UB;$/;"	t
+ULL	csrc/rmapats.h	/^typedef unsigned long long ULL;$/;"	t
+UP	csrc/rmapats.h	/^typedef unsigned long UP;$/;"	t
+US	csrc/rmapats.h	/^typedef unsigned short US;$/;"	t
+UST_e	csrc/rmapats.h	/^typedef unsigned char UST_e;$/;"	t
+UVM_TESTNAME	Makefile	/^	.\/simv -a vcs.log +fsdbfile+wave.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=test$/;"	m
+UVM_TESTNAME	Makefile	/^	.\/simv -a vcs.log +fsdbfile+wave1.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=small_test 	$/;"	m
+UVM_TESTNAME	Makefile	/^	.\/simv -a vcs.log +fsdbfile+wave2.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=medium_test$/;"	m
+UVM_TESTNAME	Makefile	/^	.\/simv -a vcs.log +fsdbfile+wave3.fsdb +ntb_random_seed_automatic +UVM_TESTNAME=big_test$/;"	m
+VCSTMPSPECARG	csrc/Makefile	/^VCSTMPSPECARG=$/;"	m
+VCSTMPSPECENV	csrc/Makefile	/^VCSTMPSPECENV=$/;"	m
+VCSUCLI	csrc/Makefile	/^VCSUCLI=-lvcsucli$/;"	m
+VCS_CC	csrc/Makefile	/^VCS_CC=gcc$/;"	m
+VCS_RTLIB_TLS_MODEL	csrc/rmapats.h	8;"	d
+VCS_SAVE_RESTORE_OBJ	csrc/Makefile	/^VCS_SAVE_RESTORE_OBJ=\/home\/cad\/eda\/SYNOPSYS\/VCS\/vcs\/T-2022.06-SP1\/linux64\/lib\/vcs_save_restore_new.o$/;"	m
+VSIMBATCH1	Makefile	/^VSIMBATCH1= -c -do  " log -r \/* ;coverage save -onexit mem_cov1;run -all; exit"$/;"	m
+VSIMBATCH2	Makefile	/^VSIMBATCH2= -c -do  " log -r \/* ;coverage save -onexit mem_cov2;run -all; exit"$/;"	m
+VSIMBATCH3	Makefile	/^VSIMBATCH3= -c -do  " log -r \/* ;coverage save -onexit mem_cov3;run -all; exit"$/;"	m
+VSIMBATCH4	Makefile	/^VSIMBATCH4= -c -do  " log -r \/* ;coverage save -onexit mem_cov4;run -all; exit"$/;"	m
+VSIMCOV	Makefile	/^VSIMCOV= -coverage -sva $/;"	m
+VSIMOPT	Makefile	/^VSIMOPT= -vopt -voptargs=+acc $/;"	m
+VSRC	csrc/Makefile	/^VSRC=..$/;"	m
+_DEblkLaneT	csrc/rmapats.h	/^typedef struct _DEblkLaneT {$/;"	s
+_DEblkPoolT	csrc/rmapats.h	/^typedef struct _DEblkPoolT {$/;"	s
+_GNU_SOURCE	csrc/_vcs_pli_stub_.c	2;"	d	file:
+_GNU_SOURCE	simv.daidir/vc_hdrs.c	2;"	d	file:
+_GNU_SOURCE	vc_hdrs.h	5;"	d
+_HsCgPeriod	csrc/rmapats.h	/^typedef struct _HsCgPeriod {$/;"	s
+_RMAR0_H_	csrc/rmar0.h	2;"	d
+_RMAR1_H_	csrc/rmar.h	2;"	d
+_RmaBehavioralTransportDelay	csrc/rmapats.h	/^typedef struct _RmaBehavioralTransportDelay {$/;"	s
+_RmaCbkMemOptUnion	csrc/rmapats.h	/^typedef union _RmaCbkMemOptUnion {$/;"	u
+_RmaDaiOptCg	csrc/rmapats.h	/^typedef struct _RmaDaiOptCg {$/;"	s
+_RmaMultiInputTable	csrc/rmapats.h	/^typedef struct _RmaMultiInputTable {$/;"	s
+_VC_HDRS_H	vc_hdrs.h	2;"	d
+_VC_STRUCT_TYPE_rsrc_msg_struct_	simv.daidir/vc_hdrs.c	44;"	d	file:
+_VC_STRUCT_TYPE_rsrc_msg_struct_	simv.daidir/vc_hdrs.c	49;"	d	file:
+_VC_TYPES_	simv.daidir/vc_hdrs.c	16;"	d	file:
+_VC_TYPES_	vc_hdrs.h	16;"	d
+__DO_RMAHDR_	csrc/rmapats.h	2;"	d
+__Hil__Static_Init_Func__	csrc/rmar.c	/^void __Hil__Static_Init_Func__(void) {} $/;"	f
+__VCS_EXPORT_DPI_DUMMY_REFERENCES__	simv.daidir/vc_hdrs.c	1628;"	d	file:
+__VCS_IMPORT_DPI_STUB_check_is_sequencer	simv.daidir/vc_hdrs.c	718;"	d	file:
+__VCS_IMPORT_DPI_STUB_find_substr_by_C	simv.daidir/vc_hdrs.c	544;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_bitvec_attribute	simv.daidir/vc_hdrs.c	1227;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_bitvec_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1395;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_enum_int_attribute	simv.daidir/vc_hdrs.c	1353;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_enum_int_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1521;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_int_attribute	simv.daidir/vc_hdrs.c	1248;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_int_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1416;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_logicvec_attribute	simv.daidir/vc_hdrs.c	1206;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_logicvec_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1374;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_longint_attribute	simv.daidir/vc_hdrs.c	1290;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_longint_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1458;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_real_attribute	simv.daidir/vc_hdrs.c	1332;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_real_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1500;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_relation	simv.daidir/vc_hdrs.c	1563;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_shortint_attribute	simv.daidir/vc_hdrs.c	1269;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_shortint_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1437;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_string_attribute	simv.daidir/vc_hdrs.c	1311;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_string_attribute_with_expected_value	simv.daidir/vc_hdrs.c	1479;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_add_tag	simv.daidir/vc_hdrs.c	1185;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_begin	simv.daidir/vc_hdrs.c	1142;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_create_stream_begin	simv.daidir/vc_hdrs.c	867;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_create_stream_end	simv.daidir/vc_hdrs.c	1099;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_define_enum_int_attribute	simv.daidir/vc_hdrs.c	973;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_define_int_attribute	simv.daidir/vc_hdrs.c	910;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_define_logicvec_attribute	simv.daidir/vc_hdrs.c	889;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_define_real_attribute	simv.daidir/vc_hdrs.c	952;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_define_string_attribute	simv.daidir/vc_hdrs.c	931;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_end	simv.daidir/vc_hdrs.c	1542;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_get_class_str	simv.daidir/vc_hdrs.c	1606;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_get_ended_stream_id	simv.daidir/vc_hdrs.c	1120;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_get_enum_id	simv.daidir/vc_hdrs.c	1584;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_scope_add_enum_int_attribute	simv.daidir/vc_hdrs.c	846;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_scope_add_int_attribute	simv.daidir/vc_hdrs.c	783;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_scope_add_logicvec_attribute	simv.daidir/vc_hdrs.c	762;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_scope_add_real_attribute	simv.daidir/vc_hdrs.c	825;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_scope_add_string_attribute	simv.daidir/vc_hdrs.c	804;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_set_label	simv.daidir/vc_hdrs.c	1164;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_stream_add_enum_int_attribute	simv.daidir/vc_hdrs.c	1078;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_stream_add_int_attribute	simv.daidir/vc_hdrs.c	1015;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_stream_add_logicvec_attribute	simv.daidir/vc_hdrs.c	994;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_stream_add_real_attribute	simv.daidir/vc_hdrs.c	1057;"	d	file:
+__VCS_IMPORT_DPI_STUB_fsdbTransDPI_stream_add_string_attribute	simv.daidir/vc_hdrs.c	1036;"	d	file:
+__VCS_IMPORT_DPI_STUB_parse_phase_msg	simv.daidir/vc_hdrs.c	522;"	d	file:
+__VCS_IMPORT_DPI_STUB_parse_rsrc_msg	simv.daidir/vc_hdrs.c	500;"	d	file:
+__VCS_IMPORT_DPI_STUB_record_reg_decl_name	simv.daidir/vc_hdrs.c	696;"	d	file:
+__VCS_IMPORT_DPI_STUB_remove_array_index	simv.daidir/vc_hdrs.c	740;"	d	file:
+__VCS_IMPORT_DPI_STUB_retrieve_def_class	simv.daidir/vc_hdrs.c	674;"	d	file:
+__VCS_IMPORT_DPI_STUB_retrieve_reg_def_class	simv.daidir/vc_hdrs.c	653;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_dpi_get_next_arg_c	simv.daidir/vc_hdrs.c	304;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_dpi_get_tool_name_c	simv.daidir/vc_hdrs.c	326;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_dpi_get_tool_version_c	simv.daidir/vc_hdrs.c	348;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_dpi_regcomp	simv.daidir/vc_hdrs.c	370;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_dpi_regexec	simv.daidir/vc_hdrs.c	392;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_dpi_regfree	simv.daidir/vc_hdrs.c	414;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_dump_re_cache	simv.daidir/vc_hdrs.c	457;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_glob_to_re	simv.daidir/vc_hdrs.c	478;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_hdl_check_path	simv.daidir/vc_hdrs.c	128;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_hdl_deposit	simv.daidir/vc_hdrs.c	150;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_hdl_force	simv.daidir/vc_hdrs.c	172;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_hdl_read	simv.daidir/vc_hdrs.c	238;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_hdl_read_string	simv.daidir/vc_hdrs.c	260;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_hdl_release	simv.daidir/vc_hdrs.c	216;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_hdl_release_and_read	simv.daidir/vc_hdrs.c	194;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_memory_load	simv.daidir/vc_hdrs.c	282;"	d	file:
+__VCS_IMPORT_DPI_STUB_uvm_re_match	simv.daidir/vc_hdrs.c	435;"	d	file:
+__VCS_IMPORT_DPI_STUB_vc_uvmCreateRandomSeed	simv.daidir/vc_hdrs.c	85;"	d	file:
+__VCS_IMPORT_DPI_STUB_vc_uvmOnewayHash	simv.daidir/vc_hdrs.c	63;"	d	file:
+__VCS_IMPORT_DPI_STUB_vc_uvmReseed	simv.daidir/vc_hdrs.c	107;"	d	file:
+__VCS_IMPORT_DPI_STUB_verdi_dhier_interface	simv.daidir/vc_hdrs.c	632;"	d	file:
+__VCS_IMPORT_DPI_STUB_verdi_dump_component_interface	simv.daidir/vc_hdrs.c	588;"	d	file:
+__VCS_IMPORT_DPI_STUB_verdi_dump_resource_value	simv.daidir/vc_hdrs.c	566;"	d	file:
+__VCS_IMPORT_DPI_STUB_verdi_upper_scope	simv.daidir/vc_hdrs.c	610;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbAddRuntimeSignal	csrc/_vcs_pli_stub_.c	89;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpClassMethod	csrc/_vcs_pli_stub_.c	364;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpClassObject	csrc/_vcs_pli_stub_.c	814;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpClassObjectByFile	csrc/_vcs_pli_stub_.c	839;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpIO	csrc/_vcs_pli_stub_.c	964;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpMDAByFile	csrc/_vcs_pli_stub_.c	439;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpSingle	csrc/_vcs_pli_stub_.c	939;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpvars	csrc/_vcs_pli_stub_.c	16;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbDumpvarsByFile	csrc/_vcs_pli_stub_.c	64;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_add_attribute	csrc/_vcs_pli_stub_.c	589;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_add_attribute_expand	csrc/_vcs_pli_stub_.c	864;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_add_relation	csrc/_vcs_pli_stub_.c	664;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_add_stream_attribute	csrc/_vcs_pli_stub_.c	489;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_add_tag	csrc/_vcs_pli_stub_.c	614;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_begin	csrc/_vcs_pli_stub_.c	539;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_create_stream_begin	csrc/_vcs_pli_stub_.c	464;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_create_stream_end	csrc/_vcs_pli_stub_.c	514;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_end	csrc/_vcs_pli_stub_.c	639;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_get_error_code	csrc/_vcs_pli_stub_.c	689;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbEvent_set_label	csrc/_vcs_pli_stub_.c	564;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbSuppressClassMethod	csrc/_vcs_pli_stub_.c	389;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbSuppressClassProp	csrc/_vcs_pli_stub_.c	414;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbTrans_add_scope_attribute	csrc/_vcs_pli_stub_.c	739;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbTrans_add_stream_attribute	csrc/_vcs_pli_stub_.c	714;"	d	file:
+__VCS_PLI_STUB_novas_call_fsdbWhatif	csrc/_vcs_pli_stub_.c	289;"	d	file:
+__VCS_PLI_STUB_novas_call_paa_init	csrc/_vcs_pli_stub_.c	314;"	d	file:
+__VCS_PLI_STUB_novas_call_paa_sync	csrc/_vcs_pli_stub_.c	339;"	d	file:
+__VCS_PLI_STUB_novas_call_ridbDump	csrc/_vcs_pli_stub_.c	889;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_add_attribute	csrc/_vcs_pli_stub_.c	214;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_add_relation	csrc/_vcs_pli_stub_.c	264;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_begin_transaction	csrc/_vcs_pli_stub_.c	139;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_create_transaction_stream	csrc/_vcs_pli_stub_.c	114;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_end_transaction	csrc/_vcs_pli_stub_.c	164;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_flush_file	csrc/_vcs_pli_stub_.c	914;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_free_transaction	csrc/_vcs_pli_stub_.c	189;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_interactive	csrc/_vcs_pli_stub_.c	764;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_test	csrc/_vcs_pli_stub_.c	789;"	d	file:
+__VCS_PLI_STUB_novas_call_sps_update_label	csrc/_vcs_pli_stub_.c	239;"	d	file:
+__VCS_PLI_STUB_novas_misc	csrc/_vcs_pli_stub_.c	41;"	d	file:
+__vcs_export_dpi_dummy_references__	simv.daidir/vc_hdrs.c	/^void __vcs_export_dpi_dummy_references__()$/;"	f
+__vcs_pli_dummy_reference_novas_call_fsdbAddRuntimeSignal	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbAddRuntimeSignal)(int data, int reason) = novas_call_fsdbAddRuntimeSignal;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpClassMethod	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpClassMethod)(int data, int reason) = novas_call_fsdbDumpClassMethod;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpClassObject	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpClassObject)(int data, int reason) = novas_call_fsdbDumpClassObject;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpClassObjectByFile	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpClassObjectByFile)(int data, int reason) = novas_call_fsdbDumpClassObjectByFile;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpIO	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpIO)(int data, int reason) = novas_call_fsdbDumpIO;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpMDAByFile	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpMDAByFile)(int data, int reason) = novas_call_fsdbDumpMDAByFile;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpSingle	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpSingle)(int data, int reason) = novas_call_fsdbDumpSingle;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpvars	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpvars)(int data, int reason) = novas_call_fsdbDumpvars;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbDumpvarsByFile	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpvarsByFile)(int data, int reason) = novas_call_fsdbDumpvarsByFile;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_attribute	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_attribute)(int data, int reason) = novas_call_fsdbEvent_add_attribute;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_attribute_expand	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_attribute_expand)(int data, int reason) = novas_call_fsdbEvent_add_attribute_expand;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_relation	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_relation)(int data, int reason) = novas_call_fsdbEvent_add_relation;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_stream_attribute	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_stream_attribute)(int data, int reason) = novas_call_fsdbEvent_add_stream_attribute;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_tag	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_tag)(int data, int reason) = novas_call_fsdbEvent_add_tag;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_begin	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_begin)(int data, int reason) = novas_call_fsdbEvent_begin;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_create_stream_begin	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_create_stream_begin)(int data, int reason) = novas_call_fsdbEvent_create_stream_begin;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_create_stream_end	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_create_stream_end)(int data, int reason) = novas_call_fsdbEvent_create_stream_end;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_end	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_end)(int data, int reason) = novas_call_fsdbEvent_end;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_get_error_code	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_get_error_code)(int data, int reason) = novas_call_fsdbEvent_get_error_code;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbEvent_set_label	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_set_label)(int data, int reason) = novas_call_fsdbEvent_set_label;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbSuppressClassMethod	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbSuppressClassMethod)(int data, int reason) = novas_call_fsdbSuppressClassMethod;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbSuppressClassProp	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbSuppressClassProp)(int data, int reason) = novas_call_fsdbSuppressClassProp;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbTrans_add_scope_attribute	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbTrans_add_scope_attribute)(int data, int reason) = novas_call_fsdbTrans_add_scope_attribute;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbTrans_add_stream_attribute	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbTrans_add_stream_attribute)(int data, int reason) = novas_call_fsdbTrans_add_stream_attribute;$/;"	v
+__vcs_pli_dummy_reference_novas_call_fsdbWhatif	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_fsdbWhatif)(int data, int reason) = novas_call_fsdbWhatif;$/;"	v
+__vcs_pli_dummy_reference_novas_call_paa_init	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_paa_init)(int data, int reason) = novas_call_paa_init;$/;"	v
+__vcs_pli_dummy_reference_novas_call_paa_sync	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_paa_sync)(int data, int reason) = novas_call_paa_sync;$/;"	v
+__vcs_pli_dummy_reference_novas_call_ridbDump	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_ridbDump)(int data, int reason) = novas_call_ridbDump;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_add_attribute	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_add_attribute)(int data, int reason) = novas_call_sps_add_attribute;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_add_relation	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_add_relation)(int data, int reason) = novas_call_sps_add_relation;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_begin_transaction	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_begin_transaction)(int data, int reason) = novas_call_sps_begin_transaction;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_create_transaction_stream	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_create_transaction_stream)(int data, int reason) = novas_call_sps_create_transaction_stream;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_end_transaction	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_end_transaction)(int data, int reason) = novas_call_sps_end_transaction;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_flush_file	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_flush_file)(int data, int reason) = novas_call_sps_flush_file;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_free_transaction	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_free_transaction)(int data, int reason) = novas_call_sps_free_transaction;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_interactive	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_interactive)(int data, int reason) = novas_call_sps_interactive;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_test	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_test)(int data, int reason) = novas_call_sps_test;$/;"	v
+__vcs_pli_dummy_reference_novas_call_sps_update_label	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_call_sps_update_label)(int data, int reason) = novas_call_sps_update_label;$/;"	v
+__vcs_pli_dummy_reference_novas_misc	csrc/_vcs_pli_stub_.c	/^void (*__vcs_pli_dummy_reference_novas_misc)(int data, int reason, int iparam ) = novas_misc;$/;"	v
+_lqueue	csrc/rmapats.h	/^typedef struct _lqueue {$/;"	s
+_vcs_dpi_rsrc_msg_struct	csrc/import_dpic.h	/^struct	_vcs_dpi_rsrc_msg_struct	{$/;"	s
+_vcs_dpi_rsrc_msg_struct	simv.daidir/vc_hdrs.c	/^struct	_vcs_dpi_rsrc_msg_struct	{$/;"	s	file:
+_vcs_dpi_rsrc_msg_struct	vc_hdrs.h	/^struct	_vcs_dpi_rsrc_msg_struct	{$/;"	s
+accessor	csrc/import_dpic.h	/^	SV_STRING	accessor;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+accessor	simv.daidir/vc_hdrs.c	/^	SV_STRING	accessor;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct	file:
+accessor	vc_hdrs.h	/^	SV_STRING	accessor;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+action	csrc/import_dpic.h	/^	SV_STRING	action;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+action	simv.daidir/vc_hdrs.c	/^	SV_STRING	action;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct	file:
+action	vc_hdrs.h	/^	SV_STRING	action;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+arr	csrc/rmapats.h	/^    RmaConditionsMdb   arr[1];$/;"	m	struct:__anon103
+arr	csrc/rmapats.h	/^    RmaConditionsMdb   arr[1];$/;"	m	struct:__anon104
+arr	csrc/rmapats.h	/^    RmaConditionsMdb   arr[1];$/;"	m	struct:__anon114
+arr	csrc/rmapats.h	/^    RmaConditionsMdb   arr[1];$/;"	m	struct:__anon115
+arr	csrc/rmapats.h	/^    RmaConditionsMdb   arr[1];$/;"	m	struct:__anon116
+arr	csrc/rmapats.h	/^    RmaConditionsMdb   arr[1];$/;"	m	struct:__anon99
+asm_bsf	csrc/rmapats.h	/^static inline U asm_bsf (U in)$/;"	f
+c	simv.daidir/vc_hdrs.c	/^typedef struct { U c; U d;} vec32;$/;"	m	struct:__anon1	file:
+c	vc_hdrs.h	/^typedef struct { U c; U d;} vec32;$/;"	m	struct:__anon131
+cedges	csrc/rmapats.h	/^    U  cedges :29;$/;"	m	struct:__anon127
+cedges	csrc/rmapats.h	/^    U  cedges;$/;"	m	struct:__anon126
+cedges	csrc/rmapats.h	/^    US  cedges;$/;"	m	struct:__anon125
+check_is_sequencer	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int check_is_sequencer()$/;"	f
+classId	csrc/rmapats.h	/^        long long classId;$/;"	m	union:__anon4::__anon5
+classInfoT	csrc/rmapats.h	/^typedef struct classInfoT {$/;"	s
+classInfoT	csrc/rmapats.h	/^} classInfoT;$/;"	t	typeref:struct:classInfoT
+clock_data	csrc/rmapats.h	/^typedef struct clock_data {$/;"	s
+clock_hiconn	csrc/rmapats.h	/^struct clock_hiconn {$/;"	s
+clock_load	csrc/rmapats.h	/^struct clock_load {$/;"	s
+clock_struct	csrc/rmapats.h	/^} clock_struct;$/;"	t	typeref:union:__anon9
+d	simv.daidir/vc_hdrs.c	/^typedef struct { U c; U d;} vec32;$/;"	m	struct:__anon1	file:
+d	vc_hdrs.h	/^typedef struct { U c; U d;} vec32;$/;"	m	struct:__anon131
+dummyq_struct	csrc/rmapats.h	/^struct dummyq_struct {$/;"	s
+eblk	csrc/rmapats.h	/^typedef struct eblk {$/;"	s
+eblk_struct	csrc/rmapats.h	/^} eblk_struct;$/;"	t	typeref:struct:eblk
+edgeInputNum	csrc/rmapats.h	/^        U  edgeInputNum;$/;"	m	union:_RmaMultiInputTable::__anon15
+enumDesc	csrc/rmapats.h	/^        long long enumDesc;$/;"	m	union:__anon4::__anon5
+etype	csrc/rmapats.h	/^struct etype {$/;"	s
+fHsim	csrc/rmapats.h	/^    US  fHsim :1;$/;"	m	struct:RmaRetain_t
+fHsim	csrc/rmapats.h	/^    US  fHsim :1;$/;"	m	struct:retain_t
+fHsim	csrc/rmapats.h	/^    scalar  fHsim :1;$/;"	m	struct:MPSched
+fHsim	csrc/rmapats.h	/^    scalar  fHsim :1;$/;"	m	struct:RmaMPSched
+fHsim	csrc/rmapats.h	/^    scalar  fHsim :1;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+fgpInfoT	csrc/rmapats.h	/^typedef struct fgpInfoT {$/;"	s
+fgpInfoT	csrc/rmapats.h	/^} fgpInfoT;$/;"	t	typeref:struct:fgpInfoT
+field_name	csrc/import_dpic.h	/^	SV_STRING	field_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+field_name	simv.daidir/vc_hdrs.c	/^	SV_STRING	field_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct	file:
+field_name	vc_hdrs.h	/^	SV_STRING	field_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+find_substr_by_C	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int find_substr_by_C(\/* INPUT *\/const char* A_1, \/* INPUT *\/const char* A_2)$/;"	f
+fsdbTransDPI_add_bitvec_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_bitvec_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, const \/* INPUT *\/svBitVecVal *A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_bitvec_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_bitvec_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, const \/* INPUT *\/svBitVecVal *A_4, \/* INPUT *\/int A_5, const \/* INPUT *\/svBitVecVal *A_6, \/* INPUT *\/const char* A_7)$/;"	f
+fsdbTransDPI_add_enum_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_enum_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/unsigned int A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_enum_int_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_enum_int_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/unsigned int A_4, \/* INPUT *\/int A_5, \/* INPUT *\/int A_6, \/* INPUT *\/const char* A_7)$/;"	f
+fsdbTransDPI_add_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/int A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_add_int_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_int_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/int A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_logicvec_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_logicvec_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, const \/* INPUT *\/svLogicVecVal *A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_logicvec_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_logicvec_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, const \/* INPUT *\/svLogicVecVal *A_4, \/* INPUT *\/int A_5, const \/* INPUT *\/svLogicVecVal *A_6, \/* INPUT *\/const char* A_7)$/;"	f
+fsdbTransDPI_add_longint_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_longint_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/long long A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_add_longint_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_longint_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/long long A_4, \/* INPUT *\/long long A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_real_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_real_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/double A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_add_real_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_real_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/double A_4, \/* INPUT *\/double A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_relation	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_relation(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/long long A_3, \/* INPUT *\/long long A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_add_shortint_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_shortint_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/short int A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_add_shortint_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_shortint_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/short int A_4, \/* INPUT *\/short int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_string_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_string_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_add_string_attribute_with_expected_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_string_attribute_with_expected_value(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4, \/* INPUT *\/const char* A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_add_tag	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_add_tag(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4)$/;"	f
+fsdbTransDPI_begin	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) long long fsdbTransDPI_begin(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4)$/;"	f
+fsdbTransDPI_create_stream_begin	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int fsdbTransDPI_create_stream_begin(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4)$/;"	f
+fsdbTransDPI_create_stream_end	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_create_stream_end(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3)$/;"	f
+fsdbTransDPI_define_enum_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_define_enum_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/unsigned int A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_define_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_define_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/int A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_define_logicvec_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_define_logicvec_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, const \/* INPUT *\/svLogicVecVal *A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_define_real_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_define_real_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/double A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_define_string_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_define_string_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_end	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_end(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3)$/;"	f
+fsdbTransDPI_get_class_str	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING fsdbTransDPI_get_class_str(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3)$/;"	f
+fsdbTransDPI_get_ended_stream_id	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int fsdbTransDPI_get_ended_stream_id(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3)$/;"	f
+fsdbTransDPI_get_enum_id	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) unsigned int fsdbTransDPI_get_enum_id(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2)$/;"	f
+fsdbTransDPI_scope_add_enum_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_scope_add_enum_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/unsigned int A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_scope_add_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_scope_add_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/int A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_scope_add_logicvec_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_scope_add_logicvec_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, const \/* INPUT *\/svLogicVecVal *A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_scope_add_real_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_scope_add_real_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/double A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_scope_add_string_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_scope_add_string_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_set_label	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_set_label(\/* OUTPUT *\/int *A_1, \/* INPUT *\/long long A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4)$/;"	f
+fsdbTransDPI_stream_add_enum_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_stream_add_enum_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/unsigned int A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_stream_add_int_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_stream_add_int_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/int A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_stream_add_logicvec_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_stream_add_logicvec_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, const \/* INPUT *\/svLogicVecVal *A_4, \/* INPUT *\/int A_5, \/* INPUT *\/const char* A_6)$/;"	f
+fsdbTransDPI_stream_add_real_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_stream_add_real_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/double A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsdbTransDPI_stream_add_string_attribute	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void fsdbTransDPI_stream_add_string_attribute(\/* OUTPUT *\/int *A_1, \/* INPUT *\/int A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4, \/* INPUT *\/const char* A_5)$/;"	f
+fsimInfoT	csrc/rmapats.h	/^typedef struct fsimInfoT {$/;"	s
+fsimInfoT	csrc/rmapats.h	/^} fsimInfoT;$/;"	t	typeref:struct:fsimInfoT
+futq	csrc/rmapats.h	/^struct futq {$/;"	s
+futq_info	csrc/rmapats.h	/^struct futq_info {$/;"	s
+futq_slot1	csrc/rmapats.h	/^struct futq_slot1 {$/;"	s
+futq_slot2	csrc/rmapats.h	/^struct futq_slot2 {$/;"	s
+hsG_0__0	csrc/rmapats.c	/^void  hsG_0__0 (struct dummyq_struct * I1392, EBLK  * I1387, U  I619)$/;"	f
+hybridSimInfoT	csrc/rmapats.h	/^typedef struct hybridSimInfoT {$/;"	s
+hybridSimInfoT	csrc/rmapats.h	/^} hybridSimInfoT;$/;"	t	typeref:struct:hybridSimInfoT
+iinput	csrc/rmapats.h	/^    U  iinput;$/;"	m	struct:__anon48
+iinput	csrc/rmapats.h	/^    U  iinput;$/;"	m	struct:__anon49
+iinput	csrc/rmapats.h	/^    U  iinput;$/;"	m	struct:__anon51
+iinput	csrc/rmapats.h	/^    U  iinput;$/;"	m	struct:__anon52
+iinput	csrc/rmapats.h	/^    U  iinput;$/;"	m	struct:__anon94
+iptmpl	csrc/rmapats.h	/^struct iptmpl {$/;"	s
+last	csrc/rmapats.h	/^        struct nbs_t * last;$/;"	m	union:nbs_t::__anon11	typeref:struct:nbs_t::__anon11::nbs_t
+nbs_t	csrc/rmapats.h	/^typedef struct nbs_t {$/;"	s
+newval	csrc/rmapats.h	/^    scalar  newval;$/;"	m	struct:RmaRetain_t
+newval	csrc/rmapats.h	/^    scalar  newval;$/;"	m	struct:retain_t
+nlpInfoT	csrc/rmapats.h	/^typedef struct nlpInfoT {$/;"	s
+nlpInfoT	csrc/rmapats.h	/^} nlpInfoT;$/;"	t	typeref:struct:nlpInfoT
+novas_call_fsdbAddRuntimeSignal	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbAddRuntimeSignal(int data, int reason)$/;"	f
+novas_call_fsdbAddRuntimeSignal	csrc/_vcs_pli_stub_.c	91;"	d	file:
+novas_call_fsdbDumpClassMethod	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpClassMethod(int data, int reason)$/;"	f
+novas_call_fsdbDumpClassMethod	csrc/_vcs_pli_stub_.c	366;"	d	file:
+novas_call_fsdbDumpClassObject	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpClassObject(int data, int reason)$/;"	f
+novas_call_fsdbDumpClassObject	csrc/_vcs_pli_stub_.c	816;"	d	file:
+novas_call_fsdbDumpClassObjectByFile	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpClassObjectByFile(int data, int reason)$/;"	f
+novas_call_fsdbDumpClassObjectByFile	csrc/_vcs_pli_stub_.c	841;"	d	file:
+novas_call_fsdbDumpIO	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpIO(int data, int reason)$/;"	f
+novas_call_fsdbDumpIO	csrc/_vcs_pli_stub_.c	966;"	d	file:
+novas_call_fsdbDumpMDAByFile	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpMDAByFile(int data, int reason)$/;"	f
+novas_call_fsdbDumpMDAByFile	csrc/_vcs_pli_stub_.c	441;"	d	file:
+novas_call_fsdbDumpSingle	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpSingle(int data, int reason)$/;"	f
+novas_call_fsdbDumpSingle	csrc/_vcs_pli_stub_.c	941;"	d	file:
+novas_call_fsdbDumpvars	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpvars(int data, int reason)$/;"	f
+novas_call_fsdbDumpvars	csrc/_vcs_pli_stub_.c	18;"	d	file:
+novas_call_fsdbDumpvarsByFile	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbDumpvarsByFile(int data, int reason)$/;"	f
+novas_call_fsdbDumpvarsByFile	csrc/_vcs_pli_stub_.c	66;"	d	file:
+novas_call_fsdbEvent_add_attribute	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_add_attribute(int data, int reason)$/;"	f
+novas_call_fsdbEvent_add_attribute	csrc/_vcs_pli_stub_.c	591;"	d	file:
+novas_call_fsdbEvent_add_attribute_expand	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_add_attribute_expand(int data, int reason)$/;"	f
+novas_call_fsdbEvent_add_attribute_expand	csrc/_vcs_pli_stub_.c	866;"	d	file:
+novas_call_fsdbEvent_add_relation	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_add_relation(int data, int reason)$/;"	f
+novas_call_fsdbEvent_add_relation	csrc/_vcs_pli_stub_.c	666;"	d	file:
+novas_call_fsdbEvent_add_stream_attribute	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_add_stream_attribute(int data, int reason)$/;"	f
+novas_call_fsdbEvent_add_stream_attribute	csrc/_vcs_pli_stub_.c	491;"	d	file:
+novas_call_fsdbEvent_add_tag	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_add_tag(int data, int reason)$/;"	f
+novas_call_fsdbEvent_add_tag	csrc/_vcs_pli_stub_.c	616;"	d	file:
+novas_call_fsdbEvent_begin	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_begin(int data, int reason)$/;"	f
+novas_call_fsdbEvent_begin	csrc/_vcs_pli_stub_.c	541;"	d	file:
+novas_call_fsdbEvent_create_stream_begin	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_create_stream_begin(int data, int reason)$/;"	f
+novas_call_fsdbEvent_create_stream_begin	csrc/_vcs_pli_stub_.c	466;"	d	file:
+novas_call_fsdbEvent_create_stream_end	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_create_stream_end(int data, int reason)$/;"	f
+novas_call_fsdbEvent_create_stream_end	csrc/_vcs_pli_stub_.c	516;"	d	file:
+novas_call_fsdbEvent_end	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_end(int data, int reason)$/;"	f
+novas_call_fsdbEvent_end	csrc/_vcs_pli_stub_.c	641;"	d	file:
+novas_call_fsdbEvent_get_error_code	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_get_error_code(int data, int reason)$/;"	f
+novas_call_fsdbEvent_get_error_code	csrc/_vcs_pli_stub_.c	691;"	d	file:
+novas_call_fsdbEvent_set_label	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbEvent_set_label(int data, int reason)$/;"	f
+novas_call_fsdbEvent_set_label	csrc/_vcs_pli_stub_.c	566;"	d	file:
+novas_call_fsdbSuppressClassMethod	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbSuppressClassMethod(int data, int reason)$/;"	f
+novas_call_fsdbSuppressClassMethod	csrc/_vcs_pli_stub_.c	391;"	d	file:
+novas_call_fsdbSuppressClassProp	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbSuppressClassProp(int data, int reason)$/;"	f
+novas_call_fsdbSuppressClassProp	csrc/_vcs_pli_stub_.c	416;"	d	file:
+novas_call_fsdbTrans_add_scope_attribute	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbTrans_add_scope_attribute(int data, int reason)$/;"	f
+novas_call_fsdbTrans_add_scope_attribute	csrc/_vcs_pli_stub_.c	741;"	d	file:
+novas_call_fsdbTrans_add_stream_attribute	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbTrans_add_stream_attribute(int data, int reason)$/;"	f
+novas_call_fsdbTrans_add_stream_attribute	csrc/_vcs_pli_stub_.c	716;"	d	file:
+novas_call_fsdbWhatif	csrc/_vcs_pli_stub_.c	/^void novas_call_fsdbWhatif(int data, int reason)$/;"	f
+novas_call_fsdbWhatif	csrc/_vcs_pli_stub_.c	291;"	d	file:
+novas_call_paa_init	csrc/_vcs_pli_stub_.c	/^void novas_call_paa_init(int data, int reason)$/;"	f
+novas_call_paa_init	csrc/_vcs_pli_stub_.c	316;"	d	file:
+novas_call_paa_sync	csrc/_vcs_pli_stub_.c	/^void novas_call_paa_sync(int data, int reason)$/;"	f
+novas_call_paa_sync	csrc/_vcs_pli_stub_.c	341;"	d	file:
+novas_call_ridbDump	csrc/_vcs_pli_stub_.c	/^void novas_call_ridbDump(int data, int reason)$/;"	f
+novas_call_ridbDump	csrc/_vcs_pli_stub_.c	891;"	d	file:
+novas_call_sps_add_attribute	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_add_attribute(int data, int reason)$/;"	f
+novas_call_sps_add_attribute	csrc/_vcs_pli_stub_.c	216;"	d	file:
+novas_call_sps_add_relation	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_add_relation(int data, int reason)$/;"	f
+novas_call_sps_add_relation	csrc/_vcs_pli_stub_.c	266;"	d	file:
+novas_call_sps_begin_transaction	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_begin_transaction(int data, int reason)$/;"	f
+novas_call_sps_begin_transaction	csrc/_vcs_pli_stub_.c	141;"	d	file:
+novas_call_sps_create_transaction_stream	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_create_transaction_stream(int data, int reason)$/;"	f
+novas_call_sps_create_transaction_stream	csrc/_vcs_pli_stub_.c	116;"	d	file:
+novas_call_sps_end_transaction	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_end_transaction(int data, int reason)$/;"	f
+novas_call_sps_end_transaction	csrc/_vcs_pli_stub_.c	166;"	d	file:
+novas_call_sps_flush_file	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_flush_file(int data, int reason)$/;"	f
+novas_call_sps_flush_file	csrc/_vcs_pli_stub_.c	916;"	d	file:
+novas_call_sps_free_transaction	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_free_transaction(int data, int reason)$/;"	f
+novas_call_sps_free_transaction	csrc/_vcs_pli_stub_.c	191;"	d	file:
+novas_call_sps_interactive	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_interactive(int data, int reason)$/;"	f
+novas_call_sps_interactive	csrc/_vcs_pli_stub_.c	766;"	d	file:
+novas_call_sps_test	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_test(int data, int reason)$/;"	f
+novas_call_sps_test	csrc/_vcs_pli_stub_.c	791;"	d	file:
+novas_call_sps_update_label	csrc/_vcs_pli_stub_.c	/^void novas_call_sps_update_label(int data, int reason)$/;"	f
+novas_call_sps_update_label	csrc/_vcs_pli_stub_.c	241;"	d	file:
+novas_misc	csrc/_vcs_pli_stub_.c	/^void novas_misc(int data, int reason, int iparam )$/;"	f
+novas_misc	csrc/_vcs_pli_stub_.c	43;"	d	file:
+pHeap	csrc/rmapats.h	/^        void * pHeap;$/;"	m	union:__anon129::__anon130
+pList	csrc/rmapats.h	/^        Queue  * pList;$/;"	m	union:__anon129::__anon130
+parse_phase_msg	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int parse_phase_msg(\/* INPUT *\/const char* A_1, \/* OUTPUT *\/SV_STRING *A_2, \/* OUTPUT *\/SV_STRING *A_3, \/* OUTPUT *\/SV_STRING *A_4)$/;"	f
+parse_rsrc_msg	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int parse_rsrc_msg(\/* INPUT *\/const char* A_1, \/* OUTPUT *\/rsrc_msg_struct *A_2)$/;"	f
+pcbt	csrc/rmapats.h	/^typedef struct pcbt {$/;"	s
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:RmaChildClockProp_
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon18
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon25
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon27
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon28
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon29
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon30
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon46
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon53
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon54
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon55
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon56
+pcode	csrc/rmapats.h	/^    RP  pcode;$/;"	m	struct:__anon58
+pfn	csrc/rmapats.h	/^    RP  pfn;$/;"	m	struct:RmaSeqPrimOutputS_
+pfn	csrc/rmapats.h	/^    RP  pfn;$/;"	m	struct:__anon25
+pfn	csrc/rmapats.h	/^    RP  pfn;$/;"	m	struct:__anon46
+pfn	csrc/rmapats.h	/^    RP  pfn;$/;"	m	struct:__anon54
+pfn	csrc/rmapats.h	/^    RP  pfn;$/;"	m	struct:__anon55
+pfn	csrc/rmapats.h	/^    RP  pfn;$/;"	m	struct:__anon56
+pfn	csrc/rmapats.h	/^    void (* pfn)(void * I244, char val);$/;"	m	struct:clock_load
+predd	csrc/rmapats.h	/^typedef struct predd {$/;"	s
+psimple	csrc/rmapats.h	/^        RP  psimple;$/;"	m	union:__anon77::__anon78
+ptable	csrc/rmapats.h	/^    RP  ptable;$/;"	m	struct:TableAssignLayoutOnClk_
+ptable	csrc/rmapats.h	/^    RP  ptable;$/;"	m	struct:TableAssign_
+ptable	csrc/rmapats.h	/^    RP  ptable;$/;"	m	struct:__anon46
+ptable	csrc/rmapats.h	/^    RP  ptable;$/;"	m	struct:__anon52
+qird	csrc/rmapats.h	/^struct qird {$/;"	s
+qird_dbg_flags_s	csrc/rmapats.h	/^typedef struct qird_dbg_flags_s {$/;"	s
+qird_dbg_flags_t	csrc/rmapats.h	/^} qird_dbg_flags_t;$/;"	t	typeref:struct:qird_dbg_flags_s
+record_reg_decl_name	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int record_reg_decl_name(\/* INPUT *\/int A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4)$/;"	f
+red_t	csrc/rmapats.h	/^typedef struct red_t {$/;"	s
+remove_array_index	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING remove_array_index(\/* INPUT *\/const char* A_1, \/* OUTPUT *\/void* *A_2)$/;"	f
+resource	csrc/import_dpic.h	/^	SV_STRING	resource;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+resource	simv.daidir/vc_hdrs.c	/^	SV_STRING	resource;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct	file:
+resource	vc_hdrs.h	/^	SV_STRING	resource;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+retain_t	csrc/rmapats.h	/^struct retain_t {$/;"	s
+retrieve_def_class	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING retrieve_def_class(\/* INPUT *\/const char* A_1, \/* OUTPUT *\/int *A_2)$/;"	f
+retrieve_reg_def_class	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void retrieve_reg_def_class(\/* INPUT *\/const char* A_1, \/* INPUT *\/int A_2, \/* INPUT *\/int A_3)$/;"	f
+rhs_value	csrc/rmapats.h	/^union rhs_value {$/;"	u
+rma_clock_struct	csrc/rmapats.h	/^} rma_clock_struct;$/;"	t	typeref:union:__anon6
+rsrc_msg_struct	csrc/import_dpic.h	/^typedef struct _vcs_dpi_rsrc_msg_struct	rsrc_msg_struct;$/;"	t	typeref:struct:_vcs_dpi_rsrc_msg_struct
+rsrc_msg_struct	simv.daidir/vc_hdrs.c	/^typedef struct _vcs_dpi_rsrc_msg_struct	rsrc_msg_struct;$/;"	t	typeref:struct:_vcs_dpi_rsrc_msg_struct	file:
+rsrc_msg_struct	vc_hdrs.h	/^typedef struct _vcs_dpi_rsrc_msg_struct	rsrc_msg_struct;$/;"	t	typeref:struct:_vcs_dpi_rsrc_msg_struct
+scalar	csrc/rmapats.h	/^typedef unsigned char scalar;$/;"	t
+scalar	simv.daidir/vc_hdrs.c	/^typedef unsigned char scalar;$/;"	t	file:
+scalar	vc_hdrs.h	/^typedef unsigned char scalar;$/;"	t
+scalar_0	simv.daidir/vc_hdrs.c	24;"	d	file:
+scalar_0	vc_hdrs.h	24;"	d
+scalar_1	simv.daidir/vc_hdrs.c	25;"	d	file:
+scalar_1	vc_hdrs.h	25;"	d
+scalar_x	simv.daidir/vc_hdrs.c	27;"	d	file:
+scalar_x	vc_hdrs.h	27;"	d
+scalar_z	simv.daidir/vc_hdrs.c	26;"	d	file:
+scalar_z	vc_hdrs.h	26;"	d
+sched_table	csrc/rmapats.h	/^struct sched_table {$/;"	s
+scope_name	csrc/import_dpic.h	/^	SV_STRING	scope_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+scope_name	simv.daidir/vc_hdrs.c	/^	SV_STRING	scope_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct	file:
+scope_name	vc_hdrs.h	/^	SV_STRING	scope_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+semilerOptQueuesFlag	csrc/rmapats.h	/^    U  semilerOptQueuesFlag;$/;"	m	struct:dummyq_struct
+simProfInfoT	csrc/rmapats.h	/^typedef struct simProfInfoT {$/;"	s
+simProfInfoT	csrc/rmapats.h	/^} simProfInfoT;$/;"	t	typeref:struct:simProfInfoT
+state	csrc/rmapats.h	/^    U  state :4;$/;"	m	struct:RmaMPSchedPulseNewCsdf
+state	csrc/rmapats.h	/^    U  state;$/;"	m	struct:RmaMPSchedPulse
+state	csrc/rmapats.h	/^    U  state;$/;"	m	struct:RmaSeqPrimOutputS_
+state	csrc/rmapats.h	/^    U  state;$/;"	m	struct:__anon50
+state	csrc/rmapats.h	/^    U  state;$/;"	m	struct:__anon85
+state	csrc/rmapats.h	/^    US  state :2;$/;"	m	struct:RmaRetain_t
+state	csrc/rmapats.h	/^    US  state :2;$/;"	m	struct:retain_t
+state	csrc/rmapats.h	/^    char state;$/;"	m	struct:__anon12
+txpInfoT	csrc/rmapats.h	/^typedef struct txpInfoT {$/;"	s
+txpInfoT	csrc/rmapats.h	/^} txpInfoT;$/;"	t	typeref:struct:txpInfoT
+type_name	csrc/import_dpic.h	/^	SV_STRING	type_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+type_name	simv.daidir/vc_hdrs.c	/^	SV_STRING	type_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct	file:
+type_name	vc_hdrs.h	/^	SV_STRING	type_name;$/;"	m	struct:_vcs_dpi_rsrc_msg_struct
+uscope_t	csrc/rmapats.h	/^typedef unsigned uscope_t;$/;"	t
+utable	csrc/rmapats.h	/^        U  utable;$/;"	m	union:_RmaMultiInputTable::__anon15
+uvm_dpi_get_next_arg_c	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING uvm_dpi_get_next_arg_c()$/;"	f
+uvm_dpi_get_tool_name_c	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING uvm_dpi_get_tool_name_c()$/;"	f
+uvm_dpi_get_tool_version_c	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING uvm_dpi_get_tool_version_c()$/;"	f
+uvm_dpi_regcomp	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void* uvm_dpi_regcomp(\/* INPUT *\/const char* A_1)$/;"	f
+uvm_dpi_regexec	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_dpi_regexec(\/* INPUT *\/void* A_1, \/* INPUT *\/const char* A_2)$/;"	f
+uvm_dpi_regfree	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void uvm_dpi_regfree(\/* INPUT *\/void* A_1)$/;"	f
+uvm_dump_re_cache	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void uvm_dump_re_cache()$/;"	f
+uvm_glob_to_re	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING uvm_glob_to_re(\/* INPUT *\/const char* A_1)$/;"	f
+uvm_hdl_check_path	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_hdl_check_path(\/* INPUT *\/const char* A_1)$/;"	f
+uvm_hdl_deposit	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_hdl_deposit(\/* INPUT *\/const char* A_1, const \/* INPUT *\/svLogicVecVal *A_2)$/;"	f
+uvm_hdl_force	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_hdl_force(\/* INPUT *\/const char* A_1, const \/* INPUT *\/svLogicVecVal *A_2)$/;"	f
+uvm_hdl_read	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_hdl_read(\/* INPUT *\/const char* A_1, \/* OUTPUT *\/svLogicVecVal *A_2)$/;"	f
+uvm_hdl_read_string	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING uvm_hdl_read_string(\/* INPUT *\/const char* A_1)$/;"	f
+uvm_hdl_release	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_hdl_release(\/* INPUT *\/const char* A_1)$/;"	f
+uvm_hdl_release_and_read	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_hdl_release_and_read(\/* INPUT *\/const char* A_1, \/* INOUT *\/svLogicVecVal *A_2)$/;"	f
+uvm_memory_load	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_memory_load(\/* INPUT *\/const char* A_1, \/* INPUT *\/const char* A_2, \/* INPUT *\/const char* A_3, \/* INPUT *\/const char* A_4, \/* INPUT *\/const char* A_5, \/* INPUT *\/const char* A_6, \/* INPUT *\/const char* A_7)$/;"	f
+uvm_re_match	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int uvm_re_match(\/* INPUT *\/const char* A_1, \/* INPUT *\/const char* A_2)$/;"	f
+val	csrc/rmapats.h	/^    U  val;$/;"	m	struct:__anon21
+val	csrc/rmapats.h	/^    U  val;$/;"	m	struct:__anon23
+val	csrc/rmapats.h	/^    scalar  val;$/;"	m	struct:RmaChildClockProp_
+val	csrc/rmapats.h	/^    scalar  val;$/;"	m	struct:RmaNonEdgeLoadData1_
+val	csrc/rmapats.h	/^    scalar  val;$/;"	m	struct:RmaSeqPrimOutputS_
+val	csrc/rmapats.h	/^    unsigned val;$/;"	m	struct:__anon8
+val	csrc/rmapats.h	/^    void * val;$/;"	m	struct:__anon35
+val	csrc/rmapats.h	/^    } val;$/;"	m	struct:__anon117	typeref:union:__anon117::__anon118
+val	csrc/rmapats.h	/^    } val;$/;"	m	struct:__anon119	typeref:union:__anon119::__anon120
+vc_handle	simv.daidir/vc_hdrs.c	/^typedef struct VeriC_Descriptor *vc_handle;$/;"	t	typeref:struct:VeriC_Descriptor	file:
+vc_handle	vc_hdrs.h	/^typedef struct VeriC_Descriptor *vc_handle;$/;"	t	typeref:struct:VeriC_Descriptor
+vc_uvmCreateRandomSeed	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int vc_uvmCreateRandomSeed(\/* INPUT *\/const char* A_1, \/* INPUT *\/int A_2)$/;"	f
+vc_uvmOnewayHash	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int vc_uvmOnewayHash(\/* INPUT *\/const char* A_1, \/* INPUT *\/int A_2)$/;"	f
+vc_uvmReseed	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void vc_uvmReseed()$/;"	f
+vec32	csrc/rmapats.h	/^struct vec32 {$/;"	s
+vec32	csrc/rmapats.h	/^typedef struct vec32 vec32;$/;"	t	typeref:struct:vec32
+vec32	simv.daidir/vc_hdrs.c	/^typedef struct { U c; U d;} vec32;$/;"	t	typeref:struct:__anon1	file:
+vec32	vc_hdrs.h	/^typedef struct { U c; U d;} vec32;$/;"	t	typeref:struct:__anon131
+verdi_dhier_interface	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) void verdi_dhier_interface(\/* INPUT *\/const char* A_1)$/;"	f
+verdi_dump_component_interface	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) int verdi_dump_component_interface(\/* INPUT *\/const char* A_1, \/* INPUT *\/int A_2)$/;"	f
+verdi_dump_resource_value	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING verdi_dump_resource_value(\/* INPUT *\/const char* A_1)$/;"	f
+verdi_upper_scope	simv.daidir/vc_hdrs.c	/^__attribute__((weak)) SV_STRING verdi_upper_scope(\/* INPUT *\/const char* A_1, \/* OUTPUT *\/void* *A_2)$/;"	f
+work	Makefile	/^work= work #library name$/;"	m
